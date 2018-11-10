@@ -5,18 +5,20 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
+  <div class="date">
+    {{ page.date | date: "%B %e, %Y" }}
+    {% for tag in page.tags %}
+      {{ tag }}
+    {% endfor %}
+  </div>
+
   <div class="entry">
     {{ content }}
   </div>
 
-  <a href="https://github.com/albertoivo/albertoivo.github.io/blob/master/{{ page.path }}"
-     target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/albertoivo/albertoivo.github.io/blob/master/{{ page.path }}" target="_blank" rel="noopener noreferrer">
       Edit this page
   </a>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
 
   {% include disqus.html %}
 </article>
