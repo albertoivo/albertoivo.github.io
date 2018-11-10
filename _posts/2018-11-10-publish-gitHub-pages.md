@@ -2,10 +2,10 @@
 layout: post
 title: Publique seu app no GitHub Pages facilmente
 category: Dev
-tags: [github-pages]
+tags: [github]
 ---
 
-O GitHub é uma ótima ferramente tanto para repostiório de código como para publicar nossos apps/websites. Veja como é fácil publicar lá.
+O GitHub é uma ótima ferramenta não só para repositório de código mas também para publicar nossos apps/websites. Veja como é fácil publicar lá.
 
 ### Do passo 1 ao 6 é para publicar pela primeira vez
 
@@ -39,7 +39,7 @@ O GitHub é uma ótima ferramente tanto para repostiório de código como para p
 
 	```json
 	"devDependencies": {
-		"gh-pages": "^1.1.0"
+		"gh-pages": "^2.0.1"
 	}
 	```
 
