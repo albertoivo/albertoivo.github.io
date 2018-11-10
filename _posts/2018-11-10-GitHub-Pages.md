@@ -35,7 +35,7 @@ title: Publique seu app no GitHub Pages facilmente
 
 	O comando acima vai adicionar as seguintes linhas no seu `package.json`:
 
-	```
+	```json
 	"devDependencies": {
 		"gh-pages": "^1.1.0"
 	}
