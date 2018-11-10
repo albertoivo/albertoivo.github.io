@@ -1,3 +1,8 @@
+---
+layout: post
+title: Publique seu app no GitHub Pages facilmente
+---
+
 # Para publicar um projeto **REACT** (_create-react-app_) no **GitHub-Pages**.
 
 ## Do passo 1 ao 6 é para publicar pela primeira vez
