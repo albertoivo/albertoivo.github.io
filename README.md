@@ -1,1 +1,3 @@
-# Alberto Ivo & Nossas Rotas
+[![Build Status](https://travis-ci.org/albertoivo/albertoivo.github.io.svg?branch=master)](https://travis-ci.org/albertoivo/albertoivo.github.io)
+
+# Alberto Ivo
