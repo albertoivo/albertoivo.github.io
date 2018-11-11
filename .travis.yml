@@ -1,31 +1,58 @@
+bundler_args: --without benchmark:site:development
+script: script/cibuild
+cache: bundler
 language: ruby
+sudo: false
+
 rvm:
-- 2.4.1
+- &ruby1 2.5.1
+- &ruby2 2.4.4
+- &ruby3 2.3.7
+- &jruby jruby-9.1.16.0
 
-before_script:
-- chmod +x ./script/cibuild # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-# script: ./script/cibuild
-
-# branch whitelist, only for GitHub Pages
-branches:
-  only:
+matrix:
+  include:
+  - rvm: *ruby1
+    env: TEST_SUITE=fmt
+    name: "🤖️ Code Format"
+  - rvm: *ruby1
+    env: TEST_SUITE=default-site
+    name: "🏠️ Default Site"
+  exclude:
+  - rvm: *jruby
+    env: TEST_SUITE=cucumber
 
 env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  matrix:
+  - TEST_SUITE=test
+  - TEST_SUITE=cucumber
+branches:
+  only:
+  - master
+  - themes
+  - /^.*-stable/
+  - /.*backport.*/
+
+notifications:
+  slack:
+    secure: "\
+      dNdKk6nahNURIUbO3ULhA09/vTEQjK0fNbgjVjeYPEvROHgQBP1cIP3AJy8aWs8rl5Yyow4Y\
+      GEilNRzKPz18AsFptVXofpwyqcBxaCfmHP809NX5PHBaadydveLm+TNVao2XeLXSWu+HUNAY\
+      O1AanCUbJSEyJTju347xCBGzESU=\
+    "
 
 addons:
-  apt:
-    packages:
-    - libcurl4-openssl-dev
+  code_climate:
+    repo_token:
+      secure: "\
+        mAuvDu+nrzB8dOaLqsublDGt423mGRyZYM3vsrXh4Tf1sT+L1PxsRzU4gLmcV27HtX2Oq9\
+        DA4vsRURfABU0fIhwYkQuZqEcA3d8TL36BZcGEshG6MQ2AmnYsmFiTcxqV5bmlElHEqQuT\
+        5SUFXLafgZPBnL0qDwujQcHukID41sE=\
+      "
+# regular test configuration
+after_success:
+- bundle exec codeclimate-test-reporter
 
-sudo: false # route your build to the container-based infrastructure for a faster build
-
-cache: bundler # caching bundler gem packages will speed up build
-
-# Optional: disable email notifications about the outcome of your builds
-notifications:
-  email: false
+before_install:
+- gem update --system
+- gem install bundler
