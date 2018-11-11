@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="date">
-    {{ page.date | date: "%B %e, %Y" }}
+    {{ page.date | date: "%B %e, %Y" }} |
     {% for tag in page.tags %}
       {{ tag }}
     {% endfor %}
@@ -20,7 +20,9 @@ layout: default
       Edit this page
   </a>
 
-  <a class="share-button facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}" target="_blank">Share on Facebook</a>
+  <a class="share-button facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}" target="_blank" rel="noopener noreferrer">
+    Share on Facebook
+  </a>
 
   {% include disqus.html %}
 </article>

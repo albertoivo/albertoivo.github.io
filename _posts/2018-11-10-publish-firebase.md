@@ -35,26 +35,7 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 	
 	Você verá a tela abaixo no seu terminal, usando as setinhas do teclado, escolha `Hosting` com a tecla `espaço` e então dê `enter`.
 
-	```
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-    You're about to initialize a Firebase project in this directory:
-    
-      /Users/albertoivo/Development/teste/my-website
-    
-    ? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confirm your choices. (Press <space> to selec
-    t)
-     ◯ Database: Deploy Firebase Realtime Database Rules
-     ◯ Firestore: Deploy rules and create indexes for Firestore
-     ◯ Functions: Configure and deploy Cloud Functions
-    ❯◯ Hosting: Configure and deploy Firebase Hosting sites
-     ◯ Storage: Deploy Cloud Storage security rules
-
-	```
+	![firebase init](../images/firebase-init.png)
 
 7. Agora terá uma nova pergunta:
 
@@ -84,14 +65,9 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 
     `firebase deploy`
     
-    ```
-    ✔  Deploy complete!
+    ![firebase deploy](../images/firebase-deploy.png)
     
-    Project Console: https://console.firebase.google.com/project/<project_id>/overview
-    Hosting URL: https://<project_id>.firebaseapp.com
-    ```
-    
-Quando vir a mensagem acima. _voilà!_ Seu app estará publicado! Basta acessar a URL da mensagem.
+Quando vir a mensagem acima. _voilà!_ Seu app estará publicado! Basta acessar a _Hosting URL_ da mensagem.
     
 _Obs.: Pode ser necessário até um minuto para que o apareça o app rodando no browser, se depois desse tempo ainda não tiver aparecido, refaça o `build` (Passo 1), veja se o `firebase.json` está apontando o "public": "build" e faça um novo deploy (Passo 11)._
 
