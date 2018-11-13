@@ -14,7 +14,7 @@ _Vamos lá!_
 
 1. No browser, acesse [travis-ci.org](https://travis-ci.org/) e logue-se nele através de sua conta do GitHub.
 
-2. Na página de [repositórios](https://travis-ci.org/account/repositories) procure pelo repo que deseja ter a integração contínua e ative-o. Depois clique no nome dele para ir para a página de _builds_. A URL é **https://travis-ci.org/<user_name>/<repo_name>**
+2. Na página de [repositórios](https://travis-ci.org/account/repositories) procure pelo repo que deseja ter a integração contínua e ative-o. Depois clique no nome dele para ir para a página de _builds_. A URL é https://travis-ci.org/username/repositorio
 
 3. Na raiz do projeto, crie o arquivo `travis.yml` e cole o conteúdo abaixo (explicação sobre esse arquivo no final do post):
 
@@ -42,26 +42,27 @@ deploy:
 
     `firebase login:ci`
 
-    ```
-    Waiting for authentication...
+```
+Waiting for authentication...
 
-    ✔  Success! Use this token to login on a CI server:
+✔  Success! Use this token to login on a CI server:
 
-    1/aw8HV5QoNRAVejOchCujq4-VbFd4GnOVru207mLQEkNXMnzjVd05U3aYxuKZFlN
-    ```
+1/aw8HV5QoNRAVejOchCujq4-VbFd4GnOVru207mLQEkNXMnzjVd05U3aYxuKZFlN
+```
 
 5. Pegue o token que acabou de gerar e susbtitua o `travis.yml` pelo trecho em:
-    ```yml
-    deploy:
-        token:
-            secure: "1/aw8HV5QoNRAVejOchCujq4-VbFd4GnOVru207mLQEkNXMnzjVd05U3aYxuKZFlN"
-    ```
+
+```yml
+deploy:
+    token:
+        secure: "1/aw8HV5QoNRAVejOchCujq4-VbFd4GnOVru207mLQEkNXMnzjVd05U3aYxuKZFlN"
+```
 
 6. Pronto. Adicione e dê o `git push` do `travis.yml`.
 
 7. Pronto! O próximo `git push` que der nos arquivos HTML/CSS/JS, o Travis CI vai gerar uma nova _build_ e fazer  o deploy no _Firebase_ automaticamente.
 
-8. Acompanhe a build em tempo real em  **https://travis-ci.org/<user_name>/<repo_name>**
+8. Acompanhe a build em tempo real em  **https://travis-ci.org/username/repositorio**
 
 ### Explicação sobre o arquivo `travis.yml`
 
