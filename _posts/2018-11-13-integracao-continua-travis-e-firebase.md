@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Integrçação Contínua com o Travis e Firebase
+title: Integração Contínua com o Travis e Firebase
 category: Dev
 tags: [firebase, travis]
 ---
