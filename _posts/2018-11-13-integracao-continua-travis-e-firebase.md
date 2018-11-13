@@ -1,3 +1,10 @@
+---
+layout: post
+title: Publique seu app no Firebase facilmente
+category: Dev
+tags: [firebase, travis]
+---
+
 Como publicar seu app JS no **Firebase** usando a ferramenta de Integração Contínua **Travis CI**
 
 - Obs. 1: Estou considerando que o app está no GitHub e no Firebase. Aqui é apenas para colocar na Integração Contínua.
