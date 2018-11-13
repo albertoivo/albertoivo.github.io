@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publique seu app no Firebase facilmente
+title: Integrçação Contínua com o Travis e Firebase
 category: Dev
 tags: [firebase, travis]
 ---
