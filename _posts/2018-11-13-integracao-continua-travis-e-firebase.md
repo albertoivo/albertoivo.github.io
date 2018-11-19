@@ -12,11 +12,11 @@ Como publicar seu app JS no **Firebase** usando a ferramenta de Integração Con
 
 _Vamos lá!_
 
-1. No browser, acesse [travis-ci.org](https://travis-ci.org/) e logue-se nele através de sua conta do GitHub.
+* No browser, acesse [travis-ci.org](https://travis-ci.org/) e logue-se nele através de sua conta do GitHub.
 
-2. Na página de [repositórios](https://travis-ci.org/account/repositories) procure pelo repo que deseja ter a integração contínua e ative-o. Depois clique no nome dele para ir para a página de _builds_. A URL é https://travis-ci.org/username/repositorio
+* Na página de [repositórios](https://travis-ci.org/account/repositories) procure pelo repo que deseja ter a integração contínua e ative-o. Depois clique no nome dele para ir para a página de _builds_. A URL é https://travis-ci.org/username/repositorio
 
-3. Na raiz do projeto, crie o arquivo `travis.yml` e cole o conteúdo abaixo (explicação sobre esse arquivo no final do post):
+* Na raiz do projeto, crie o arquivo `travis.yml` e cole o conteúdo abaixo (explicação sobre esse arquivo no final do post):
 
 ```yml
 language: node_js
@@ -38,7 +38,7 @@ deploy:
     branch: master
 ```
 
-4. Agora vamos gerar um token, Na linah comando rode:
+* Agora vamos gerar um token, Na linah comando rode:
 
     `firebase login:ci`
 
@@ -50,7 +50,7 @@ Waiting for authentication...
 1/aw8HV5QoNRAVejOchCujq4-VbFd4GnOVru207mLQEkNXMnzjVd05U3aYxuKZFlN
 ```
 
-5. Pegue o token que acabou de gerar e susbtitua o `travis.yml` pelo trecho em:
+* Pegue o token que acabou de gerar e susbtitua o `travis.yml` pelo trecho em:
 
 ```yml
 deploy:
@@ -58,11 +58,11 @@ deploy:
         secure: "1/aw8HV5QoNRAVejOchCujq4-VbFd4GnOVru207mLQEkNXMnzjVd05U3aYxuKZFlN"
 ```
 
-6. Pronto. Adicione e dê o `git push` do `travis.yml`.
+* Dê o `git push` do `travis.yml`.
 
-7. Pronto! O próximo `git push` que der nos arquivos HTML/CSS/JS, o Travis CI vai gerar uma nova _build_ e fazer  o deploy no _Firebase_ automaticamente.
+* Pronto! O próximo `git push` que der nos arquivos HTML/CSS/JS, o Travis CI vai gerar uma nova _build_ e fazer  o deploy no _Firebase_ automaticamente.
 
-8. Acompanhe a build em tempo real em  **https://travis-ci.org/username/repositorio**
+* Acompanhe a build em tempo real em  **https://travis-ci.org/username/repositorio**
 
 ### Explicação sobre o arquivo `travis.yml`
 
@@ -103,7 +103,7 @@ deploy:
 
 `provider: firebase` - especifica que estamos usando o _Firebase_. Poderia ser `pages` para GitHub-Pages.
 
-`secure: "<um token gerado>"` - usa o token gerado no **Passo 4** e substituiu aqui.
+`secure: "<um token gerado>"` - usa o token gerado com o `firebase login:ci` e substituiu aqui.
 
 `skip_cleanup: true` - não apagar o arquivos de _build_.
 
