@@ -17,7 +17,7 @@ Para não precisar (nem correr o risco de esquecer) de sempre retirar os `consol
 
 `npm install babel-plugin-transform-remove-console --save-dev`
 
-Depois criar um arquivo chamado `.babelrc` na raiz do projeto e colar o conteúdo nele:
+Depois criar um arquivo chamado `.babelrc` na raiz do projeto e colar o conteúdo abaixo nele:
 
 ```json
 {
