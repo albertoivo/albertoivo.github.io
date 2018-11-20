@@ -16,11 +16,13 @@ layout: default
     {{ content }}
   </div>
 
-  <a href="https://github.com/albertoivo/albertoivo.github.io/blob/master/{{ page.path }}" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/albertoivo/albertoivo.github.io/blob/master/{{ page.path }}"
+    target="_blank" rel="noopener noreferrer">
     <i style="vertical-align: middle;" class="svg-icon-md github"></i>Edit this post on GitHub
   </a>
 
-  <a class="share-button facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}" target="_blank" rel="noopener noreferrer">
+  <a class="share-button facebook" target="_blank" rel="noopener noreferrer"
+    href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}">
     Share on Facebook
   </a>
 
