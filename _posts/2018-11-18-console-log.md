@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Por que não deixar o "console.log" em produção?
+title: Por que não deixar o 'console.log' em produção?
 category: Dev
 tags: [console]
 ---
