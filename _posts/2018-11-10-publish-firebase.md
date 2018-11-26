@@ -9,6 +9,15 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 
 ### Do passo 2 ao 10 é para publicar pela primeira vez
 
+* Se o projeto usa `react-router`, você deve inserir o `basename` no `<BrowserRouter>`:
+```javascript
+import { BrowserRouter } from 'react-router-dom'
+
+<BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+```
+
+Mais info [aqui](https://github.com/facebook/create-react-app/issues/1765).
+
 1. Vamos gerar uma _build_ de produção do nosso App. No terminal, vá para a raiz do projeto e rode o comando abaixo:
 
 	`npm run build`
