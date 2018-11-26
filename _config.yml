@@ -11,6 +11,9 @@ description: Traveler and Developer from Somewhere
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/1276520?s=460&v=4
 
+# Jekyll-Theme
+theme: jekyll-theme-modernist
+
 #
 # Flags below are optional
 #
