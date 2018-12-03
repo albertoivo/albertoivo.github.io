@@ -7,7 +7,13 @@ tags: [firebase]
 
 O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com ela, você pode desenvolver apps de qualidade rapidamente. Neste post, vamos focar na publicação gratuita.
 
-### Do passo 2 ao 10 é para publicar pela primeira vez
+* Se o projeto usa `react-router`, você deve inserir o `basename` no `<BrowserRouter>`:
+```javascript
+import { BrowserRouter } from 'react-router-dom'
+
+<BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+```
+Mais info [aqui](https://github.com/facebook/create-react-app/issues/1765).
 
 1. Vamos gerar uma _build_ de produção do nosso App. No terminal, vá para a raiz do projeto e rode o comando abaixo:
 
@@ -35,7 +41,7 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 	
 	Você verá a tela abaixo no seu terminal, usando as setinhas do teclado, escolha `Hosting` com a tecla `espaço` e então dê `enter`.
 
-	![firebase init](../images/firebase-init.png)
+	![firebase init](../../images/firebase-init.png)
 
 7. Agora terá uma nova pergunta:
 
@@ -65,7 +71,7 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 
     `firebase deploy`
     
-    ![firebase deploy](../images/firebase-deploy.png)
+    ![firebase deploy](../../images/firebase-deploy.png)
     
 Quando vir a mensagem acima. _voilà!_ Seu app estará publicado! Basta acessar a _Hosting URL_ da mensagem.
     
