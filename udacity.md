@@ -4,7 +4,6 @@ title: Udacity
 permalink: /udacity/
 ---
 
-[Click here to see my Udacity Profile](https://profiles.udacity.com/p/u1831016)
 
 # Courses and projects:
 
