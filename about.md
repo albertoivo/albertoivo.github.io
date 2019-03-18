@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre
+title: About
 permalink: /about/
 keywords:
   - albertoivo
@@ -15,7 +15,7 @@ I am very happy and lucky because I married a wonderful woman and, like me, she 
 
 This blog is fully developed with [Jekyll](https://jekyllrb.com) and [Markdown](https://guides.github.com/features/mastering-markdown/) and is 💯% [open source](https://github.com/albertoivo/albertoivo.github.io). Please feel free to contribute (by clicking **Edit this page** at the end of each post) or comment/ask anything as well. I will reply as soon as possible.
 
-### Contato
+### Contact
 
 [albertoivo@gmail.com](mailto:albertoivo@gmail.com)
 
