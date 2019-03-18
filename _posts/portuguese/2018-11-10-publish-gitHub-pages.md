@@ -3,6 +3,8 @@ layout: post
 title: Publique seu app no GitHub Pages facilmente
 category: Dev
 tags: [github]
+keywords:
+  - github
 ---
 
 O GitHub é uma ótima ferramenta não só para repositório de código mas também para publicar nossos apps/websites. Veja como é fácil publicar lá.

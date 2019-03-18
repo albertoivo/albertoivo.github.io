@@ -3,6 +3,10 @@ layout: post
 title: Nunca use target='_blank' sozinho
 category: Dev
 tags: [security, web]
+keywords:
+  - web
+  - security
+  - target
 ---
 
 O `target='_blank'` é muito usado quando queremos abrir um link em outra aba. Apenas não o use sozinho por questões de segurança.

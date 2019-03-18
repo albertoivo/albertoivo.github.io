@@ -3,6 +3,9 @@ layout: post
 title: Integração Contínua com o Travis e Firebase
 category: Dev
 tags: [firebase, travis]
+keywords:
+  - firebase
+  - travis
 ---
 
 Como publicar seu app JS no **Firebase** usando a ferramenta de Integração Contínua **Travis CI**

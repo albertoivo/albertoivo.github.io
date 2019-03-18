@@ -3,17 +3,21 @@ layout: post
 title: Publique seu app no Firebase facilmente
 category: Dev
 tags: [firebase]
+keywords:
+  - firebase
 ---
 
 O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com ela, você pode desenvolver apps de qualidade rapidamente. Neste post, vamos focar na publicação gratuita.
 
 * Se o projeto usa `react-router`, você deve inserir o `basename` no `<BrowserRouter>`:
-```javascript
-import { BrowserRouter } from 'react-router-dom'
 
-<BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
-```
-Mais info [aqui](https://github.com/facebook/create-react-app/issues/1765).
+  ```javascript
+  import { BrowserRouter } from 'react-router-dom'
+  
+  <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+  ```
+
+  Mais info [aqui](https://github.com/facebook/create-react-app/issues/1765).
 
 1. Vamos gerar uma _build_ de produção do nosso App. No terminal, vá para a raiz do projeto e rode o comando abaixo:
 
@@ -73,6 +77,7 @@ Mais info [aqui](https://github.com/facebook/create-react-app/issues/1765).
     
     ![firebase deploy](../../images/firebase-deploy.png)
     
+
 Quando vir a mensagem acima. _voilà!_ Seu app estará publicado! Basta acessar a _Hosting URL_ da mensagem.
     
 _Obs.: Pode ser necessário até um minuto para que o apareça o app rodando no browser, se depois desse tempo ainda não tiver aparecido, refaça o `build` (Passo 1), veja se o `firebase.json` está apontando o "public": "build" e faça um novo deploy (Passo 11)._

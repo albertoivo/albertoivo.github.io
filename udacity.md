@@ -2,6 +2,12 @@
 layout: page
 title: Udacity
 permalink: /udacity/
+keywords:
+  - albertoivo
+  - alberto ivo
+  - nossasrotas
+  - nossas rotas
+  - udacity
 ---
 
 
