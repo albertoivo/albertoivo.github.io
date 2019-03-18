@@ -40,8 +40,3 @@ permalink: /udacity/
     * Anaconda
     * Jupyter Notebook
 
-## [Nanodegree Artificial Intelligence for Trading](https://br.udacity.com/course/ai-for-trading--nd880)
-
-* Part 1 _(previsão de início Março/2019)_
-
-* Part 2 _(previsão de início Julho/2019)_
