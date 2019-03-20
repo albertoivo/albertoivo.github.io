@@ -105,4 +105,4 @@ Let's practice:
   console.log(elements.join('-')); 	// "Fire-Wind-Rain"
   ```
 
-  
+  Is there any example you didn't like? Do you want more array methods here? Just tell me and I'll do my best.
