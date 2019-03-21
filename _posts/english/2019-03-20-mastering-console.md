@@ -3,9 +3,11 @@ layout: post
 title: Mastering console
 category: Dev
 tags: [javascript]
+keywords:
+  - javascript
 ---
 
-`console.xxx` is a great way to debug the code. I know that one can use a debug tool, but I prefer console. So let's see some useful hint about it.
+`console.xxx` is a great way to debug the code. I know that we could use a debug tool, but I prefer console. So let's see some useful hint about it.
 
 
 ```javascript
