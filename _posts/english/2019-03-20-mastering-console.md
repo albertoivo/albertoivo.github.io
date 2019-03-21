@@ -26,7 +26,7 @@ Resultado:
 
 ![](../../images/console01.png)
 
-- You can style your message with pretty much almost all css properties: 
+- You can style your message with pretty much almost all css properties, you only have to use `%c` before the sentence: 
 
 ```javascript
 // Styled
