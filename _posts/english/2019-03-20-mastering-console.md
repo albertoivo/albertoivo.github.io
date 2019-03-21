@@ -63,7 +63,7 @@ Resultado:
 
 ![](../../images/console04.png)
 
-You can mess with the developer and `clear` the console:
+You can `clear` the console:
 
 ```javascript
 // clearing
