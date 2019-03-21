@@ -3,6 +3,9 @@ layout: post
 title: Por que não deixar o 'console.log' em produção?
 category: Dev
 tags: [console]
+keywords:
+  - console
+  - performance
 ---
 
 Quem nunca usou o `console.log` para _depurar_ um código e ver o valor daquela variável ou até mesmo para checar se uma função foi chamada devidamente? 🙈

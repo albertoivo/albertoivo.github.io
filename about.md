@@ -1,17 +1,23 @@
 ---
 layout: page
-title: Sobre
+title: About
 permalink: /about/
+keywords:
+  - albertoivo
+  - alberto ivo
+  - nossasrotas
+  - nossas rotas
 ---
 
-Eu sou um entusiasta de viajar o mundo, fotografar, escalar, correr, javascript, react, python, machine learning, inteligência artificial e bolsa de valores.
+I am an enthusiast of traveling the world, photographing, climbing, running, javascript, react, python, machine learning, artificial intelligence and the stock exchange.
 
-Sou muito feliz e sortudo porque casei com uma mulher maravilhosa e, assim como eu, ama viajar. Juntos fizemos um instagram de viagens [nossas rotas](https://www.instagram.com/nossasrotas/). Países que já estivemos: [Nossas Rotas Map](https://nossasrotas.firebaseapp.com)
+I am very happy and lucky because I married a wonderful woman and, like me, she loves to travel. Together we made an instagram of travel [nossas rotas](https://www.instagram.com/nossasrotas/). Countries we've been to: [Nossas Rotas Map](https://nossasrotas.firebaseapp.com).
 
-Este blog foi inteiramente desenvolvido com [Jekyll](https://jekyllrb.com) e [Markdown](https://guides.github.com/features/mastering-markdown/) e é 💯 % [open source](https://github.com/albertoivo/albertoivo.github.io). Por favor, sinta-se livre para contribuir (clicando em _"Edit this page"_ no final de cada post) ou comentar/perguntar qualquer coisa também. Responderei o mais rapidamente possível.
+This blog is fully developed with [Jekyll](https://jekyllrb.com) and [Markdown](https://guides.github.com/features/mastering-markdown/) and is 💯% [open source](https://github.com/albertoivo/albertoivo.github.io). Please feel free to contribute (by clicking **Edit this page** at the end of each post) or comment/ask anything as well. I will reply as soon as possible.
 
-### Contato
+### Contact
 
 [albertoivo@gmail.com](mailto:albertoivo@gmail.com)
 
-Também pode entrar em contato comigo por qualquer rede social que está no rodapé desta página.
+You can also contact me through any social network that is in the footer of this page.
+
