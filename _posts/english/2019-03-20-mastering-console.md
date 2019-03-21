@@ -9,6 +9,7 @@ keywords:
 
 `console.xxx` is a great way to debug the code. I know that we could use a debug tool, but I prefer console. So let's see some useful hint about it.
 
+- If you want to use the traditional `log` with variables, just use `%s` and another parameter. 
 
 ```javascript
 // Interpolated
@@ -25,6 +26,8 @@ Resultado:
 
 ![](../../images/console01.png)
 
+- You can style your message with pretty much almost all css properties: 
+
 ```javascript
 // Styled
 console.log('%c I am a great Text', 'font-size:50px; background: blue;')
@@ -33,6 +36,7 @@ Resultado:
 
 ![](../../images/console02.png)
 
+- You can write messages of `warn`, `error` and `info`:
 
 ```javascript
 // Warning
@@ -48,6 +52,7 @@ Resultado:
 
 ![](../../images/console03.png)
 
+- You can display messages only if the premise is true:
 
 ```javascript
 // testing
@@ -58,15 +63,18 @@ Resultado:
 
 ![](../../images/console04.png)
 
+You can mess with the developer and `clear` the console:
 
 ```javascript
 // clearing
 console.clear()
 ```
 
+- You can console the HTML tag exactly like it is on the html file or see it in details.
 
 ```javascript
 // viewing DOM elements
+<p>Let's mastering the console.</p>
 const p = document.querySelector('p')
 
 console.log(p)
@@ -76,6 +84,7 @@ Resultado:
 
 ![](../../images/console05.png)
 
+- You can group an array. Assuming that the array has the same properties.  To group, both `group('string')` and `groupEnd('string')` must have the **same** string parameter. To see in a table, just use `table`:
 
 ```javascript
 // grouping together
@@ -98,6 +107,7 @@ Resultado:
 
 ![](../../images/console06.png)
 
+- To see how many times a string in logged, just `count` it:
 
 ```javascript
 // counting
@@ -111,6 +121,7 @@ Resultado:
 
 ![](../../images/console07.png)
 
+- To check the time a particular operation takes (milliseconds). `time` works the same way `group`. Both `time('string')` and `timeEnd('string')` must have the **same** string parameter:
 
 ```javascript
 // timing
