@@ -12,18 +12,28 @@ keywords:
 
 ```javascript
 // Interpolated
-let name = 'Ivo'
+let old = 'Old Way'
+let es6 = 'EcmaScript 6'
 
 // old way
-console.log('Hello, my name is %s!!!', name)
+console.log('Hello, my name is %s!!!', old)
 
 // ES6 way
-console.log(`Hello, my name is ${name}!!!`)
+console.log(`Hello, my name is ${es6}!!!`)
 ```
+Resultado:
+
+![](../../images/console01.png)
+
 ```javascript
 // Styled
 console.log('%c I am a great Text', 'font-size:50px; background: blue;')
 ```
+Resultado:
+
+![](../../images/console02.png)
+
+
 ```javascript
 // Warning
 console.warn('Oh nooooooo!')
@@ -34,15 +44,27 @@ console.error('Shit!')
 // info
 console.info('This is a useful info.')
 ```
+Resultado:
+
+![](../../images/console03.png)
+
+
 ```javascript
 // testing
 console.assert(1 === 1, 'This msg will NOT be showed')
 console.assert(1 === 2, 'This msg WILL be showed')
 ```
+Resultado:
+
+![](../../images/console04.png)
+
+
 ```javascript
 // clearing
 console.clear()
 ```
+
+
 ```javascript
 // viewing DOM elements
 const p = document.querySelector('p')
@@ -50,15 +72,17 @@ const p = document.querySelector('p')
 console.log(p)
 console.dir(p)
 ```
+Resultado:
+
+![](../../images/console05.png)
+
+
 ```javascript
 // grouping together
-const people = [{
-  name: 'Alberto',
-  age: '34'
-}, {
-  name: 'Mari',
-  age: '33'
-}]
+const people = [
+	{ name: 'Alberto', age: '34'},
+	{ name: 'Mari', age: '33'}
+]
 
 people.forEach(p => {
   console.group(`${p.name}`)
@@ -70,6 +94,11 @@ people.forEach(p => {
 // table
 console.table(people)
 ```
+Resultado:
+
+![](../../images/console06.png)
+
+
 ```javascript
 // counting
 console.count('Alberto')
@@ -78,6 +107,11 @@ console.count('Alberto')
 console.count('Alberto')
 console.count('Ivo')
 ```
+Resultado:
+
+![](../../images/console07.png)
+
+
 ```javascript
 // timing
 console.time('fetch data')
@@ -85,3 +119,7 @@ fetch('https://api.github.com/users/albertoivo')
   .then(resp => resp.json())
   .then(() => console.timeEnd('fetch data'))
 ```
+
+Resultado:
+
+![](../../images/console08.png)
