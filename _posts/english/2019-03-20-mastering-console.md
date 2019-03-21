@@ -5,82 +5,81 @@ category: Dev
 tags: [javascript]
 ---
 
-`console.xxx` is a great way to debug the code. I know that one can use a debiug tool, but I prefer console. So let's see some useful hint about it.
+`console.xxx` is a great way to debug the code. I know that one can use a debug tool, but I prefer console. So let's see some useful hint about it.
 
 
-```html
-<html>
+```javascript
+// Interpolated
+let name = 'Ivo'
 
-<p>Let's mastering the console.</p>
+// old way
+console.log('Hello, my name is %s!!!', name)
 
-<script>
-  // Interpolated
-  let name = 'Ivo'
+// ES6 way
+console.log(`Hello, my name is ${name}!!!`)
+```
+```javascript
+// Styled
+console.log('%c I am a great Text', 'font-size:50px; background: blue;')
+```
+```javascript
+// Warning
+console.warn('Oh nooooooo!')
 
-  // old way
-  console.log('Hello, my name is %s!!!', name)
+// error
+console.error('Shit!')
 
-  // ES6 way
-  console.log(`Hello, my name is ${name}!!!`)
+// info
+console.info('This is a useful info.')
+```
+```javascript
+// testing
+console.assert(1 === 1, 'This msg will NOT be showed')
+console.assert(1 === 2, 'This msg WILL be showed')
+```
+```javascript
+// clearing
+console.clear()
+```
+```javascript
+// viewing DOM elements
+const p = document.querySelector('p')
 
-  // Styled
-  console.log('%c I am a great Text', 'font-size:50px; background: blue;')
+console.log(p)
+console.dir(p)
+```
+```javascript
+// grouping together
+const people = [{
+  name: 'Alberto',
+  age: '34'
+}, {
+  name: 'Mari',
+  age: '33'
+}]
 
-  // Warning
-  console.warn('Oh nooooooo!')
+people.forEach(p => {
+  console.group(`${p.name}`)
+  console.log(`This is ${p.name}.`)
+  console.log(`${p.name} is ${p.age} years old.`)
+  console.groupEnd(`${p.name}`)
+})
 
-  // error
-  console.error('Shit!')
-
-  // info
-  console.info('This is a useful info.')
-
-  // testting
-  console.assert(1 === 1, 'This msg will NOT be showed')
-  console.assert(1 === 2, 'This msg WILL be showed')
-
-  // clearing
-  // console.clear()
-
-  // viewing DOM elements
-  const p = document.querySelector('p')
-
-  console.log(p)
-  console.dir(p)
-
-  // grouping together
-  const people = [{
-    name: 'Alberto',
-    age: '34'
-  }, {
-    name: 'Mari',
-    age: '33'
-  }]
-
-  people.forEach(p => {
-    console.group(`${p.name}`)
-    console.log(`This is ${p.name}.`)
-    console.log(`${p.name} is ${p.age} years old.`)
-    console.groupEnd(`${p.name}`)
-  })
-
-  // table
-  console.table(people)
-
-  // counting
-  console.count('Alberto')
-  console.count('Ivo')
-  console.count('Alberto')
-  console.count('Alberto')
-  console.count('Ivo')
-
-  // timing
-  console.time('fetch data')
-  fetch('https://api.github.com/users/albertoivo')
-    .then(resp => resp.json())
-    .then(() => console.timeEnd('fetch data'))
-</script>
-
-
-</html>
+// table
+console.table(people)
+```
+```javascript
+// counting
+console.count('Alberto')
+console.count('Ivo')
+console.count('Alberto')
+console.count('Alberto')
+console.count('Ivo')
+```
+```javascript
+// timing
+console.time('fetch data')
+fetch('https://api.github.com/users/albertoivo')
+  .then(resp => resp.json())
+  .then(() => console.timeEnd('fetch data'))
 ```
