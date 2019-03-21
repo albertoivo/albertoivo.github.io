@@ -134,3 +134,5 @@ fetch('https://api.github.com/users/albertoivo')
 Resultado:
 
 ![](../../images/console08.png)
+
+And that's it! If you want more examples, just tell me.
