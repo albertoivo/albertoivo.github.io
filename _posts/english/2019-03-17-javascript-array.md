@@ -19,7 +19,7 @@ Let's practice:
       { name: 'Wes', year: 1988 },
       { name: 'Kait', year: 1986 },
       { name: 'Irv', year: 1970 },
-      { name: 'Lux', year: 2015 },
+      { name: 'Lux', year: 2015 }
   ];
   
   const comments = [
@@ -142,4 +142,5 @@ Let's practice:
   // Array ["banana", "pineapple", "apple"]
   // Array ["banana", "pineapple", "apple", "strawberry"]
   ```
+
 > Is there any example you didn't like? Do you want more array methods here? Just tell me and I'll do my best.
