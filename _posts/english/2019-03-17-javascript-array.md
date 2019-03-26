@@ -104,5 +104,43 @@ Let's practice:
   console.log(elements.join('')); 	// "FireWindRain"
   console.log(elements.join('-')); 	// "Fire-Wind-Rain"
   ```
+  
+  - The `Array.from()` method creates a **new**, shallow-copied Array instance from an array-like or iterable object.
+  
+  ```javascript
+  console.log(Array.from('foo'));   // Array ["f", "o", "o"]
+  console.log(Array.from([1, 2, 3], x => x + x));   // Array [2, 4, 6]
 
-  Is there any example you didn't like? Do you want more array methods here? Just tell me and I'll do my best.
+  // But why use "Array.from()" instead of "array_a = array_b"? Let's see:
+  
+  const fruits = ['banana', 'pineapple', 'apple']
+  const fruits2 = fruits
+  console.log(fruits, fruits2)
+  // Array ["banana", "pineapple", "apple"]
+  // Array ["banana", "pineapple", "apple"]
+  
+  // As you see above, both fruits and fruits2 are the same, right?
+  // But what happens if we modify only fruits2?
+
+  fruits2[3] = 'strawberry'
+  console.log(fruits, fruits2)
+  // Array ["banana", "pineapple", "apple", "strawberry"]
+  // Array ["banana", "pineapple", "apple", "strawberry"]
+  
+  // As you see above, both arrays are modified.
+  // That happens because "=" creates a reference, not a copy of an array.
+
+  // But with Array.from() this won't happen, as it creates a new copy:
+  
+  fruits3 = Array.from(fruits)
+  console.log(fruits, fruits3)
+  // Array ["banana", "pineapple", "apple"]
+  // Array ["banana", "pineapple", "apple"]
+  
+  fruits3[3] = 'strawberry'
+  console.log(fruits, fruits3)
+  // Array ["banana", "pineapple", "apple"]
+  // Array ["banana", "pineapple", "apple", "strawberry"]
+  ```
+
+Is there any example you didn't like? Do you want more array methods here? Just tell me and I'll do my best.
