@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Técnicas de Fotografias - ISO
-category: photograph
-tags: [iso]
+category: Photograph
+tags: [técnicas de fotografia]
 keywords:
   - iso
 ---
