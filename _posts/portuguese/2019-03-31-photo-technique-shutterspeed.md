@@ -7,9 +7,9 @@ keywords:
   - shutter speed
 ---
 
-## Diferentes Velocidades de Obturador
-
 O Obturador controla o tempo pelo qual a luz deve entrar na câmera para sensibilizar o sensor. Em outras palavras: _"controla o tempo de exposição do sensor à luz."_
+
+## Diferentes Velocidades de Obturador
 
 A velocidade do obturador, de forma geral, é indicada da seguinte forma:
 <p align="center">
