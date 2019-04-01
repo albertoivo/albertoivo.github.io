@@ -7,15 +7,15 @@ keywords:
   - aperture
 ---
 
-![](https://cdn.photographypro.com/wp-content/uploads/2017/12/aperture-10.png)
-
 **Abertura de Diafragma (*****Aperture*****)** controla a quantidade de luz que entra na câmera e é representada pela letra ƒ. Conforme pode ser vista na imagem acima, quanto menor o número, maior a abertura do diafragma, logo, mais luz vai entrar no sensor porém menor será a profundidade de campo.
 
 **Profundidade de Campo (*****Depth of Field*****)** descreve até que ponto objetos que estão mais ou menos perto do plano de foco aparentam estar nítidos. E ocorre tanto para frente (mais perto da câmera) como para trás (longe da câmera).
 
-![Profundidade de Campo](https://lh3.googleusercontent.com/aNxT3_WI8QrvA1lbP-Cuxn8rqcTOlseDfwPLtMpJfWq7cAn14CUO47zqQH42wLBqwOmOHlPWvxmapdoE2jkfVJYFE3YnikS8YqsPFWV4Dapy9DIJlMHmiHn4wba4e3STO7ob4CM)
+![](https://cdn.photographypro.com/wp-content/uploads/2017/12/aperture-10.png)
 
 ## Profundidade de Campo
+
+![Profundidade de Campo](https://lh3.googleusercontent.com/aNxT3_WI8QrvA1lbP-Cuxn8rqcTOlseDfwPLtMpJfWq7cAn14CUO47zqQH42wLBqwOmOHlPWvxmapdoE2jkfVJYFE3YnikS8YqsPFWV4Dapy9DIJlMHmiHn4wba4e3STO7ob4CM)
 
 Perceba que, na imagem acima com o *F/1.8* e o foco no centro, tanto na frente como atrás dos bonecos estão bastante desfocados. Isso acontece porque o *F/1.8* indica uma grande abertura do diafragma, logo, uma pequena profundidade de campo.
 

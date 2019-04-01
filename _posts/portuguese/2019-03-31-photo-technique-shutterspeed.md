@@ -7,8 +7,6 @@ keywords:
   - shutter speed
 ---
 
-![](https://www.thephoblographer.com/wp-content/uploads/2017/09/Shutter-Speeds-770x396.jpg)
-
 ## Diferentes Velocidades de Obturador
 
 O Obturador controla o tempo pelo qual a luz deve entrar na câmera para sensibilizar o sensor. Em outras palavras: _"controla o tempo de exposição do sensor à luz."_
@@ -17,6 +15,8 @@ A velocidade do obturador, de forma geral, é indicada da seguinte forma:
 <p align="center">
 BULB … 30''  …  2''5   2''   1''6   1''3   1''   0''8   0''6   0''5   0''4   0''3   ¼   ⅛   1/10  …  1/4000  ...
 </p>
+
+![](https://www.thephoblographer.com/wp-content/uploads/2017/09/Shutter-Speeds-770x396.jpg)
 
 #### O que esses números significam?
 
