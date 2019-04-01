@@ -1,62 +1,40 @@
 ---
 layout: post
-title: Técnicas de Fotografias - Velocidade do Obtirador (Shutter Speed)
+title: Técnicas de Fotografias - Abertura de Diafragma
 category: Photograph
 tags: [técnicas de fotografia]
 keywords:
-  - shutter speed
+  - aperture
 ---
 
-![](https://www.thephoblographer.com/wp-content/uploads/2017/09/Shutter-Speeds-770x396.jpg)
+![](https://cdn.photographypro.com/wp-content/uploads/2017/12/aperture-10.png)
 
-## Diferentes Velocidades de Obturador
+**Abertura de Diafragma (*****Aperture*****)** controla a quantidade de luz que entra na câmera e é representada pela letra ƒ. Conforme pode ser vista na imagem acima, quanto menor o número, maior a abertura do diafragma, logo, mais luz vai entrar no sensor porém menor será a profundidade de campo.
 
-O Obturador controla o tempo pelo qual a luz deve entrar na câmera para sensibilizar o sensor. Em outras palavras: _"controla o tempo de exposição do sensor à luz."_
+**Profundidade de Campo (*****Depth of Field*****)** descreve até que ponto objetos que estão mais ou menos perto do plano de foco aparentam estar nítidos. E ocorre tanto para frente (mais perto da câmera) como para trás (longe da câmera).
 
-A velocidade do obturador, de forma geral, é indicada da seguinte forma:
-<p align="center">
-BULB … 30''  …  2''5   2''   1''6   1''3   1''   0''8   0''6   0''5   0''4   0''3   ¼   ⅛   1/10  …  1/4000  ...
-</p>
+![Profundidade de Campo](https://lh3.googleusercontent.com/aNxT3_WI8QrvA1lbP-Cuxn8rqcTOlseDfwPLtMpJfWq7cAn14CUO47zqQH42wLBqwOmOHlPWvxmapdoE2jkfVJYFE3YnikS8YqsPFWV4Dapy9DIJlMHmiHn4wba4e3STO7ob4CM)
 
-#### O que esses números significam?
+## Profundidade de Campo
 
-**BULB**: mantém o obturador aberto enquanto o botão disparador estiver pressionado.
+Perceba que, na imagem acima com o *F/1.8* e o foco no centro, tanto na frente como atrás dos bonecos estão bastante desfocados. Isso acontece porque o *F/1.8* indica uma grande abertura do diafragma, logo, uma pequena profundidade de campo.
 
-**30''**: mantém o obturador aberto por 30 segundos.
+Para conseguir focar todos os bonecos, perceba que o fotografo foi diminuindo a abertura do diafragma até o *F/11*, e só assim conseguiu focar tudo.
 
-**1/10**: mantém o obturador aberto por um décimo de segundo.
+**Então por que não usar sempre um diafragma bem pequeno?**
 
-**1/4000**: mantém o obturador aberto por 0,00025 segundos.
+Bom, para começar, esse efeito de desfocar, ou *bokeh*, é bastante usado para dar mais atenção ao assunto principal tirando, assim, as distrações na foto. É bastante usado para retrato de pessoas (*portraits*).
 
-
-## Qual a velocidade escolher?
-
-![](http://vagabond3.com/wp-content/uploads/2014/02/Exposure-Graphics-ShutterSp.png)
-
-Esse valor pode variar e está diretamente associado à abertura do diafragma e ao ISO (quanto maior a abertura ou o ISO, menor o tempo de exposição), mas existem algumas formas de descobrir os ajustes ideais para cada situação que você pode ver no artigo sobre Fotometria.
-
-Uma velocidade muito alta é usada para congelar imagens (conforme visto na primeira imagem deste artigo). Por exemplo, para tirar uma foto de um carro em movimento, ou de uma fonte de água que você queria ver até os pingos de forma nítida, sem nenhum borrão.
-
-Lembrando que, quando se aumenta muito a velocidade do obturador, diminui-se o tempo de exposição à luz, logo, será necessário uma ótima iluminação, caso contrário, terá que aumentar o ISO e a abertura do diafragma.
-
-Em um dia ensolarado, essa velocidade pode chegar facilmente na casa dos 1/3000 e com ISO 100. Porém a noite ou em locais de fraca iluminação pode ser necessário uma velocidade abaixo de 1 segundo.
-
-Já uma velocidade baixa significa um grande tempo de exposição, logo, é altamente recomendado o uso de um tripé, principalmente para velocidades abaixo de 1/15. Pois a partir dessa velocidade, caso não tenha uma mão muito firme, a chance da foto sair tremida é grande.
-
-Caso esteja sem tripé ou um apoio para a máquina e não tenha condições de aumentar a iluminação do local, opte por aumentar o ISO, assim o sensor ficará mais sensível à luz e você poderá usar uma velocidade maior, diminuindo, dessa forma, a chance da foto sair tremida ou borrada.
-
-#### Abaixo segue um exemplo de longa exposição:
-
-![](https://farm1.staticflickr.com/363/19148241311_fab43b3dae_b.jpg)
-
-![](https://pictures.digitalrev.com/image/upload/w_1920,c_fill/v1432523673/biowgedin4hvphiszndp.jpg)
+Também, quanto menor a abertura do diafragma, menos luz vai entrar no sensor, sendo assim, você vai precisar compensar essa falta de luz de alguma forma, seja aumentando o **ISO** ou diminuindo a **velocidade do obturador** (*shutter speed*) para realizar uma correta fotometria
 
 ## Conclusão
+
+
 
 ![](https://cdn.photographypro.com/wp-content/uploads/2017/11/exposure-triangle-diagram2-300x271@2x.png)
 
 Enfim, o mais importante de tudo é equilibrar abertura do diafragma, velocidade do obturador e ISO de forma que o fotômetro esteja no zero, indicando que você já pode clicar. É tudo questão de avaliar o contexto da foto e compensar a luz da melhor forma configurando essas três principais variáveis.
 
 > Qualquer dúvida é só escrever um comentário que responderei o mais rápido possível.
- 
+
 
