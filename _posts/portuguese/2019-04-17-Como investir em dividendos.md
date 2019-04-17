@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como investir em empresas boa pagadoras de dividendos?
+title: Como investir em dividendos?
 category: Bolsa de Valores
 tags: [financeiro]
 keywords:
