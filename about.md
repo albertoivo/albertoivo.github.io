@@ -9,7 +9,7 @@ keywords:
   - nossas rotas
 ---
 
-I am an enthusiast of traveling the world, photographing, climbing, running, javascript, react, python, machine learning, artificial intelligence and the stock exchange.
+I am an enthusiast of traveling the world, photographing, climbing, running, javascript, python, machine learning, artificial intelligence and the stock exchange.
 
 I am very happy and lucky because I married a wonderful woman and, like me, she loves to travel. Together we made an instagram of travel [nossas rotas](https://www.instagram.com/nossasrotas/). Countries we've been to: [Nossas Rotas Map](https://nossasrotas.firebaseapp.com).
 
