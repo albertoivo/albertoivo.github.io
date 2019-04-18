@@ -373,8 +373,38 @@ footer {
 }
 
 .example {
-  background-color: #f2f2f2;
-  color: #ff4dff;
+  color: #0c5460;
+  background-color: #d1ecf1;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #bee5eb;
+  border-radius: .25rem;
+}
+
+.badge {
+  color: #fff;
+  background-color: #dc3545;
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 35%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+p > code {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: .25rem;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
