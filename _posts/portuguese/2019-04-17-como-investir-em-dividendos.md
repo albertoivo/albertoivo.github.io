@@ -76,5 +76,3 @@ Agora vamos às métricas:
     > Procure empresas com dívida inferior a 3x o seu lucro operacional.
 
 As informações sobre dívidas e dividends yield estão disponíveis no site do [Fundamentus](http://www.fundamentus.com.br/).
-
-> Ficou com alguma dúvida? Tem alguma sugestão? Não concorda com alguma coisa que está aqui? Por favor escreva nos comentários.
