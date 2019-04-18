@@ -31,7 +31,7 @@ Cada empresa tem a sua política de dividendos. Importante salientar que os divi
 
 ### Payout
 
-`Payout = Dividendos Distribuídos / Lucro Liquido da empresa`
+`Payout = Dividendos Distribuídos / Lucro Líquido da empresa`
 
 #### Exemplo:
 
