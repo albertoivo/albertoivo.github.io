@@ -383,8 +383,6 @@ footer {
 }
 
 .badge {
-  color: #fff;
-  background-color: #dc3545;
   display: inline-block;
   padding: .25em .4em;
   font-size: 35%;
@@ -395,6 +393,26 @@ footer {
   vertical-align: baseline;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.badge-dev {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.badge-photograph {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.badge-bolsa {
+  color: #fff;
+  background-color: #ffc107;
+}
+
+.badge-all {
+  color: #fff;
+  background-color: #28a745;
 }
 
 p > code {
