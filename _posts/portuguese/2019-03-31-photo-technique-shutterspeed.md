@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Técnicas de Fotografias - Velocidade do Obtirador (Shutter Speed)
+title: Técnicas de Fotografias - Velocidade do Obturador
 category: Photograph
 tags: [técnicas de fotografia]
 keywords:
   - shutter speed
 ---
 
-O Obturador controla o tempo pelo qual a luz deve entrar na câmera para sensibilizar o sensor. Em outras palavras: _"controla o tempo de exposição do sensor à luz."_
+O **Obturador** ou _Shutter Speed_ controla o tempo pelo qual a luz deve entrar na câmera para sensibilizar o sensor. Em outras palavras: _"controla o tempo de exposição do sensor à luz."_
 
 ## Diferentes Velocidades de Obturador
 
 A velocidade do obturador, de forma geral, é indicada da seguinte forma:
 <p align="center">
-BULB … 30''  …  2''5   2''   1''6   1''3   1''   0''8   0''6   0''5   0''4   0''3   ¼   ⅛   1/10  …  1/4000  ...
+<code>BULB … 30"    …    2"    …    1"5    …    1"    …    0"5    …    ¼    …    1/10    …    1/4000    …</code>
 </p>
 
 ![](https://www.thephoblographer.com/wp-content/uploads/2017/09/Shutter-Speeds-770x396.jpg)

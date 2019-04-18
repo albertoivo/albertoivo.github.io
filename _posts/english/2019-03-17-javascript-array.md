@@ -7,7 +7,7 @@ keywords:
   - javascript
 ---
 
-[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances inherit from `Array.prototype`. As with all constructors, you can change the constructor's prototype object to make changes to all `Array` instances. For example, you can add new methods and properties to extend all `Array` objects. This is used for polyfilling, for example.
+[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances inherit from `Array.prototype`. As with all constructors, you can change the constructor's prototype object to make changes to all Array instances. For example, you can add new methods and properties to extend all Array objects. This is used for polyfilling, for example.
 
 
 Let's practice:
@@ -105,7 +105,7 @@ Let's practice:
   console.log(elements.join('-')); 	// "Fire-Wind-Rain"
   ```
 
-  - The `Array.from()` method creates a **new**, shallow-copied Array instance from an array-like or iterable object.
+- The `from()` method creates a **new**, shallow-copied Array instance from an array-like or iterable object.
 
   ```javascript
   console.log(Array.from('foo'));   // Array ["f", "o", "o"]
