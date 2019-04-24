@@ -2,7 +2,7 @@
 layout: post
 title: Como investir em dividendos?
 category: Bolsa de Valores
-tags: [financeiro]
+tags: [financeiro, dividendos, bolsa de valores]
 keywords:
   - dividendos
   - bolsa de valores
@@ -82,3 +82,5 @@ Agora vamos às métricas:
     > Procure empresas com dívida **inferior a 3x** o seu lucro operacional.
 
 > As informações sobre _dívidas_ e _dividend yield_ estão disponíveis no site do [Fundamentus](http://www.fundamentus.com.br/).
+
+> Ficou alguma dúvida? Por favor, deixe seu comentário que responderei o mais rapidamente possível.
