@@ -41,7 +41,7 @@ deploy:
     branch: master
 ```
 
-* Agora vamos gerar um token, Na linah comando rode:
+* Agora vamos gerar um token. Na linha comando, rode:
 
     `firebase login:ci`
 
