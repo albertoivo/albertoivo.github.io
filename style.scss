@@ -382,6 +382,28 @@ footer {
   border-radius: .25rem;
 }
 
+table, th, td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+td, th {
+  padding: 4px;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bolder;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
 .badge {
   display: inline-block;
   padding: .25em .4em;
@@ -392,7 +414,7 @@ footer {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .badge-dev {
