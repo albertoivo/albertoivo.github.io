@@ -13,7 +13,9 @@ Um PSR mais baixo, geralmente significa que preço da ação está sendo subvalo
 
 ### Como calcular o PSR
 
-`PSR = Valor de Mercado por Ação / Receita Líquida`
+`PSR = Valor de Mercado / Receita Líquida`
+
+_* Valor de Mercado = Número de ações na bolsa de valores X valor da ação_
 
 #### Exemplo:
 
