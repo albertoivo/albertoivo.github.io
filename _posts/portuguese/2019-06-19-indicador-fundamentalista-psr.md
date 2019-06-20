@@ -24,7 +24,7 @@ Um PSR mais baixo, geralmente significa que preço da ação está sendo subvalo
     <b>PSR = R$500M / R$600M</b><br />
     <b>PSR = 0.83<br /></b>
     Supondo que a <b>média do setor</b> que a NossasRotas atua seja de <b>1.2</b>, então podemos concluir que suas ações estão <b>subvalorizadas</b> pelo mercado.<br />
-    Agora vamos supor uma previsão futura onde a receita líquida do ano seguinte stá prevista para <b>R$400M</b>.<br />
+    Agora vamos supor uma previsão futura onde a receita líquida do ano seguinte está prevista para <b>R$400M</b>.<br />
     Então:<br />
     <b>PSR = R$500M / R$400M</b><br />
     <b>PSR = 1.25</b><br />
@@ -61,6 +61,6 @@ Mas como com todas as métricas de avaliação de patrimônio, a média do PSR p
 
 ## Quando usar o PSR?
 
-O PSR é considerado uma métrica particularmente boa para avaliar empresas jovens, com potenciais de alto crescimento ou empresas em setores cíclicos que podem não apresentar um lucro líquido real a cada ano. Ele fornece uma medida de avaliação financeira que pode indicar uma boa base para a análise de tais empresas que possam estar apresentando ganhos negativos temporários.
+O PSR é considerado uma métrica particularmente boa para avaliar empresas jovens, com potenciais de alto crescimento ou empresas em setores cíclicos que podem não apresentar um lucro líquido real a cada ano. Ele fornece uma medida de avaliação financeira que pode indicar uma boa base para a análise de tais empresas que possam estar apresentando perdas temporárias.
 
 > Nenhum Indicador Fundamentalista deve ser analisado individualmente. Antes de decidir qual a empresa deseja ser sócio, estude vários indicadores, assim como o balanço patrimonial e os resultados da empresa. 
