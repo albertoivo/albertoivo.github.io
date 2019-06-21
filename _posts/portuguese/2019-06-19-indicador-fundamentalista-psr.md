@@ -20,12 +20,12 @@ _* Valor de Mercado = Número de ações na bolsa de valores X valor da ação_
 #### Exemplo:
 
 <p class="example">
-    A empresa fictícia NossasRotas teve uma receita líquida de <b>R$600M</b> neste ano.<br />
+    A empresa fictícia Nossas Rotas teve uma receita líquida de <b>R$600M</b> neste ano.<br />
     Ela possui <b>20M</b> de ações no mercado e cada uma custa <b>R$25</b>.<br />
     Sendo assim: Valor de Mercado por Ação => 20M x 25 => R$500M.<br />
     <b>PSR = R$500M / R$600M</b><br />
     <b>PSR = 0.83<br /></b>
-    Supondo que a <b>média do setor</b> que a NossasRotas atua seja de <b>1.2</b>, então podemos concluir que suas ações estão <b>subvalorizadas</b> pelo mercado.<br />
+    Supondo que a <b>média do setor</b> que a Nossas Rotas atua seja de <b>1.2</b>, então podemos concluir que suas ações estão <b>subvalorizadas</b> pelo mercado.<br />
     Agora vamos supor uma previsão futura onde a receita líquida do ano seguinte está prevista para <b>R$400M</b>.<br />
     Então:<br />
     <b>PSR = R$500M / R$400M</b><br />
