@@ -35,11 +35,11 @@ O ROE pode variar significativamente de um setor para o outro. Portanto sempre c
 
 No exemplo abaixo, analisaremos duas empresa: Engie Brasil (EGIE3) e Banco Indusval (IDVL4). São setores totalmente diferentes, a idéia aqui não é analisar a melhor empresa de um determinado setor e sim mostrar porque não olhar apenas para o ROE do último ano.
 
-- EGIE3: podemos ver que, na média anual (de 2011 a 2019), ela sempre se manteve acima dos 22%. Logo, há uma forte indicação de que é uma empresa estável.
+- **EGIE3**: podemos ver que, na média anual (de 2011 a 2019), ela sempre se manteve acima dos 22%. Logo, há uma forte indicação de que é uma empresa estável por manter uma boa regularidade neste indicador.
 
 ![EGIE3 - ROE](../../images/egie3-roe.png)
 
-- IDVL4: podemos ver que desde de 2011 está negativo e só no primeiro trimestre de 2019 é que ficou positivo. Se olhássemos apenas para o dado mais atual (até a data que escrevi esee post), seríamos enganado achando que ela tem um ROE positivo.
+- **IDVL4**: podemos ver que desde de 2011 está negativo e só no primeiro trimestre de 2019 é que ficou positivo. Se olhássemos apenas para o dado mais atual (até a data que escrevi esse post), seríamos enganado achando que ela tem um ROE positivo.
 
 ![IDVL4 - ROE](../../images/idvl4-roe.png)
 
