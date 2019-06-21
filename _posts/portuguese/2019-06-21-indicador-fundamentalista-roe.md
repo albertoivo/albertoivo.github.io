@@ -27,4 +27,26 @@ Uma boa regra é olhar um ROE que seja igual ou um pouco acima da média do grup
 
 O ROE pode variar significativamente de um setor para o outro. Portanto sempre compare o ROE de uma empresa com seus concorrentes que atuam no mesmo segmento.
 
-> Nenhum Indicador Fundamentalista deve ser analisado individualmente. Antes de decidir qual a empresa deseja ser sócio, estude vários indicadores, assim como o balanço patrimonial e os resultados da empresa. 
+### Cuidados
+
+É normal um ROE de uma empresa ficar bem mais alto que a média em um determinado período. Portanto muito cuidado ao olhar apenas o último número. O ideal seria olhar o ROE dos últimos 3 a 5 anos para saber se a empresa mantém uma estabilidade nessa taxa.
+
+### Exemplos práticos com dados reais
+
+No exemplo abaixo, analisaremos duas empresa: Engie Brasil (EGIE3) e Banco Indusval (IDVL4). São setores totalmente diferentes, a idéia aqui não é analisar a melhor empresa de um determinado setor e sim mostrar porque não olhar apenas para o ROE do último ano.
+
+- EGIE3: podemos ver que, na média anual (de 2011 a 2019), ela sempre se manteve acima dos 22%. Logo, há uma forte indicação de que é uma empresa estável.
+
+![EGIE3 - ROE](../../images/egie3-roe.png)
+
+- IDVL4: podemos ver que desde de 2011 está negativo e só no primeiro trimestre de 2019 é que ficou positivo. Se olhássemos apenas para o dado mais atual (até a data que escrevi esee post), seríamos enganado achando que ela tem um ROE positivo.
+
+![IDVL4 - ROE](../../images/idvl4-roe.png)
+
+### Conclusão
+
+No exemplo acima, vemos que a Engie Brasil costuma ser mais eficiente que o Banco Indusval. Mas isso não quer dizer que, necessariamente, uma é melhor que a outra. O ROE deveria ter um peso grande na escolha de uma ação, mas nunca ser o único dado a ser olhado.
+
+Um bom lugar para ver o gráfico desses indicadores é o site do [Pense Rico](https://vicenteguimaraes.penserico.com/).
+
+> Nenhum Indicador Fundamentalista deve ser analisado individualmente. Antes de decidir qual a empresa deseja ser sócio, estude vários indicadores assim como o balanço patrimonial e os resultados da empresa. 
