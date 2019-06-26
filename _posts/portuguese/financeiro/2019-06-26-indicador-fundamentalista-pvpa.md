@@ -9,19 +9,19 @@ O índice de Preço/Valor Patrimonial por Ação (P/VPA) é, basicamente, uma m�
 
 ### Como calcular
 
-`P/VPA = Preço da ação / Valor Patrimonial por Ação`
+`P/VPA = Preço da ação (P) / Valor Patrimonial por Ação (VPA)`
 
 _* Preço da ação equivale ao preço de uma única ação num determinado período._
 
-_* Valor Patromonial é ativo total da empresa subtraído do passivo total._
+_* Valor Patrimonial é ativo total da empresa subtraído do passivo total._
 
 _* Valor Patrimonial por Ação é o valor de patrimônio dividido pelo número de ações negociadas na bolsa de valores._   
 
 #### Exemplo:
 
 <p class="example">
-    Uma empresa tem um Valor Patromonial de R$ 1.000.000,00 e possui 100.000 ações na bolsa de valores. Onde cada ação está sendo negociada a R$ 20,00. Então:<br />
-    <b>Valor Patrimonial por Ação = Valor Patrimonial (VP) / Número de Ações (A)</b><br />
+    Uma empresa tem um Valor Patrimonial de R$ 1.000.000,00 e possui 100.000 ações na bolsa de valores. Onde cada ação está sendo negociada a R$ 20,00. Então:<br />
+    <b>Valor Patrimonial por Ação (VPA) = Valor Patrimonial (VP) / Número de Ações (A)</b><br />
     <b>VPA = 1.000.000 / 100.000</b><br />
     <b>VPA = 10</b><br />
     E como:<br />
