@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Indicador Fundamentalista - Preço / Valor Patrimonial Ajustado (P/VPA)
+title: Indicador Fundamentalista - Preço / Valor Patrimonial por Ação (P/VPA)
 category: Bolsa de Valores
 tags: [indicador fundamentalista, p/vpa]
 ---
