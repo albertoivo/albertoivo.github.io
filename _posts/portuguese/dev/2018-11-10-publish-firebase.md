@@ -45,7 +45,7 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 	
 	Você verá a tela abaixo no seu terminal, usando as setinhas do teclado, escolha `Hosting` com a tecla `espaço` e então dê `enter`.
 
-	![firebase init](../../images/firebase-init.png)
+	![firebase init](../../../images/firebase-init.png)
 
 7. Agora terá uma nova pergunta:
 
@@ -75,7 +75,7 @@ O Firebase é uma plataforma para desenvolvimento mobile e web do Google. Com el
 
     `firebase deploy`
     
-    ![firebase deploy](../../images/firebase-deploy.png)
+    ![firebase deploy](../../../images/firebase-deploy.png)
     
 
 Quando vir a mensagem acima. _voilà!_ Seu app estará publicado! Basta acessar a _Hosting URL_ da mensagem.

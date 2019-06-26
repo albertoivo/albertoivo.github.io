@@ -25,7 +25,7 @@ O GitHub é uma ótima ferramenta não só para repositório de código mas tamb
 
 	Substitua `username` e `meu-repositorio` acima pelo seu username e repositório no GitHub.
 
-	![package.json-1](../../images/package-json-github-pages-1.png)
+	![package.json-1](../../../images/package-json-github-pages-1.png)
 
 4. Ainda no `package.json` adicione as duas linhas de código abaixo na seção `scripts`:
 
@@ -45,7 +45,7 @@ O GitHub é uma ótima ferramenta não só para repositório de código mas tamb
 	}
 	```
 
-	![package.json-2](../../images/package-json-github-pages-2.png)
+	![package.json-2](../../../images/package-json-github-pages-2.png)
 
 6. E, por último, vamos publicar nosso app com o seguinte comando:
 
