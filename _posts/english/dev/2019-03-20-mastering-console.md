@@ -24,7 +24,7 @@ console.log(`Hello, my name is ${es6}!!!`)
 ```
 Resultado:
 
-![](../../images/console01.png)
+![](../../../images/console01.png)
 
 - You can style your message with pretty much almost all css properties, you only have to use `%c` before the sentence: 
 
@@ -34,7 +34,7 @@ console.log('%c I am a great Text', 'font-size:50px; background: blue;')
 ```
 Resultado:
 
-![](../../images/console02.png)
+![](../../../images/console02.png)
 
 - You can write messages of `warn`, `error` and `info`:
 
@@ -50,7 +50,7 @@ console.info('This is a useful info.')
 ```
 Resultado:
 
-![](../../images/console03.png)
+![](../../../images/console03.png)
 
 - You can display messages only if the premise is true:
 
@@ -61,7 +61,7 @@ console.assert(1 === 2, 'This msg WILL be showed')
 ```
 Resultado:
 
-![](../../images/console04.png)
+![](../../../images/console04.png)
 
 You can `clear` the console:
 
@@ -82,7 +82,7 @@ console.dir(p)
 ```
 Resultado:
 
-![](../../images/console05.png)
+![](../../../images/console05.png)
 
 - You can group an array. Assuming that the array has the same properties.  To group, both `group('string')` and `groupEnd('string')` must have the **same** string parameter. To see in a table, just use `table`:
 
@@ -105,7 +105,7 @@ console.table(people)
 ```
 Resultado:
 
-![](../../images/console06.png)
+![](../../../images/console06.png)
 
 - To see how many times a string in logged, just `count` it:
 
@@ -119,7 +119,7 @@ console.count('Ivo')
 ```
 Resultado:
 
-![](../../images/console07.png)
+![](../../../images/console07.png)
 
 - To check the time a particular operation takes (milliseconds). `time` works the same way `group`. Both `time('string')` and `timeEnd('string')` must have the **same** string parameter:
 
@@ -133,6 +133,6 @@ fetch('https://api.github.com/users/albertoivo')
 
 Resultado:
 
-![](../../images/console08.png)
+![](../../../images/console08.png)
 
 And that's it! If you want more examples, just tell me.
