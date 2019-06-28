@@ -42,7 +42,7 @@ Um bom lugar para ver o gráfico desses indicadores é o site do [Pense Rico](ht
 
 ### Lucro Por Ação (LPA) x Preços sobre Lucro (P/L)
 
-Comparar o LPA com o [P/L]() pode ser útil mas de uma forma inesperada. Há uma tendência a pensar que um LPA menor menor é sinal de ação "supervalorizada" mas, muitas vezes em mercados de alta, investidores estão dispostos a pagar mais por uma ação com maiores índices de P/L, independentemente do LPA, por esperar que essa empresa cresça mais ou supere seus concorrentes diretos no curto/médio prazo.
+Comparar o LPA com o [P/L]() pode ser útil mas de uma forma inesperada. Há uma tendência a pensar que um LPA menor é sinal de ação "supervalorizada" mas, muitas vezes em mercados de alta, investidores estão dispostos a pagar mais por uma ação com maiores índices de P/L, independentemente do LPA, por esperar que essa empresa cresça mais ou supere seus concorrentes diretos no curto/médio prazo.
 
 Outro indicador que pode ser usado para identificar empresas que são mais eficientes é o [Retorno sobre o Patrimônio Líquido (ROE)](https://albertoivo.github.io/indicador-fundamentalista-roe/).
 
