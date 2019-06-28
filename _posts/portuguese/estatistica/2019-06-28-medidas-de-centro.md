@@ -27,7 +27,7 @@ Tabela 2:
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 5 | 8 | 3 | 2 | 1 | 3 | 10 | 105 |
 
-### Média
+## Média
 
 Representa a soma de todos os valores no conjunto de dados dividido pela quantidade de pontos de dados neste conjunto.
 
@@ -49,7 +49,7 @@ A média nem sempre é a melhor medida de centro. Note que **12,57** não parece
 
 Para corrigir isso, temos a próxima medida de centro:  
 
-### Mediana
+## Mediana
 
 Representa o valor médio do conjunto de dados. Seu valor é maior que 50% dos dados e menor que os 50% restantes.
 
@@ -76,7 +76,7 @@ Agora se a quantidade de números for **par**, depois de ordenar, temos que pega
 
 Note que nos dois exemplos, o valor da Mediana está exatamente no meio do conjunto de dados.
 
-### Moda
+## Moda
 
 A Moda visa nos fornecer o valor mais comum no conjunto de dados.
 
