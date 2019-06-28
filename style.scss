@@ -458,6 +458,11 @@ tr:hover {
   font-size: 80%;
 }
 
+#categories > a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 p > code {
   color: #155724;
   background-color: #d4edda;
