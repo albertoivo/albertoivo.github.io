@@ -11,9 +11,9 @@ Ao analisar dados quantitativos, discretos e contínuos, geralmente fala-se em 4
 3. Forma (_Shape_)
 4. Exceções (_Outliers_)
 
-Aqui falaremos sobre as **Medidas de Centro**.
+### Aqui falaremos sobre as **Medidas de Centro**, que são 3.
 
-## São três as Medidas de Centro:
+Usaremos os dois conjuntos de dados abaixo para exemplificar cada medida:
 
 Tabela 1:
 
@@ -24,7 +24,7 @@ Tabela 1:
 Tabela 2:
 
 | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 5 | 8 | 3 | 2 | 1 | 3 | 10 | 105 |
 
 ## Média
@@ -45,7 +45,7 @@ Representa a soma de todos os valores no conjunto de dados dividido pela quantid
     <b>Média = 17,125</b><br />
 </p>
 
-A média nem sempre é a melhor medida de centro. Note que **12,57** não parece muito estar no meio dos dados. Só há dois dias que registraram um valor maior do que a média, enquanto há 5 dias que registraram um valor menor.
+A média nem sempre é a melhor medida de centro. Note que, para a tabela 1, **12,57** não parece muito estar no meio dos dados. Só há dois dias que registraram um valor maior do que a ele, enquanto há 5 dias que registraram um valor menor.
 
 Para corrigir isso, temos a próxima medida de centro:  
 
@@ -64,7 +64,7 @@ Se a quantidade de números for **ímpar**, basta ordenar e pegar o valor do mei
     <b>Mediana = 8</b><br />
 </p>
 
-Agora se a quantidade de números for **par**, depois de ordenar, temos que pegar os dois números do meio e calcular sua **média**, ou dividir por 2.
+Agora se a quantidade de números for **par**, depois de ordenar, temos que pegar os dois números do meio e calcular sua **média** ou dividir por 2.
 
 <p class="example">
     Para a tabela 2:<br />
