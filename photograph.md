@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Photograph
-permalink: /photograph/
+title: Fotografia
+permalink: /fotografia/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Técnicas de Fotografias - Abertura de Diafragma
-category: Photograph
+category: Fotografia
 tags: [técnicas de fotografia]
 keywords:
   - aperture

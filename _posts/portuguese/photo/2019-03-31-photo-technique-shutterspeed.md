@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Técnicas de Fotografias - Velocidade do Obturador
-category: Photograph
+category: Fotografia
 tags: [técnicas de fotografia]
 keywords:
   - shutter speed
