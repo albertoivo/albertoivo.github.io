@@ -5,7 +5,7 @@ category: Bolsa de Valores
 tags: [indicador fundamentalista, p/vpa]
 ---
 
-O índice de Preço/Valor Patrimonial por Ação (P/VPA) é, basicamente, uma métrica que relaciona o quanto a empresa vale e o quanto os investidores estão dispostos a pagar por ela. Em outras palavras, ele nos indica se a empresa está sendo negociada abaixo do seu valor patrimonial. Em tese, quanto mais baixo este índice, mais barata é a empresa.
+O índice de **Preço/Valor Patrimonial por Ação (P/VPA)** é, basicamente, uma métrica que relaciona o quanto a empresa vale e o quanto os investidores estão dispostos a pagar por ela. Em outras palavras, ele nos indica se a empresa está sendo negociada abaixo do seu valor patrimonial. Em tese, quanto mais baixo este índice, mais barata é a empresa.
 
 ### Como calcular
 
