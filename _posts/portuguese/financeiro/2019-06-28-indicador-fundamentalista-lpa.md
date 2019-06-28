@@ -38,8 +38,12 @@ Outra dica importante é não olhar apenas o último valor do LPA e sim pelo men
 
 Um aspecto importante do LPA que muitas vezes é ignorado é o capital necessário para gerar os ganhos (lucro líquido) no cálculo. Duas empresas poderiam gerar o mesmo LPA, mas uma poderia fazê-lo com menos ativos líquidos; e, sendo as demais coisas iguais, seria uma empresa "melhor" em termos de eficiência.
 
-Outro indicador que pode ser usado para identificar empresas que são mais eficientes é o [Retorno sobre o Patrimônio Líquido (ROE)](https://albertoivo.github.io/indicador-fundamentalista-roe/).
-
 Um bom lugar para ver o gráfico desses indicadores é o site do [Pense Rico](https://vicenteguimaraes.penserico.com/).
+
+### Lucro Por Ação (LPA) x Preços sobre Lucro (P/L)
+
+Comparar o LPA com o [P/L]() pode ser útil mas de uma forma inesperada. Há uma tendência a pensar que um LPA menor menor é sinal de ação "supervalorizada" mas, muitas vezes em mercados de alta, investidores estão dispostos a pagar mais por uma ação com maiores índices de P/L, independentemente do LPA, por esperar que essa empresa cresça mais ou supere seus concorrentes diretos no curto/médio prazo.
+
+Outro indicador que pode ser usado para identificar empresas que são mais eficientes é o [Retorno sobre o Patrimônio Líquido (ROE)](https://albertoivo.github.io/indicador-fundamentalista-roe/).
 
 > Nenhum Indicador Fundamentalista deve ser analisado individualmente. Antes de decidir qual a empresa deseja ser sócio, estude vários indicadores assim como o balanço patrimonial e os resultados da empresa. 
