@@ -1,19 +1,13 @@
 ---
 layout: post
-title: Medidas de Centro - Média, Mediana e Moda
+title: Análise Quantitativa - Medidas de Centro
 category: Estatística
 tags: [estatistica, média, mediana, moda]
 ---
 
-Ao analisar dados quantitativos, discretos e contínuos, geralmente fala-se em 4 aspectos principais:
-1. Centro (_Center_)
-2. Dispersão (_Spread_)
-3. Forma (_Shape_)
-4. Exceções (_Outliers_)
+São três as Medidas de Centro: `Média`, `Mediana` e `Moda`.
 
-### Aqui falaremos sobre as **Medidas de Centro**, que são 3.
-
-Usaremos os dois conjuntos de dados abaixo para exemplificar cada medida:
+Para exemplificar cada uma das três medidas, usaremos os dois conjuntos de dados abaixo:
 
 Tabela 1:
 
@@ -24,7 +18,7 @@ Tabela 1:
 Tabela 2:
 
 | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 5 | 8 | 3 | 2 | 1 | 3 | 10 | 105 |
 
 ## Média
