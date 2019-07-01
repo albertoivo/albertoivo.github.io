@@ -2,7 +2,7 @@
 layout: post
 title: Análise Quantitativa - Medidas de Centro
 category: Estatística
-tags: [estatistica, média, mediana, moda]
+tags: [Análise Quantitativa, média, mediana, moda]
 ---
 
 São três as Medidas de Centro: `Média`, `Mediana` e `Moda`.

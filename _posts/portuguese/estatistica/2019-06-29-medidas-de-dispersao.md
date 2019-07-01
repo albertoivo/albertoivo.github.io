@@ -2,7 +2,7 @@
 layout: post
 title: Análise Quantitativa - Medidas de Dispersão
 category: Estatística
-tags: [desvio padrão, variância]
+tags: [Análise Quantitativa, desvio padrão, variância]
 ---
 
 **Medidas de Dispersão** (ou _Measures of Spread_) são usadas para nos dar uma ideia de como os nossos dados se espalham (ou o quão distantes eles estão) uns dos outros. As mais comuns são: `Amplitude`, `Amplitude Interquartil`, `Desvio Padrão` e `Variância`. 
@@ -53,7 +53,7 @@ Na matemática, resolvemos isso elevando cada um dos números ao quadrado.
 32 / 4 = 8
 ```
 
-#### Com o cálculo acima, temos a nossa primeira medida de dispersão: A `Variância`.
+#### Com o cálculo acima, temos a nossa primeira medida de dispersão: `Variância`.
 
 O problema da Variância é a unidade. Ela está sempre elevada ao quadrado.
 
