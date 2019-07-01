@@ -5,7 +5,7 @@ category: Dev
 tags: [python]
 ---
 
-Python has several artithmetic operators.
+Python has several artithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`, `//`
 
 - `+` Addition
 
