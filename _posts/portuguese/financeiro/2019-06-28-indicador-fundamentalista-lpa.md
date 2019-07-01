@@ -19,11 +19,14 @@ O LPA é calculado dividindo o lucro líquido subtraído dos dividendos pagos pe
     <b>Exemplo 1:</b><br />
     A empresa <b>A</b> teve um lucro de R$ 1.000.000,00, pagou R$ 200.000,00 de Dividendos e tem 100.000 ações disponíveis.<br />
     <b>LPA = (1.000.000 - 200.000) / 100.000</b><br />
-    <b>LPA = 8</b><br /><br />
+    <b>LPA = 8</b>
+</p>
+
+<p class="example">
     <b>Exemplo 2:</b><br />
     A empresa <b>B</b> teve um lucro de R$ 2.000.000,00, pagou R$ 200.000,00 de Dividendos e tem 300.000 ações disponíveis.<br />
     <b>LPA = (2.000.000 - 200.000) / 300.000</b><br />
-    <b>LPA = 6</b><br /><br />
+    <b>LPA = 6</b>
 </p>
 
 Alguns sites, como o [Fundamentus](http://www.fundamentus.com.br/), já informam o **LPA** das empresas, o que facilita bastante para quem não quer ler o relatório contábil de todas empresas de um determinado setor e pegar as informações necessárias de cada um delas para realizar o cálculo acima.
@@ -36,7 +39,7 @@ Por isso apenas o LPA não é suficiente e não deve ser o único indicador a se
 
 Outra dica importante é não olhar apenas o último valor do LPA e sim pelo menos dos últimos 5 anos para saber se a empresa mantém uma estabilidade de seus lucros ou se foi apenas um resultado momentâneo.
 
-Um aspecto importante do LPA que muitas vezes é ignorado é o capital necessário para gerar os ganhos (lucro líquido) no cálculo. Duas empresas poderiam gerar o mesmo LPA, mas uma poderia fazê-lo com menos ativos líquidos; e, sendo as demais coisas iguais, seria uma empresa "melhor" em termos de eficiência.
+Um aspecto importante do LPA que muitas vezes é ignorado é o capital necessário para gerar os ganhos (lucro líquido) no cálculo. Duas empresas poderiam gerar o mesmo LPA, mas uma poderia fazê-lo com menos ativos líquidos; e, sendo as demais coisas iguais, seria uma empresa mais eficiente.
 
 Um bom lugar para ver o gráfico desses indicadores é o site do [Pense Rico](https://vicenteguimaraes.penserico.com/).
 
