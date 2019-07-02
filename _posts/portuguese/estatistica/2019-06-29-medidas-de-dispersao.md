@@ -86,4 +86,4 @@ O Desvio Padrão é usado para obter um único número para comparar a dispersã
 
 Quando essa informação diz respeito ao dinheiro ou à economia, um desvio padrão mais alto, costuma estar associado à riscos maiores.
 
-Comparando duas ações na bolsa de valores. Se o retorno diário da ação **A** durante um determinado período teve um desvio padrão maior do que a ação **B**, significa qua **A** oscilou bem mais que **B**.
+Comparando duas ações na bolsa de valores. Se o retorno diário da ação **A** durante um determinado período teve um desvio padrão maior do que a ação **B**, significa qua **A** oscilou mais que **B**.
