@@ -2,23 +2,19 @@
 layout: post
 title: Análise Quantitativa - Medidas de Centro
 category: Estatística
-tags: [estatistica, média, mediana, moda]
+tags: [Análise Quantitativa, média, mediana, moda]
 ---
 
 São três as Medidas de Centro: `Média`, `Mediana` e `Moda`.
 
 Para exemplificar cada uma das três medidas, usaremos os dois conjuntos de dados abaixo:
 
-Tabela 1:
+**Conjunto de Dados 1:**
 
-| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 5 | 3 | 8 | 3 | 15 | 45 | 9 |
 
-Tabela 2:
+**Conjunto de Dados 2:**
 
-| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 5 | 8 | 3 | 2 | 1 | 3 | 10 | 105 |
 
 ## Média
@@ -30,16 +26,18 @@ Representa a soma de todos os valores no conjunto de dados dividido pela quantid
 #### Exemplo:
 
 <p class="example">
-    Para a tabela 1:<br />
+    Para o Conjunto 1:<br />
     <b>Média = (5 + 3 + 8 + 3 + 15 + 45 + 9) / 7</b><br />
-    <b>Média = 12,57</b><br />
-    <br />
-    E para a tabela 2:<br />
-    <b>Média = (5 + 8 + 3 + 2 + 1 + 3 + 10 + 105) / 8</b><br />
-    <b>Média = 17,125</b><br />
+    <b>Média = 12,57</b>
 </p>
 
-A média nem sempre é a melhor medida de centro. Note que, para a tabela 1, **12,57** não parece muito estar no meio dos dados. Só há dois dias que registraram um valor maior do que a ele, enquanto há 5 dias que registraram um valor menor.
+<p class="example">
+    Para o Conjunto 2:<br />
+    <b>Média = (5 + 8 + 3 + 2 + 1 + 3 + 10 + 105) / 8</b><br />
+    <b>Média = 17,125</b>
+</p>
+
+A média nem sempre é a melhor medida de centro. Note que, para a conjunto 1, **12,57** não parece muito estar no meio dos dados. Só dois dados registraram um valor maior do que ele, enquanto 5 registraram um valor menor.
 
 Para corrigir isso, temos a próxima medida de centro:  
 
@@ -52,18 +50,16 @@ Para calcular, temos que ordenar os números de forma crescente ou decrescente.
 Se a quantidade de números for **ímpar**, basta ordenar e pegar o valor do meio.
 
 <p class="example">
-    Para a tabela 1:<br />
-    <b>Mediana => 5, 3, 8, 3, 15, 45, 9</b><br />
-    <b>Mediana => 3, 3, 5, 8, 9, 15, 45</b><br />
+    Para a conjunto 1:<br />
+    <b>3, 3, 5, 8, 9, 15, 45</b> (ordenado)<br />
     <b>Mediana = 8</b><br />
 </p>
 
 Agora se a quantidade de números for **par**, depois de ordenar, temos que pegar os dois números do meio e calcular sua **média** ou dividir por 2.
 
 <p class="example">
-    Para a tabela 2:<br />
-    <b>Mediana => 5, 8, 3, 2, 1, 3, 10, 105</b><br />
-    <b>Mediana => 1, 2, 3, 3, 5, 8, 10, 105</b><br />
+    Para a conjunto 2:<br />
+    <b>1, 2, 3, 3, 5, 8, 10, 105</b> (ordenado)<br />
     <b>Mediana = (3 + 5) / 2</b><br />
     <b>Mediana = 4</b><br />
 </p>
@@ -72,9 +68,9 @@ Note que nos dois exemplos, o valor da Mediana está exatamente no meio do conju
 
 ## Moda
 
-A Moda visa nos fornecer o valor mais comum no conjunto de dados.
+A Moda nos fornece o valor mais comum no conjunto de dados.
 
 <p class="example">
-    Para ambas as tabelas:<br />
+    Para ambos os conjuntos:<br />
     <b>Moda = 3</b><br />
 </p>

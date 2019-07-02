@@ -83,3 +83,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+gems:
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
