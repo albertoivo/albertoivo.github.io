@@ -84,6 +84,6 @@ exclude:
   - README.md
   - CNAME
 
-gems:
+plugins:
   - jekyll/tagging
   - jekyll-tagging-related_posts
