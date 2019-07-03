@@ -13,7 +13,7 @@ Um dos maiores motivos pelos quais o Python é considerado a linguagem padrão p
 
 ### NumPy
 
-NumPy nos dá estruturas de dados, chamadas _arrays_, inclusive _array n-dimensional_, que tornam o trabalho com dados numéricos mais simples e mais rápido se tívessemos que usar o Python puro.
+NumPy nos dá estruturas de dados, chamadas _arrays_, que tornam o trabalho com dados numéricos mais simples e mais rápido se tívessemos que usar o Python puro.
 
 ### Pandas
 
