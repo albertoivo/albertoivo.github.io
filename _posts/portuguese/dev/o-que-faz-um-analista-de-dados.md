@@ -1,12 +1,19 @@
-Como iniciar a carreira de Analista de Dados com Python?
+---
+layout: post
+title: Carreira de um Cientista de Dados
+category: Dev
+tags: [análise de dados, data science]
+---
 
-## Ferramentas Essenciais
+Como iniciar a carreira de Cientista de Dados com Python?
 
-Para começar, três pacotes que são essenciais para trabalhar com análise de dados: `NumPy`, `Pandas` e `Matplotlib`.
+## Por que Python?
+
+Um dos maiores motivos pelos quais o Python é considerado a linguagem padrão para a ciência de dados são seus poderosos pacotes. `NumPy`, `Pandas` e `Matplotlib` são três pacotes principais para análise de dados que vou falar aqui.
 
 ### NumPy
 
-NumPy nos dá estruturas de dados, chamadas _Arrays_, que tornam o trabalho com dados numéricos mais simples e mais rápido se tívessemos que usar o Python puro.
+NumPy nos dá estruturas de dados, chamadas _arrays_, inclusive _array n-dimensional_, que tornam o trabalho com dados numéricos mais simples e mais rápido se tívessemos que usar o Python puro.
 
 ### Pandas
 
@@ -16,19 +23,19 @@ Pandas nos ajuda a manipular e analisar dados com seus _Data Frames_ super poder
 
 Matplotlib é um pacote para construir visualizações de dados. Com ele podemos fazer desde gráficos simples com poucas linhas de código e também criar imagens profissionais.
 
-## Trabalho do Analista de Dados
+## Trabalho do Cientista de Dados
 
-Uma coisa que não falta é trabalho para um bom Analista de Dados.
+Uma coisa que não falta é trabalho para um bom Cientista de Dados.
 
-Sabe quando o YouTube te sugere novos vídeos ou o Facebook te mostra novos _posts_ na sua _timeline_ e eles são a sua cara? Isso foi um trabalho de um analista de dados.
+Sabe quando o YouTube te sugere novos vídeos ou o Facebook te mostra novos _posts_ na sua _timeline_ e eles são a sua cara? Isso foi um trabalho de um cientista de dados.
 
-Mas não se resume apenas às maiores empresas do mundo.
+Mas a análise de dados não se resume apenas às maiores empresas do mundo.
 
 A OkCupid, por exemplo, usou a análise de dados para prever têm chances de provar bons pares românticos e ainda estudou as melhores perguntas para se fazer no primeiro enocntro.
 
 O Walmart vê o histórico de compras e os posts dos clientes nas redes sociais para saber quais os produtos oferecer em maior quantidade e fazer promoções.
 
-Já no mundo dos esportes, Bill James é famoso por aplicar a análse de dados ao Beisebol. Ele a usou para saber quais jogadores teriam um melhor aproveitamento e para prever desempenhos futuros.
+Já no mundo dos esportes, o americano Bill James é famoso por aplicar a análse de dados ao Beisebol. Ele a usou para saber quais jogadores teriam um melhor aproveitamento e para prever desempenhos futuros.
 
 A indústria farmacêutica tem usado o aprendizado de máquina para prever quais compostos químicos tem mais chances de gerar remédios eficazes.
 
@@ -71,3 +78,9 @@ Se os passos de preparação e exploração tiverem sido bem feitos, a conclusõ
 Por exemplo: que produtos costumam ser mais vendidos em determinada época do ano ou até hora do dia? Podemos prever, quais alunos tem maiores chances de ser reprovados e tentar ajudá-los.  
 
 ### Comunicar
+
+Você geralmente precisa (e quer) compartilhar seus resultados. Ou, se seu objetivo final é construir um sistema, você geralmente precisa compartilhar o que você criou, explicar como chegou às decisões de design e relatar o desempenho.
+
+Há muitas maneiras de comunicar os resultados: relatórios, apresentações de slides, postagens de blogs, e-mails, apresentações ou até mesmo conversas.
+
+A visualização de dados será sempre muito valiosa.
