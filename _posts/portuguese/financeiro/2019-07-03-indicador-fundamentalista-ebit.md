@@ -30,16 +30,18 @@ Alguns sites, como o [Fundamentus](http://www.fundamentus.com.br/), já informam
 
 Se o **EBIT** da empresa for insatisfatório, ela terá que aumentar sua receita, diminuir suas despesas ou ambos para melhorar sua performance.
 
-### Para que serve?
+### Para que serve e como usá-lo?
 
 O EBIT é uma medida especialmente útil porque ajuda a identificar a capacidade de uma empresa de gerar lucros suficientes para ser lucrativa, pagar dívidas e financiar operações contínuas.
-
-### EBIT e os impostos
 
 O EBIT também é útil para investidores que estão comparando várias empresas com diferentes situações tributárias.
 
 Por exemplo, digamos que um investidor esteja pensando em comprar ações de uma determinada empresa. O EBIT pode ajudar a identificar o lucro operacional dela sem os impostos serem incluídos na análise.
 
-Se a empresa tiver recebido recentemente um incentivo fiscal ou se tiver acontecido um corte nos impostos, o lucro líquido dessa empresa aumentaria. No entanto, o EBIT remove os benefícios do corte de impostos da análise.
+Se a empresa tiver recebido recentemente um incentivo fiscal ou se tiver acontecido um corte nos impostos, o lucro líquido dessa empresa aumentaria. No entanto, o EBIT remove os benefícios do corte de impostos da análise e, portanto, permaneceria inalterado.
+
+Outro forma de usar esse indicador é compará-lo dentro da mesma empresa em períodos diferentes. Geralmente a comparação é feita trimestralmente ou anualmente. Procure por empresas que mantenham uma lucratividade estável durante os anos. 
+
+Um bom lugar para ver o gráfico desses indicadores é o site do [Pense Rico](https://vicenteguimaraes.penserico.com/).
 
 > Nenhum Indicador Fundamentalista deve ser analisado individualmente. Antes de decidir qual a empresa deseja ser sócio, estude vários indicadores assim como o balanço patrimonial e os resultados da empresa. 
