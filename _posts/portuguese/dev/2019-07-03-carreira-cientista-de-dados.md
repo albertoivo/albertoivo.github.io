@@ -2,7 +2,7 @@
 layout: post
 title: Carreira de um Cientista de Dados
 category: Dev
-tags: [análise de dados, data science]
+tags: [análise de dados, data science, python]
 ---
 
 Como iniciar a carreira de Cientista de Dados com Python?
