@@ -9,7 +9,7 @@ tags: [Análise Quantitativa, desvio padrão, variância]
 
 Neste post, vou explicar os dois últimos: `Desvio Padrão` e `Variância`.
 
-Antes, gostaria de deixar claro que dificilmente vamos calcular essas duas medidas na mão. Seria inviável fazer isso com um grande conjunto de dados. Para isso há diversos softwares que fazem esse cálculo. Mas eu acredito que para entendê-los bem, é bom entender seu cálculo e como chegou ao resultado.
+Antes, gostaria de deixar claro que dificilmente vamos calcular essas duas medidas manualmente. Seria inviável fazer isso com um grande conjunto de dados. Para isso há diversos softwares que fazem esse cálculo. Mas eu acredito que para entendê-los bem, é bom entender seu cálculo e como chegou ao resultado.
 
 O **Desvio Padrão** e a **Variância** nos diz qual é a média da distância de todos os pontos para o valor médio do conjunto.
 
