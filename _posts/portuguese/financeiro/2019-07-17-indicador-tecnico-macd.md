@@ -21,6 +21,6 @@ Vejamos o exemplo abaixo de **Fleury (FLRY3)**. <span style="color:blue;">A linh
 
 O MACD é bem popular na análise técnica, pois dá aos investidores a capacidade de identificar rápida e facilmente a direção da tendência de curto prazo.
 
-Esse indicador tem muitos pontos fortes, mas não é infalível. Sempre use outro inidicador para confirmar os sinais produzidos pelo MACD.
+Esse indicador tem muitos pontos fortes, mas não é infalível. Sempre use outro indicador para confirmar os sinais produzidos pelo MACD.
 
 > Existem centenas de indicadores técnicos e nenhum é garantia de sucesso. Sempre utilize mais de um indicador para basear suas operações.
