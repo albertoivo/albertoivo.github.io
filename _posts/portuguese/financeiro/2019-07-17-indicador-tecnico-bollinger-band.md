@@ -5,7 +5,7 @@ category: Bolsa de Valores
 tags: [indicador tecnico, bollinger bands]
 ---
 
-Bandas de Bollinger® consiste em uma linha central e dois canais de preços (bandas) acima e abaixo dela. A linha central é uma média móvel simples; os canais de preços são os desvios padrão da ação.
+**Bandas de Bollinger®** identifica os pontos de alta e baixa volatilidade de uma ação. Embora possa ser um verdadeiro desafio prever preços futuros e ciclos de preços, as mudanças e os ciclos de volatilidade são relativamente fáceis de identificar. Isso ocorre porque as ações se alternam entre períodos de oscilação com uma maior ou menor intensidade.
 
 ## Por que Desvio Padrão?
 
