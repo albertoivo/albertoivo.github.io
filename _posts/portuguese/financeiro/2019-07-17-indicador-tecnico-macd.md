@@ -13,7 +13,7 @@ tags: [indicador tecnico, macd]
 - Quando a linha de MACD cruza a _Signal Line_ para **cima**, há uma indicação de **compra**.
 - Quando a linha de MACD cruza a _Signal Line_ para **baixo**, há uma indicação de **venda**.
 
-Vejamos o exemplo abaixo de **Fleury (FLRY3)**. <span style="color:blue;">A linha de MACD está em azul.</span> <span style="color:orange;">E a Signal Line é a laranja.</span>
+Vejamos o exemplo abaixo de **Fleury (FLRY3)**. A **linha de MACD** está em **azul**. E a **_Signal Line_** é a **laranja**.
 
 ![](../../../images/fleury-macd.png)
 
