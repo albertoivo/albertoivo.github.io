@@ -17,15 +17,14 @@ layout: default
   </div>
 
   <a href="https://github.com/albertoivo/albertoivo.github.io/blob/master/{{ page.path }}" rel="noopener noreferrer" target="_blank">
-    <i class="svg-icon-md github" style="vertical-align: middle;"></i>Edit this post on GitHub
+    <i class="svg-icon-md github" style="vertical-align: middle; margin-right: 10px;"></i>Edit this post on GitHub
   </a>
 
-  <a class="share-button facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}" rel="noopener noreferrer"
-     target="_blank">
+  <a class="share-button facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}" rel="noopener noreferrer" target="_blank">
     Share on Facebook
   </a>
 
-  {% if site.related_posts.size >= 1 %}
+  {% if site.related_posts.size > 0 %}
   <div>
     <h3>Related Posts</h3>
     <ul>

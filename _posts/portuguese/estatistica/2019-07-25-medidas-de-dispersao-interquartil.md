@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Análise Quantitativa - Amplitude Interquartil
+title: Análise Quantitativa - Medidas de Dispersão - Amplitude Interquartil
 category: Estatística
 tags: [Análise Quantitativa, interquartil]
 ---
 
-Uma das formas mais comuns de medir o _spread_ dos nossos dados é observar o resumo dos 5 números _(5-number summary)_ que nos dá valores para calcular a **Amplitude Interquartil**.
-
-O resumo dos 5 números nos dá os seguintes valores:
+Uma das formas mais comuns de medir o _spread_ dos nossos dados é observar o resumo dos 5 números _(5-number summary)_ que nos dá valores para calcular a **Amplitude Interquartil**:
 
 - **Máximo** - O maior valor do conjunto
 - **Terceiro Quartil (Q3)** - 75% dos dados estão abaixo dele
@@ -103,3 +101,11 @@ Então temos que:
 | Min |  Q1 |  Q2 |  Q3 | Máx |
 |:---:|:---:|:---:|:---:|:---:|
 |  1  | 2,5 |  4  |  9  | 105 |
+
+## Conclusão
+
+Bem, a **amplitude interquartil** é muito boa para vermos o quão **disperso** está o nosso conjunto de dados. Quanto maior a distância entre `Mínimo`, `Q1`, `Q2`, `Q3` e `Máximo`, mais diperso estão os dados.
+
+### Mas tem um problema
+
+Calcular 5 números e analisar cada um deles para checar a dispersão dos dados pode dar muito trabalho. Por isso, temos o [Desvio Padrão](https://albertoivo.github.io/medidas-de-dispersao/), que nos dá a dispersão dos dados representado em um **único** número.

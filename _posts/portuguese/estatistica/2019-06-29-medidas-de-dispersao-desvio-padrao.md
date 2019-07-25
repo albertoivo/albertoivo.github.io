@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Análise Quantitativa - Medidas de Dispersão
+title: Análise Quantitativa - Medidas de Dispersão - Desvio Padrão
 category: Estatística
 tags: [Análise Quantitativa, desvio padrão, variância]
 ---
