@@ -17,7 +17,7 @@ O resumo dos 5 números nos dá os seguintes valores:
 
 _Obs.: Antes de começarmos aqui, é importante entender bem o que é_ [MEDIANA](https://albertoivo.github.io/medidas-de-centro/).
 
-# Primeiro exemplo: conjunto de dados com número PAR
+## Primeiro exemplo: conjunto de dados com número PAR
 
 Considere o seguinte conjunto de dados:
 
@@ -53,7 +53,7 @@ Então:
 |:---:|:---:|:---:|:---:|:---:|
 |  1  |  2  |  3  |  8  | 10  |
 
-# Segundo exemplo: conjunto de dados com número ÍMPAR
+## Segundo exemplo: conjunto de dados com número ÍMPAR
 
 Agora vamos considerar o seguinte conjunto de dados:
 
