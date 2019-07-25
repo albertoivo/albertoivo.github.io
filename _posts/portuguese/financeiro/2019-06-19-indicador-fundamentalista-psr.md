@@ -7,8 +7,6 @@ tags: [indicador fundamentalista, psr]
 
 O **Índice Preço/Vendas (PSR - em inglês)** compara o preço das ações de uma empresa com suas receitas. É um indicador do valor colocado em cada R$ das vendas ou receitas de uma empresa.
 
-O PSR de uma empresa deve ser comparado apenas com outras empresas do mesmo setor. Nunca setores diferentes. Não tem sentido em comparar o Itaú com a Petrobras, por exemplo.
-
 Um PSR mais baixo, geralmente significa que preço da ação está sendo subvalorizado pelo mercado. Da mesma forma, um PSR mais alto pode indicar que o preço da ação está supervalorizado.
 
 ### Como calcular o PSR
@@ -22,14 +20,18 @@ _* Valor de Mercado = Número de ações na bolsa de valores X valor da ação_
 <p class="example">
     A empresa fictícia Nossas Rotas teve uma receita líquida de <b>R$600M</b> neste ano.<br />
     Ela possui <b>20M</b> de ações no mercado e cada uma custa <b>R$25</b>.<br />
-    Sendo assim: Valor de Mercado por Ação => 20M x 25 => R$500M.<br />
+    Sendo assim:<br />
+    <b>Valor de Mercado = 20M x 25</b><br />
+    <b>Valor de Mercado = R$500M</b><br />
+    Então:<br />
     <b>PSR = R$500M / R$600M</b><br />
-    <b>PSR = 0.83<br /></b>
-    Supondo que a <b>média do setor</b> que a Nossas Rotas atua seja de <b>1.2</b>, então podemos concluir que suas ações estão <b>subvalorizadas</b> pelo mercado.<br />
+    <b>PSR = 0.83</b><br />
+    <br />
+    Supondo que a <b>média do setor</b> que a Nossas Rotas atua seja de <b>1.2</b>, então podemos concluir que suas ações estão <b>subvalorizadas</b> pelo mercado.<br /><br />
     Agora vamos supor uma previsão futura onde a receita líquida do ano seguinte está prevista para <b>R$400M</b>.<br />
     Então:<br />
     <b>PSR = R$500M / R$400M</b><br />
-    <b>PSR = 1.25</b><br />
+    <b>PSR = 1.25</b><br /><br />
     Note agora que o PSR ficou levemente maior que a média do setor de <b>1.2</b>. Ou seja, as ações podem estar supervalorizadas e o mercado começou a precificar com antecedência.<br />
 </p>
 
@@ -59,7 +61,7 @@ Da mesma forma, o preço das ações da DMMO3, PRIO3 e ENAT3 estão supervaloriz
 
 Em geral, PSR entre 1 e 2 são considerados bons. E menor que 1 é considerado excelente.
 
-Mas como com todas as métricas de avaliação de patrimônio, a média do PSR pode variar significativamente entre os setores. Por isso é importante comparar apenas PSR de empresas semelhantes que atuam no mesmo segmento.
+Mas como com todas as métricas de avaliação de patrimônio, a média do PSR pode variar significativamente entre os setores. Por isso é importante comparar apenas PSR de empresas semelhantes que atuam no mesmo segmento. Nunca setores diferentes. Não tem sentido em comparar o Bradesco com a Petrobras, por exemplo.
 
 ## Quando usar o PSR?
 

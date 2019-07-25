@@ -48,7 +48,7 @@ Cada empresa tem a sua política de dividendos. Importante salientar que os divi
 
 ### Endividamento
 
-Sempre verifique a saúde financeira da empresa. Empresas com o alto índice de endividamento provalvemente não manterá uma alta distribuição de dividendos por muito tempo.
+Sempre verifique a saúde financeira da empresa. Empresas com o alto índice de endividamento provavelmente não manterá uma alta distribuição de dividendos por muito tempo.
 
 Basicamente, existem duas métricas para verificar o endividamento da empresa. Mas para falar delas, antes vamos entender o que é **dívida líquida**:
 
@@ -92,7 +92,7 @@ Agora vamos às métricas:
         <b>Div. Liq. Lucro Operac. = 2x o seu lucro</b>
     </p>
     
-    > Procure empresas com dívida **inferior a 3x** o seu lucro operacional.
+    > Procure empresas com dívida **inferior** o seu lucro operacional.
 
 > As informações sobre _dívidas_ e _dividend yield_ estão disponíveis no site do [Fundamentus](http://www.fundamentus.com.br/).
 
