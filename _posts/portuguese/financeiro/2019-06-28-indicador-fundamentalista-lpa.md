@@ -33,7 +33,7 @@ Alguns sites, como o [Fundamentus](http://www.fundamentus.com.br/), já informam
 
 ### O que podemos concluir dos exemplos acima?
 
-A empresa <b>A</b> teve um LPA maior que a empresa <b>B</b> mesmo esta última tendo reportado um lucro maior.
+A empresa **A** teve um LPA maior que a empresa **B** mesmo esta última tendo reportado um lucro maior.
 
 Por isso apenas o LPA não é suficiente e não deve ser o único indicador a ser olhado. Assim como é recomendável que seja usado para comparar empresas do mesmo segmento de atuação. Ou seja, com seus concorrentes diretos.
 
