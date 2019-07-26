@@ -395,9 +395,13 @@ footer {
   font-family: monospace, "Times New Roman", Times, serif;
 }
 
+table {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 table, th, td {
   border: 1px solid black;
-
 }
 
 td, th {

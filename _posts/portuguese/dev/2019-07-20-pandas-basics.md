@@ -5,15 +5,13 @@ category: Dev
 tags: [python, pandas]
 ---
 
-
-
 **Pandas** é uma biblioteca open source, licenciada pelo BSD, que fornece estruturas de dados de alto desempenho, fáceis de usar e ferramentas de análise de dados para a linguagem de programação Python.
 
 Se você é programador e gosta da área financeira ou é da área financeira e gosta de programar, é essencial conhecer a linguagem de programação Python junto com a biblioteca Pandas.
 
 Quando vamos analisar ações da bolsa de valores, nós pegamos através de uma API externa que nos retorna todos os valores de uma ação em um determinado período na forma de um objeto do Pandas chamado [Dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html).
 
-De acordo com a documentação oficial, um Dataframe é:
+De acordo com a documentação oficial, um **Dataframe** é:
 
 >  Estrutura de dados tabulares bidimensionais mutáveis, potencialmente heterogêneos, com eixos rotulados (linhas e colunas).
 
@@ -21,33 +19,27 @@ O Dataframe possui diversas funções para ser manipulado. Vamos ver algumas del
 
 Vamos começar importando o Pandas e chamá-lo de `pd`.
 
-
 ```python
 import pandas as pd
 ```
 
 Agora vamos ler o [CSV](./petrobras.csv) com os valores das ações preferenciais da Petrobras (PETR4) do ano de 2018:
 
-
 ```python
-# Uma das colunas desse CSV é o dia, vamos setar essa coluna como o índice do csv também.
+# Uma das colunas desse CSV é o `Date`.
+# Vamos setar essa coluna como o índice do dataframe com o parâmetro `index_col`.
 
 petrobras = pd.read_csv('petrobras.csv', index_col='Date')
 ```
 
 O `read_csv` lê um CSV e retorna um Dataframe com todos os valores. Para confirmar o tipo do objeto:
 
-
 ```python
 type(petrobras)
-
 pandas.core.frame.DataFrame
 ```
 
-
-
 Para lermos as 5 primeiras linhas do nosso dataframe, usamos o método `head()`. Se quisermos ler um número de linhas diferente de 5, basta passar por parâmetro o número desejado.
-
 
 ```python
 petrobras.head()
@@ -63,10 +55,7 @@ petrobras.head()
 |2018-01-05|16.860001|16.570000|16.700001|16.830000|26958200.0|16.060867|0.005977|
 |2018-01-08|17.030001|16.709999|16.740000|17.030001|28400000.0|16.251730|0.011884|
 
-
-
 Já para lermos as últimas 5 linhas do dataframe, temos o `tail()`. Aqui também podemos passar por parâmetro o número de linhas desejado.
-
 
 ```python
 petrobras.tail()
@@ -74,19 +63,15 @@ petrobras.tail()
 # petrobras.tail(11)
 ```
 
-
-Date|High|Low|Open|Close|Volume|Adj Close|Retorno Diário
+|Date|High|Low|Open|Close|Volume|Adj Close|Retorno Diário|
 |----|----|---|----|-----|------|---------|--------------|
-2018-12-20|22.32|21.350000|22.309999|21.490000|141767000.0|20.682493|-0.034157
-2018-12-21|21.98|21.250000|21.400000|21.549999|90384300.0|20.740236|0.002792
-2018-12-26|21.68|20.420000|20.590000|21.680000|77104200.0|21.583012|0.040635
-2018-12-27|21.98|21.280001|21.520000|21.670000|74083700.0|21.573057|-0.000461
-2018-12-28|22.83|22.080000|22.110001|22.680000|61634700.0|22.578539|0.046608
+|2018-12-20|22.32|21.350000|22.309999|21.490000|141767000.0|20.682493|-0.034157|
+|2018-12-21|21.98|21.250000|21.400000|21.549999|90384300.0|20.740236|0.002792|
+|2018-12-26|21.68|20.420000|20.590000|21.680000|77104200.0|21.583012|0.040635|
+|2018-12-27|21.98|21.280001|21.520000|21.670000|74083700.0|21.573057|-0.000461|
+|2018-12-28|22.83|22.080000|22.110001|22.680000|61634700.0|22.578539|0.046608|
 
-
-
-Note lá em cima como lemos o CSV, um dos parêmetros foi `index_col='Date'`. Isso fez com que a coluna `Date` do CSV virasse o índice do nosso dataframe. Para confirmar isso basta:
-
+Para ver todos os índices do dataframe:
 
 ```python
 petrobras.index
@@ -116,7 +101,7 @@ petrobras.describe()
 ```
 
 ||High|Low|Open|Close|Volume|Adj Close|Retorno Diário|
-|----|---|----|-----|------|---------|--------------|
+|-----|---|----|-----|------|---------|--------------|
 |count|246.000000|246.000000|246.000000|246.000000|2.460000e+02|246.000000|246.000000|
 |mean|21.393821|20.651748|21.037520|21.000081|6.684552e+07|20.103414|0.002116|
 |std|3.266526|3.172321|3.234649|3.205470|3.198269e+07|3.091664|0.033054|
@@ -127,7 +112,6 @@ petrobras.describe()
 |max|28.330000|27.410000|28.260000|28.160000|2.403438e+08|26.994181|0.141336|
 
 Para ordenarmos o dataframe por uma coluna específica, temos o método `sort_values` e nele passamos por parêmetro `by` o nome da coluna que desejamos ordenar.
-
 
 ```python
 petrobras.sort_values(by='Retorno Diário')
@@ -152,7 +136,7 @@ petrobras['Adj Close']
     2018-01-02    15.793664
     2018-01-03    15.936812
     2018-01-04    15.965438
-                    ...    
+    ...           ...    
     2018-12-26    21.583012
     2018-12-27    21.573057
     2018-12-28    22.578539
@@ -198,7 +182,7 @@ petrobras.loc['2018-03-01':'2018-03-10', ['Volume', 'Adj Close']]
 ```
 
 |Date|Volume|Adj Close|
-|---|------|---------|
+|----|------|---------|
 |2018-03-01|66380900.0|20.068930|
 |2018-03-02|52682900.0|20.526993|
 |2018-03-05|54242600.0|21.109116|
@@ -214,7 +198,7 @@ petrobras.iloc[55:60, 0:2]
 ```
 
 |Date|High|Low|
-|---|----|---|
+|----|----|---|
 |2018-03-22|22.040001|21.580000|
 |2018-03-23|22.110001|21.530001|
 |2018-03-26|22.200001|21.840000|
@@ -274,4 +258,3 @@ petrobras['Retorno Diário'].plot(figsize=(17,6))
 ```
 
 ![](../../../images/petr4-plot-retorno-diario-2018.png)
-
