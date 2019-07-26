@@ -13,7 +13,7 @@ Um dos maiores motivos pelos quais o Python é considerado a linguagem padrão p
 
 ### NumPy
 
-NumPy nos dá estruturas de dados, chamadas _arrays_, que tornam o trabalho com dados numéricos mais simples e mais rápido se tívessemos que usar o Python puro.
+NumPy nos dá estruturas de dados, chamadas _arrays_, que tornam o trabalho com dados numéricos mais simples e mais rápido se tívessemos que usar o Python (ou qualquer outra linguagem) puro.
 
 ### Pandas
 
@@ -31,7 +31,7 @@ Sabe quando o YouTube te sugere novos vídeos ou o Facebook te mostra novos _pos
 
 Mas a análise de dados não se resume apenas às maiores empresas do mundo.
 
-A OkCupid, por exemplo, usou a análise de dados para prever têm chances de provar bons pares românticos e ainda estudou as melhores perguntas para se fazer no primeiro enocntro.
+A OkCupid, por exemplo, usou a análise de dados para prever pessoas que possam formar bons pares românticos e ainda estudou as melhores perguntas para se fazer no primeiro encontro.
 
 O Walmart vê o histórico de compras e os posts dos clientes nas redes sociais para saber quais os produtos oferecer em maior quantidade e fazer promoções.
 
@@ -53,7 +53,7 @@ Você tanto pode receber dados e fazer perguntas com base nele ou fazer pergunta
 
 O que estamos tentando descobrir com esses dados? Que problema estamos tentando resolver?
 
-Estamos na era da informação onde podemos lidar com muitos dados de formas variadas. A pergunta certa ajuda a se concentrar nas partes relevantes dos dados e direcionar sua análise para o que é realmente relevante.
+Estamos na era da informação onde podemos lidar com muitos dados de formas variadas. A pergunta certa ajuda a se concentrar nas partes relevantes dos dados e direcionar sua análise para o que é realmente importante.
 
 ### Preparar
 
@@ -65,7 +65,7 @@ Em outras palavras, depois de reunir (ou coletar) os dados necessários para res
 
 Este passo é onde o analista busca explorar e aumentar seus dados para maximizar o potencial de sua análise, visualização e modelos.
 
-Explorar envolve encontrar padrões nos dados, visualizar relações e saber com o que estamos trabalhando. Ao fazer isso, pdemos ter a necessidade de remover valores discrepantes (_outliers_) e/ou criar recursos novos e mais descritivos a partir dos dados em mãos. Também conhecido "engenharia de recursos".
+Explorar envolve encontrar padrões nos dados, visualizar relações e saber com o que estamos trabalhando. Ao fazer isso, pdemos ter a necessidade de remover valores discrepantes (_outliers_) e/ou criar recursos novos e mais descritivos a partir dos dados em mãos. Também conhecido como "engenharia de recursos".
 
 Modificar e projetar bem os dados e de forma criativa, pode aumentar significativamente a qualidade da análise.
 
@@ -73,9 +73,9 @@ Muitas vezes, é inevitável voltar aos passos anteriores. Seja porque descobrim
 
 ### Concluir
 
-Se os passos de preparação e exploração tiverem sido bem feitos, a conclusõ não deverá ser dificíl.
+Se os passos de preparação e exploração tiverem sido bem feitos, a conclusão não deverá ser difícíl.
 
-Por exemplo: que produtos costumam ser mais vendidos em determinada época do ano ou até hora do dia? Podemos prever, quais alunos tem maiores chances de ser reprovados e tentar ajudá-los.  
+Por exemplo: que produtos costumam ser mais vendidos em determinada época do ano ou até hora do dia? Um escola pode prever quais alunos tem maiores chances de ser reprovados e tentar ajudá-los antecipadamente.  
 
 ### Comunicar
 
