@@ -52,7 +52,7 @@ Se a quantidade de números for **ímpar**, basta ordenar e pegar o valor do mei
 <p class="example">
     Para a conjunto 1:<br />
     <b>3, 3, 5, 8, 9, 15, 45</b> (ordenado)<br />
-    <b>Mediana = 8</b><br />
+    <b>Mediana = 8</b>
 </p>
 
 Agora se a quantidade de números for **par**, depois de ordenar, temos que pegar os dois números do meio e calcular sua **média** ou dividir por 2.
@@ -61,7 +61,7 @@ Agora se a quantidade de números for **par**, depois de ordenar, temos que pega
     Para a conjunto 2:<br />
     <b>1, 2, 3, 3, 5, 8, 10, 105</b> (ordenado)<br />
     <b>Mediana = (3 + 5) / 2</b><br />
-    <b>Mediana = 4</b><br />
+    <b>Mediana = 4</b>
 </p>
 
 Note que nos dois exemplos, o valor da Mediana está exatamente no meio do conjunto de dados.
@@ -72,5 +72,5 @@ A Moda nos fornece o valor mais comum no conjunto de dados.
 
 <p class="example">
     Para ambos os conjuntos:<br />
-    <b>Moda = 3</b><br />
+    <b>Moda = 3</b>
 </p>

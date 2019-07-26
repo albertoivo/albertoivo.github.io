@@ -7,7 +7,7 @@ tags: [Análise Quantitativa, desvio padrão, variância]
 
 **Medidas de Dispersão** (ou _Measures of Spread_) são usadas para nos dar uma ideia de como os nossos dados se espalham (ou o quão distantes eles estão) uns dos outros. As mais comuns são: `Amplitude`, `Amplitude Interquartil`, `Desvio Padrão` e `Variância`. 
 
-Neste post, vou explicar os dois últimos: `Desvio Padrão` e `Variância`.
+Neste post, vou explicar os dois últimos: `Desvio Padrão` e `Variância`. A `Amplitude Interquartil` você pode ler neste [post](https://albertoivo.github.io/medidas-de-dispersao-interquartil/).
 
 Antes, gostaria de deixar claro que dificilmente vamos calcular essas duas medidas manualmente. Seria inviável fazer isso com um grande conjunto de dados. Para isso há diversos softwares que fazem esse cálculo. Mas eu acredito que para entendê-los bem, é bom entender seu cálculo e como chegou ao resultado.
 
@@ -86,4 +86,4 @@ O Desvio Padrão é usado para obter um único número para comparar a dispersã
 
 Quando essa informação diz respeito ao dinheiro ou à economia, um desvio padrão mais alto, costuma estar associado à riscos maiores.
 
-Comparando duas ações na bolsa de valores. Se o retorno diário da ação **A** durante um determinado período teve um desvio padrão maior do que a ação **B**, significa qua **A** oscilou mais que **B**.
+Comparando duas ações na bolsa de valores, por exemplo, se o retorno diário da ação **A** durante um determinado período teve um desvio padrão maior do que a ação **B** no mesmo período, significa que **A** oscilou mais que **B**. Em outras palavras: **A** é mais volátil que **B**.
