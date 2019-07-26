@@ -109,22 +109,22 @@ petrobras.columns
           dtype='object')
 ```
 
-Para calcularmos dados estatísticos como [média](https://albertoivo.github.io/medidas-de-centro/), e [desvio padrão (std)](https://albertoivo.github.io/medidas-de-dispersao/) de cada coluna do dataframe:
+Para calcularmos dados estatísticos como [média](https://albertoivo.github.io/medidas-de-centro/), [desvio padrão (std)](https://albertoivo.github.io/medidas-de-dispersao/) e [amplitude interquartil](https://albertoivo.github.io/interquartil/) de cada coluna do dataframe:
 
 ```python
 petrobras.describe()
 ```
 
-|High|Low|Open|Close|Volume|Adj Close|Retorno Diário
+||High|Low|Open|Close|Volume|Adj Close|Retorno Diário|
 |----|---|----|-----|------|---------|--------------|
-|count|246.000000|246.000000|246.000000|246.000000|2.460000e+02|246.000000|246.000000
-|mean|21.393821|20.651748|21.037520|21.000081|6.684552e+07|20.103414|0.002116
-|std|3.266526|3.172321|3.234649|3.205470|3.198269e+07|3.091664|0.033054
-|min|14.890000|14.170000|14.260000|14.500000|0.000000e+00|13.865026|-0.148577
-|25%|19.129999|18.405000|18.682500|18.719999|4.598482e+07|17.935410|-0.014510
-|50%|21.215000|20.520000|20.700001|20.709999|6.020400e+07|19.777866|0.002385
-|75%|23.165000|22.652500|23.005000|22.900000|7.806155e+07|21.988045|0.019487
-|max|28.330000|27.410000|28.260000|28.160000|2.403438e+08|26.994181|0.141336
+|count|246.000000|246.000000|246.000000|246.000000|2.460000e+02|246.000000|246.000000|
+|mean|21.393821|20.651748|21.037520|21.000081|6.684552e+07|20.103414|0.002116|
+|std|3.266526|3.172321|3.234649|3.205470|3.198269e+07|3.091664|0.033054|
+|min|14.890000|14.170000|14.260000|14.500000|0.000000e+00|13.865026|-0.148577|
+|25%|19.129999|18.405000|18.682500|18.719999|4.598482e+07|17.935410|-0.014510|
+|50%|21.215000|20.520000|20.700001|20.709999|6.020400e+07|19.777866|0.002385|
+|75%|23.165000|22.652500|23.005000|22.900000|7.806155e+07|21.988045|0.019487|
+|max|28.330000|27.410000|28.260000|28.160000|2.403438e+08|26.994181|0.141336|
 
 Para ordenarmos o dataframe por uma coluna específica, temos o método `sort_values` e nele passamos por parêmetro `by` o nome da coluna que desejamos ordenar.
 
@@ -143,10 +143,7 @@ petrobras.sort_values(by='Retorno Diário')
 |2018-10-08|26.969999|25.750000|26.940001|26.600000|188109000.0|25.498768|0.110184|
 |2018-05-29|19.440001|17.600000|18.000000|19.299999|181509800.0|18.454824|0.141336|
 
-
-
 Se quisermos apenas uma coluna do Dataframe:
-
 
 ```python
 petrobras['Adj Close']
@@ -162,14 +159,11 @@ petrobras['Adj Close']
     Name: Adj Close, Length: 246, dtype: float64
 ```
 
-
-
 Para trazer apenas algumas linhas no meio do dataframe, é só escrever o intervalo de linhas que precisa.
 
 Por exemplo, para retornar da décima primeira até a décima quinta linha, basta fazer [10:15].
 
 Lembrando que o número à esquerda dos _dois pontos_ é _zero-based_, por isso 10 é a décima primeira linha. Mas o número à direita é _one-based_, ou seja, a contagem começa do 1. Então 15 é 15 mesmo. =D
-
 
 ```python
 petrobras[10:15]
@@ -183,9 +177,7 @@ petrobras[10:15]
 |2018-01-19|18.420000|18.030001|18.309999|18.260000|33470200.0|17.425518|0.002195|
 |2018-01-22|18.469999|18.090000|18.260000|18.469999|33920000.0|17.625917|0.011500|
 
-
 Mas se quisermos ver as linhas através do índice, que é uma data:
-
 
 ```python
 petrobras['2018-10-01':'2018-10-05']
@@ -199,10 +191,7 @@ petrobras['2018-10-01':'2018-10-05']
 |2018-10-04|24.520000|23.209999|23.450001|24.020000|99743300.0|23.025579|0.009668|
 |2018-10-05|24.590000|23.660000|24.490000|23.959999|104693400.0|22.968063|-0.002498|
 
-
-
 E para ver apenas algumas colunas de algumas datas, usamos o método `loc`.
-
 
 ```python
 petrobras.loc['2018-03-01':'2018-03-10', ['Volume', 'Adj Close']]
@@ -218,9 +207,7 @@ petrobras.loc['2018-03-01':'2018-03-10', ['Volume', 'Adj Close']]
 |2018-03-08|36156800.0|20.708311|
 |2018-03-09|45560000.0|21.366777|
 
-
 Para fazer a mesma coisa que acima, mas ao invés de passar o índice propriamente dito e os nomes das colunas, passarmos o número da linha e da coluna, usamos o método `iloc`.
-
 
 ```python
 petrobras.iloc[55:60, 0:2]
@@ -237,7 +224,6 @@ petrobras.iloc[55:60, 0:2]
 Também podemos fazer condições.
 
 Por exemplo, quero ver todos os dias que houve uma alta maior que 10%:
-
 
 ```python
 petrobras[petrobras['Retorno Diário'] > 0.1]
@@ -262,7 +248,6 @@ petrobras[petrobras['Retorno Diário'] < -0.1]
 
 Para ver qual foi a média de retorno diário que essa ação teve:
 
-
 ```python
 media_diaria = petrobras['Retorno Diário'].mean()
 print('{}%'.format(round(media_diaria * 100, 3)))
@@ -270,11 +255,9 @@ print('{}%'.format(round(media_diaria * 100, 3)))
 0.212%
 ```
 
-
 E o desvio padrão (_std - standard deviation_).
 
 Obs.: o desvio padrão mede a volatilidade dos preços da ação. Quanto maior esse valor, mais volátil ela é.
-
 
 ```python
 petrobras['Retorno Diário'].std()
@@ -286,11 +269,9 @@ E para plotar um gráfico de uma determinada coluna, é tão simples quanto ver 
 
 Obs.: Abaixo eu passei mais um parâmetro que é o tamanho do gráfico: `figsize=()`.
 
-
 ```python
-petrobras['Retorno Diário'].plot(figsize=(17,6));
+petrobras['Retorno Diário'].plot(figsize=(17,6))
 ```
-
 
 ![](../../../images/petr4-plot-retorno-diario-2018.png)
 
