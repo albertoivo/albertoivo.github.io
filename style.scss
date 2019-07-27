@@ -429,7 +429,7 @@ tr:hover {
   line-height: 1;
   text-align: center;
   white-space: nowrap;
-  vertical-align: baseline;
+  vertical-align: super;
   border-radius: .25rem;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
