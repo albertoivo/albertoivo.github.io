@@ -23,7 +23,7 @@ Vamos começar importando o Pandas e chamá-lo de `pd`.
 import pandas as pd
 ```
 
-Agora vamos ler o [CSV](./petrobras.csv) com os valores das ações preferenciais da Petrobras (PETR4) do ano de 2018:
+Agora vamos ler o [CSV](../../../csv/petrobras.csv) com os valores das ações preferenciais da Petrobras (PETR4) do ano de 2018:
 
 ```python
 # Uma das colunas desse CSV é o `Date`.
