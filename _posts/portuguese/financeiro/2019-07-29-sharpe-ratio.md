@@ -5,7 +5,7 @@ category: Bolsa de Valores
 tags: [sharpe ratio]
 ---
 
-O _Sharpe Ratio_ foi desenvolvido pelo ganhador do Prêmio Nobel William F. Sharpe e tem sido uma das medidas de risco/retorno mais referenciadas utilizadas nas finanças.
+O _Sharpe Ratio_ foi desenvolvido pelo ganhador do Prêmio Nobel William F. Sharpe e tem sido uma das medidas de risco/retorno mais referenciadas nas finanças.
 
 Simplificando, o índice analisa o retorno médio de um investimento que tem um risco associado com um outro investimento livre de risco.
 
