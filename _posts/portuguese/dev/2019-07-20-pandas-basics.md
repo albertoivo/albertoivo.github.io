@@ -111,7 +111,7 @@ petrobras.describe()
 |75%|23.165000|22.652500|23.005000|22.900000|7.806155e+07|21.988045|0.019487|
 |max|28.330000|27.410000|28.260000|28.160000|2.403438e+08|26.994181|0.141336|
 
-Para ordenarmos o dataframe por uma coluna específica, temos o método `sort_values` e nele passamos por parêmetro `by` o nome da coluna que desejamos ordenar.
+Para ordenarmos o dataframe por uma coluna específica, temos o método `sort_values` e nele passamos por parâmetro `by` o nome da coluna que desejamos ordenar.
 
 ```python
 petrobras.sort_values(by='Retorno Diário')
