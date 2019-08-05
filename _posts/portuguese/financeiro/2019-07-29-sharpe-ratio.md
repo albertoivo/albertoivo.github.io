@@ -9,7 +9,7 @@ O _Sharpe Ratio_ foi desenvolvido pelo ganhador do Prêmio Nobel William F. Shar
 
 Simplificando, o índice analisa o retorno médio de um investimento que tem um risco associado com um outro investimento livre de risco.
 
-Ele compara, por exemplo, o retorno médio de uma carteira de ações na bolsa de valores com um investimento em renda fixa como um CDB que tem uma taxa de retorno livre de risco. Ele verifica se estamos sendo devidamente compensados pelo risco adicional assumido. 
+Ele compara, por exemplo, o retorno médio de uma carteira de ações na bolsa de valores com um investimento em renda fixa como um CDB que tem uma taxa de retorno livre de risco e verifica se estamos sendo devidamente compensados pelo risco adicional assumido. 
 
 De uma forma geral, quanto **maior** o valor do _Sharpe Ratio_, **mais atraente** é esse investimento que tem um risco associado. Mas se for um valor **negativo**, significa que a taxa livre de risco é maior do que o retorno do portfólio ou o retorno do portfólio deve ser negativo.
 
@@ -45,9 +45,9 @@ Portanto, uma estratégia para aumentar o _Sharpe Ratio_ é diversificar a carte
 
 Qual dos portfólios acima você escolheria?
 
-Caso você tenha escolhido o **portfólio A**, então você dá preferência a uma carteira de investimentos com uma menor volatilidade, que no mundo do investimentos, quer dizer um menor risco.
+Caso você tenha escolhido o **Portfólio A**, então você prefere uma carteira de investimentos com uma menor volatilidade que, no mundo do investimentos, quer dizer um menor risco. Neste caso você provavalmente deveria ter uma carteira com o _Sharpe Ratio_ mais **alto** possível.
 
-Neste caso você provavalmente deveria ter uma carteira com o _Sharpe Ratio_ mais **alto** possível. 
+Já se escolheu o **Portfólio C**, você está disposto a assumir riscos maiores para ter retornos maiores. Só analise bem o _risco x retorno_ desse investimento. No exemplo acima não vale a pena escolher o mais arriscado já que todos tem o mesmo retorno final. Mas em mercados eficientes, em geral, não é possível ganhar muito dinheiro sem assumir riscos. Em outras palavras: quanto maior o risco, maior a expectativa de ganhos.
 
 ### Conclusão
 
