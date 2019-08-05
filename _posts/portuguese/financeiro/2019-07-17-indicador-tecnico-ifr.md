@@ -15,8 +15,8 @@ Geralmente, o IFR é calculado sobre **14 períodos de tempo**.
 
 O IFR é exibido como um oscilador (um gráfico de linha que se move entre dois extremos) em um intervalo de **0 a 100**.
 
-- `IFR > 70` - O ativo pode estar _sobrecomprado_ portanto, pode haver uma indicação de **venda**.
-- `IFR < 30` - O ativo pode estar _sobrevendido_ portanto, pode haver uma indicação de **compra**.
+- `IFR > 70` - O ativo pode estar _sobrecomprado_, portanto, pode haver uma indicação de **venda**.
+- `IFR < 30` - O ativo pode estar _sobrevendido_, portanto, pode haver uma indicação de **compra**.
 
 ## Exemplo
 

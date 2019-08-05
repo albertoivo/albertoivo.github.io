@@ -13,7 +13,7 @@ O índice de **Preço/Valor Patrimonial por Ação (P/VPA)** é, basicamente, um
 
 _* Preço da ação (P) equivale ao preço de uma única ação num determinado período._
 
-_* Valor Patrimonial (VP) é ativo total da empresa subtraído do passivo total._
+_* Valor Patrimonial (VP) é o ativo total da empresa subtraído do passivo total._
 
 _* Valor Patrimonial por Ação (VPA) é o valor de patrimônio dividido pelo número de ações negociadas na bolsa de valores._   
 
