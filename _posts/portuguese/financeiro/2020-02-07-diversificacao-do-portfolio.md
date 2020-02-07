@@ -51,7 +51,7 @@ Quanto mais ativos tiver um portfólio, mais demorado será o gerenciamento. E *
 
 Fundamentalmente falando, a estratégia de disseminação da diversificação funciona nos dois sentidos, diminuindo o risco e a recompensa. Ou seja: risco menor, possível lucro menor no curto-prazo. Porém, como falado acima, a longo prazo há diversos estudos que comprovam um maior retorno.
 
-### Adianta apensa comprar várias ações diferentes e esperar?
+### Então adianta apenas comprar vários ativos de classes diferentes e esperar?
 
 **NÃO!!!**
 
@@ -59,5 +59,5 @@ Você deve sempre escolher boas empresas baseada na análise fundamentalista del
 
 Para apredenr um pouco mais como fazer essa análise, eu escrevi uma série de artigos relacionados à [Análise Fundamentalista](https://albertoivo.github.io/bolsa-de-valores/).
 
-> Discorda de algum ponto ou ficou com alguma dúvida, vamos conversar nos comentários. Quero muito saber o seu ponto de vista.
+> Discorda de algum ponto ou ficou com alguma dúvida? Vamos conversar nos comentários. Quero muito saber o seu ponto de vista.
 
