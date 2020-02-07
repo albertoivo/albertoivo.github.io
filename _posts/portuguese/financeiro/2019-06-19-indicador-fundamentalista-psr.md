@@ -61,7 +61,7 @@ Da mesma forma, o preço das ações da DMMO3, PRIO3 e ENAT3 estão supervaloriz
 
 Em geral, PSR entre 1 e 2 são considerados bons. E menor que 1 é considerado excelente.
 
-Mas como com todas as métricas de avaliação de patrimônio, a média do PSR pode variar significativamente entre os setores. Por isso é importante comparar apenas PSR de empresas semelhantes que atuam no mesmo segmento. Nunca setores diferentes. Não tem sentido em comparar o Bradesco com a Petrobras, por exemplo.
+Mas como em todas as métricas de avaliação de patrimônio, a média do PSR pode variar significativamente entre os setores. Por isso é importante comparar apenas PSR de empresas semelhantes que atuam no mesmo segmento. Nunca setores diferentes. Não tem sentido em comparar o Bradesco com a Petrobras, por exemplo.
 
 ## Quando usar o PSR?
 
