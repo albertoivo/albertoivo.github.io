@@ -2,7 +2,7 @@
 layout: post
 title: Treino Pliométrico para remadores
 category: Fitness
-tags: [rmeo, rowing, pliometria, força]
+tags: [remo, rowing, pliometria, força]
 ---
 
 Exercícios pliométricos são usados em programas para desenvolver potência muscular. Iniciantes conseguem ganhar potência apenas com treino de força, porém atletas mais experientes podem precisar de um treino mais específico para desenvolver potência. Este post vai indicar, a partir de estudos científicos, alguns exercícios pliométricos específicos para remadores. O que fazer e o que **não** fazer.
@@ -78,4 +78,4 @@ Treinar com menos repetições também permite que o atleta se concentre totalme
  
 ### Quando fazer o treino de pliometria e/ou força
 
-Pesquisas sobre treinamento simultâneo indicam interferência mínima entre treino de força e aeróbico quando as sessões são **divididas por pelo menos seis horas**. Mas se você não conseguir dividir as sessões assim, pesquisas indicam que é melhor treinar força antes do remo (o treino de força é melhor quando feito com os músculos não-fadigados). Mais detalhes aqui: [Concurrent Training Interference Effect in Rowing](https://rowingstronger.com/2019/07/29/interference-effect-rowing/) 
+Pesquisas sobre treinamento simultâneo indicam interferência mínima entre treino de força e aeróbico quando as sessões são **divididas por pelo menos seis horas**. Mas se você não conseguir dividir as sessões assim, pesquisas indicam que é melhor **treinar força antes do remo** (o treino de força é melhor quando feito com os músculos não-fadigados). Mais detalhes aqui: [Concurrent Training Interference Effect in Rowing](https://rowingstronger.com/2019/07/29/interference-effect-rowing/) 
