@@ -2,7 +2,7 @@
 layout: post
 title: Treino Pliométrico para remadores
 category: Fitness
-tags: [rmeo, rowing, pliometria, força]
+tags: [remo, rowing, pliometria, força]
 ---
 
 Exercícios pliométricos são usados em programas para desenvolver potência muscular. Iniciantes conseguem ganhar potência apenas com treino de força, porém atletas mais experientes podem precisar de um treino mais específico para desenvolver potência. Este post vai indicar, a partir de estudos científicos, alguns exercícios pliométricos específicos para remadores. O que fazer e o que **não** fazer.
