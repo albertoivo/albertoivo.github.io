@@ -16,6 +16,8 @@ layout: default
         <span class="badge badge-photograph">{{ post.category }}</span>
       {% elsif post.category == "Estatística" %}
         <span class="badge badge-estatistica">{{ post.category }}</span>
+      {% elsif post.category == "Fitness" %}
+      <span class="badge badge-fitness">{{ post.category }}</span>
       {% else %}
         <span class="badge badge-all">{{ post.category }}</span>
       {% endif %}
