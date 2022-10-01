@@ -57,7 +57,7 @@ Fundamentalmente falando, a estratégia de disseminação da diversificação fu
 
 Você deve sempre escolher boas empresas baseada na análise fundamentalista dela e rever, pelo menos, anualmente se continuam boas.
 
-Para apredenr um pouco mais como fazer essa análise, eu escrevi uma série de artigos relacionados à [Análise Fundamentalista](https://albertoivo.github.io/bolsa-de-valores/).
+Para aprender um pouco mais como fazer essa análise, eu escrevi uma série de artigos relacionados à [Análise Fundamentalista](https://albertoivo.github.io/bolsa-de-valores/).
 
 > Discorda de algum ponto ou ficou com alguma dúvida? Vamos conversar nos comentários. Quero muito saber o seu ponto de vista.
 
