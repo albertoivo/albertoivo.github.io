@@ -20,7 +20,3 @@ This blog is fully developed with [Jekyll](https://jekyllrb.com) and [Markdown](
 [albertoivo@gmail.com](mailto:albertoivo@gmail.com)
 
 You can also contact me through any social network that is in the footer of this page.
-
-<a style="display:inline-block;background-color:#FC5200;color:#fff;padding:5px 10px 5px 30px;font-size:11px;font-family:Helvetica, Arial, sans-serif;white-space:nowrap;text-decoration:none;background-repeat:no-repeat;background-position:10px center;border-radius:3px;background-image:url('http://badges.strava.com/logo-strava-echelon.png')" href='http://strava.com/athletes/19307969/badge' target="_clean">
-  Follow me on <b>Strava</b>
-</a>
