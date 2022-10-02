@@ -15,7 +15,7 @@ keywords:
 
 ## [Nanodegree React](https://br.udacity.com/course/react-nanodegree--nd019) - [Certificate](https://confirm.udacity.com/ATJGKTFF)
 
-* My Reads: [URL](https://my-reads-udacity.firebaseapp.com) - [GitHub](https://github.com/albertoivo/my-reads-reactnd)
+* My Reads: [Live App](https://my-reads-udacity.firebaseapp.com) - [GitHub](https://github.com/albertoivo/my-reads-reactnd)
     * React
 * Readable: [GitHub](https://github.com/albertoivo/readable-reactnd)
     * Redux
