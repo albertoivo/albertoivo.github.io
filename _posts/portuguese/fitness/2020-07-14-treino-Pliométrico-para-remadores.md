@@ -53,7 +53,7 @@ Não precisamos de pliometria para isso, ao contrário, esse tipo de treinamento
 
 > *"Baixa frequência (2-3 sessões por semana) e baixo volume (3-6 séries de 2-5 repetições) são os mais apropriados. Não é necessário realizar uma infinidade de exercícios pliométricos. Tirar o máximo proveito de um programa requer dominar os movimentos dos exercícios. Para a maioria dos atletas, dois ou três exercícios pliométricos ao mesmo tempo são suficientes para atingir o domínio do movimento e obter benefícios consideráveis."* [NSCA "Developing Power"](https://www.nsca.com/education/articles/kinetic-select/plyometric-exercises/)
 
-Treinar com menos repetições também permite que o atleta se concentre totalmente na execução com a técnica e potência adequadas. O foco mental deteriora-se em séries com muitas repetições, o que leva a um treinamento ineficaz, bem como a possíveis lesões resultantes de um lapso de foco ou falha na técnica. A execução do exercício de forma controlada, no intervalo de 2 a 10 repetições, gera um maior benefício, constrói força de maneira eficaz e reduz o risco de lesões comparados com repetições de 20+ repetições, por exemplo.
+Treinar com menos repetições também permite que o atleta se concentre totalmente na execução com a técnica e potência adequadas. O foco mental deteriora-se em séries com muitas repetições, o que leva a um treinamento ineficaz, bem como a possíveis lesões resultantes de um lapso de foco ou falha na técnica. A execução do exercício de forma controlada, no intervalo de 2 a 10 repetições, gera um maior benefício, constrói força de maneira eficaz e reduz o risco de lesões comparados com exercícios de 20+ repetições, por exemplo.
 
 ### Exercícios sugeridos para remadores
 
