@@ -7,3 +7,7 @@
 
 
 Just one more markdown blog....
+
+# To run:
+
+`jekyll serve`

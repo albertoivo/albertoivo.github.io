@@ -423,7 +423,7 @@ tr:hover {
 
 .badge {
   display: inline-block;
-  padding: .25em .4em;
+  padding: .35em .5em .25em .4em;
   font-size: 35%;
   font-weight: 700;
   line-height: 1;
@@ -482,6 +482,7 @@ p > code {
   border-width: 1px;
   border-style: solid;
   border-radius: .25rem;
+  padding: 7px 3px 0 3px;
 }
 
 a {
