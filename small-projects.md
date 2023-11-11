@@ -17,9 +17,9 @@ keywords:
 
 [https://smiles-flight-search.firebaseapp.com/](https://smiles-flight-search.firebaseapp.com/)
 
-É um pequeno site que busca voos da Smiles (Gol e mais de 50 cias aéreas.) A vantagem dele em relação ao próprio site da Smiles é poder pesquisar vários aeroportos ao mesmo tempo tanto na origem como destino em um período de dias.
+É um pequeno site que busca voos da Smiles (Gol e mais de 50 cias aéreas parceiras) A vantagem dele em relação ao próprio site da Smiles é poder pesquisar vários aeroportos ao mesmo tempo tanto na origem como no destino em um período desejado.
 
-Por exemplo, para ir do Brasil para Europa, você quer saber qual cidade para sair daqui e chegar lá seria mais barato, basta fazer:
+Por exemplo, para ir do Brasil para a Europa, você quer saber qual cidade para sair daqui e chegar lá seria mais barato, basta fazer:
 
 - Origem: GRU, GIG, REC, FOR
 
