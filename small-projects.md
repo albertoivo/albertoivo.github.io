@@ -21,11 +21,13 @@ keywords:
 
 Por exemplo, para ir do Brasil para Europa, você quer saber qual cidade para sair daqui e chegar lá seria mais barato, basta fazer:
 
-Origem: GRU, GIG, REC, FOR
-Destino: LIS, MAD, CDG, AMS
-Escolhe o período de saída.
+- Origem: GRU, GIG, REC, FOR
 
-E Pronto.
+- Destino: LIS, MAD, CDG, AMS
+
+- Escolhe o período de saída.
+
+E Pronto!
 
 O sistema fará todas as combinações dos aeroportos acima nos dias escolhidos.
 
