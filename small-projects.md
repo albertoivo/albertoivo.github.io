@@ -17,7 +17,7 @@ keywords:
 
 [https://smiles-flight-search.firebaseapp.com/](https://smiles-flight-search.firebaseapp.com/)
 
-É um pequeno site que busca voos da Smiles (Gol e mais de 50 cias aéreas.) A vantagem dele em relação ao próprio site da Smiles é poder pesqusar vários aeroportos ao mesmo tempo tanto na origem como destino em um período de dias.
+É um pequeno site que busca voos da Smiles (Gol e mais de 50 cias aéreas.) A vantagem dele em relação ao próprio site da Smiles é poder pesquisar vários aeroportos ao mesmo tempo tanto na origem como destino em um período de dias.
 
 Por exemplo, para ir do Brasil para Europa, você quer saber qual cidade para sair daqui e chegar lá seria mais barato, basta fazer:
 
@@ -33,4 +33,4 @@ O sistema fará todas as combinações dos aeroportos acima nos dias escolhidos.
 
 [https://fitness-charts.firebaseapp.com/](https://fitness-charts.firebaseapp.com/)
 
-Um pequeno site para converter Velocidade e Pace e informar o tempo que levaria correr 5km, 10km, Meia maratona e maratona.
+Um pequeno site para converter Velocidade e Pace e, também, informar o tempo que levaria correr 5km, 10km, Meia Maratona e Maratona.
