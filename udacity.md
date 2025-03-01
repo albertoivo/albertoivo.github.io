@@ -5,43 +5,62 @@ permalink: /udacity/
 keywords:
   - albertoivo
   - alberto ivo
-  - nossasrotas
-  - nossas rotas
   - udacity
+  - react
+  - python
+  - machine learning
 ---
 
+# 🎓 My Udacity Journey
 
-# Courses and projects:
+Here's a showcase of my educational journey through Udacity's Nanodegree programs and the projects I've completed along the way.
 
-## [Nanodegree React](https://br.udacity.com/course/react-nanodegree--nd019) - [Certificate](https://confirm.udacity.com/ATJGKTFF)
+## 🌟 React Nanodegree
+[![Certificate](https://img.shields.io/badge/Certificate-ATJGKTFF-blue)](https://confirm.udacity.com/ATJGKTFF)
 
-* My Reads: [Live App](https://my-reads-auth-dev.web.app/) - [GitHub](https://github.com/albertoivo/my-reads-reactnd)
-    * React
-* Readable: [GitHub](https://github.com/albertoivo/readable-reactnd)
-    * Redux
-* Mobile Flashcards: [GitHub](https://github.com/albertoivo/mobile-flashcards-reactnd)
-    * React-Native
+### Projects:
+1. **My Reads** - A book tracking application
+   - [📱 Live Demo](https://my-reads-auth-dev.web.app/) | [💻 Code](https://github.com/albertoivo/my-reads-reactnd)
+   - Technologies: `React`
 
-## [Nanodegree Full Stack Web Developer](https://br.udacity.com/course/full-stack-web-developer-nanodegree--nd004) - [Certificate](https://confirm.udacity.com/HZLDKNKE)
+2. **Readable** - A content and comment web app
+   - [💻 Code](https://github.com/albertoivo/readable-reactnd)
+   - Technologies: `React`, `Redux`
 
-* Log Analysis: [GitHub](https://github.com/albertoivo/log-analysis-fullstacknd)
-    * Python
-* Item Catalog: [GitHub](https://github.com/albertoivo/item-catalog-fullstacknd)
-    * Python
-    * Flask
-    * OAuth
-* Neighboorhood Map: [GitHub](https://github.com/albertoivo/neighborhood-map-knockout-fullstacknd)
-    * Knockout JS
-* Neighboorhood Map: [GitHub](https://github.com/albertoivo/neighborhood-map-react-fullstacknd)
-    * React
+3. **Mobile Flashcards** - A mobile learning app
+   - [💻 Code](https://github.com/albertoivo/mobile-flashcards-reactnd)
+   - Technologies: `React Native`
 
-## [Nanodegree Fundamentos de Inteligência Artificial & Machine Learning](https://br.udacity.com/course/fundamentos-machine-learning--nd109) - [Certificate](https://confirm.udacity.com/MTHUHJWW)
+## 🌟 Full Stack Web Developer Nanodegree
+[![Certificate](https://img.shields.io/badge/Certificate-HZLDKNKE-blue)](https://confirm.udacity.com/HZLDKNKE)
 
-* Chicago Bike Share: [GitHub](https://github.com/albertoivo/chicago-bikeshare-mlnd)
-    * Python
-* Boston House Price: [GitHub](https://github.com/albertoivo/boston-house-price-mlnd)
-    * Machine Learning
-    * Python
-    * Anaconda
-    * Jupyter Notebook
+### Projects:
+1. **Log Analysis**
+   - [💻 Code](https://github.com/albertoivo/log-analysis-fullstacknd)
+   - Technologies: `Python`
+
+2. **Item Catalog**
+   - [💻 Code](https://github.com/albertoivo/item-catalog-fullstacknd)
+   - Technologies: `Python`, `Flask`, `OAuth`
+
+3. **Neighborhood Map** (Two Versions)
+   - [💻 Knockout Version](https://github.com/albertoivo/neighborhood-map-knockout-fullstacknd)
+   - [💻 React Version](https://github.com/albertoivo/neighborhood-map-react-fullstacknd)
+   - Technologies: `KnockoutJS`, `React`
+
+## 🌟 AI & Machine Learning Fundamentals Nanodegree
+[![Certificate](https://img.shields.io/badge/Certificate-MTHUHJWW-blue)](https://confirm.udacity.com/MTHUHJWW)
+
+### Projects:
+1. **Chicago Bike Share Analysis**
+   - [💻 Code](https://github.com/albertoivo/chicago-bikeshare-mlnd)
+   - Technologies: `Python`, `Data Analysis`
+
+2. **Boston House Price Prediction**
+   - [💻 Code](https://github.com/albertoivo/boston-house-price-mlnd)
+   - Technologies: `Python`, `Machine Learning`, `Jupyter Notebook`, `Anaconda`
+
+---
+
+*All projects are open source and contributions are welcome! Feel free to explore the code and reach out if you have any questions.*
 
