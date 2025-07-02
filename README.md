@@ -10,4 +10,10 @@ Just one more markdown blog....
 
 # To run:
 
-`jekyll serve`
+
+```
+$ sudo apt update
+$ sudo apt install ruby-jekyll-sitemap ruby-jekyll-feed
+$ sudo apt install jekyll
+$ jekyll serve
+```
