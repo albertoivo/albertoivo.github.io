@@ -83,6 +83,56 @@ Let's practice:
   
   ```
 
+- The `filter()` method creates a new array with all elements that pass the test implemented by the provided function.
+
+  ```javascript
+  // Filter the list of people for those who were born in the 1980's
+  const eighties = people.filter(person => person.year >= 1980 && person.year < 1990);
+
+  console.table(eighties);
+  // Returns an array with Wes and Kait
+  ```
+
+- The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+  ```javascript
+  // Create an array of the people's names
+  const names = people.map(person => person.name);
+
+  console.log(names); // ['Wes', 'Kait', 'Irv', 'Lux']
+
+  // Create a new array with more information
+  const peopleWithAge = people.map(person => {
+      const age = new Date().getFullYear() - person.year;
+      return {
+          name: person.name,
+          age: age
+      }
+  });
+
+  console.table(peopleWithAge);
+  ```
+
+- The `reduce()` method executes a "reducer" function on each element of the array, resulting in a single output value.
+
+  ```javascript
+  // Calculate the total years of all the people combined
+  const totalYears = people.reduce((total, person) => {
+      return total + (new Date().getFullYear() - person.year);
+  }, 0); // The '0' is the initial value
+
+  console.log(totalYears);
+  ```
+
+- The `includes()` method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+
+  ```javascript
+  const numbers = [1, 2, 3, 4, 5];
+
+  console.log(numbers.includes(3)); // true
+  console.log(numbers.includes(99)); // false
+  ```
+
 - The `Array.isArray()` method determines whether the passed value is an Array.
 
   ```javascript
