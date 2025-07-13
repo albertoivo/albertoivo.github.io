@@ -3,13 +3,12 @@
 
 //
 // IMPORTS
-// All @use rules must be at the very top of the file.
 //
 
-@use "reset";
-@use "variables" as *;
-@use "highlights";
-@use "svg-icons";
+@import "reset";
+@import "variables";
+@import "highlights";
+@import "svg-icons";
 
 /**************/
 /* BASE RULES */
