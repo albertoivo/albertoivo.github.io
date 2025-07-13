@@ -11,3 +11,12 @@ Gemfile.lock
 node_modules
 package.json
 .jekyll-cache
+vendor
+.sass-cache
+jekyll-archives
+jekyll-assets
+jekyll-feed
+jekyll-sitemap
+jekyll-seo-tag
+jekyll-paginate
+jekyll-redirect-from
