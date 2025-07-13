@@ -3,11 +3,13 @@
 
 //
 // IMPORTS
+// All @use rules must be at the very top of the file.
 //
 
-@import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
+@use "reset";
+@use "variables" as *;
+@use "highlights";
+@use "svg-icons";
 
 /**************/
 /* BASE RULES */
@@ -489,8 +491,3 @@ a {
   target-name:new;
   target-new:tab;
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";

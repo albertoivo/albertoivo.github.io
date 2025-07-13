@@ -2,12 +2,10 @@
 layout: post
 title: "Understanding Your Data: A Friendly Guide to Descriptive Statistics"
 category: Dev
-tags: [ai]
-keywords:
-  - ai, engineering, descriptive statistics
+tags: [ai, statistics, data-analysis]
 ---
 
-Ever wondered how to make sense of a jumble of numbers? That's where **descriptive statistics** come in\! Think of descriptive statistics as your data's personal storyteller. It helps you summarize, organize, and simplify complex datasets without delving into complex conclusions or predictions. It's the first crucial step in any data analysis journey, giving you a clear picture of what you're working with.
+Ever wondered how to make sense of a jumble of numbers? That's where **descriptive statistics** come in! Think of descriptive statistics as your data's personal storyteller. It helps you summarize, organize, and simplify complex datasets without delving into complex conclusions or predictions. It's the first crucial step in any data analysis journey, giving you a clear picture of what you're working with.
 
 
 
@@ -116,40 +114,49 @@ The **variance** is simply the standard deviation squared. It's often used in st
 
 Let's calculate the standard deviation for our quiz scores (mean = 7.9):
 
-1.  **Calculate the difference from the mean for each data point:**
+**Step 1: Calculate the difference from the mean for each data point:**
 
-      * 6 - 7.9 = -1.9
-      * 7 - 7.9 = -0.9
-      * 7 - 7.9 = -0.9
-      * 7 - 7.9 = -0.9
-      * 8 - 7.9 = 0.1
-      * 8 - 7.9 = 0.1
-      * 8 - 7.9 = 0.1
-      * 9 - 7.9 = 1.1
-      * 9 - 7.9 = 1.1
-      * 10 - 7.9 = 2.1
+*   6 - 7.9 = -1.9
+*   7 - 7.9 = -0.9
+*   7 - 7.9 = -0.9
+*   7 - 7.9 = -0.9
+*   8 - 7.9 = 0.1
+*   8 - 7.9 = 0.1
+*   8 - 7.9 = 0.1
+*   9 - 7.9 = 1.1
+*   9 - 7.9 = 1.1
+*   10 - 7.9 = 2.1
 
-2.  **Square each of these differences:**
+**Step 2: Square each of these differences:**
 
-      * $(-1.9)^2 = 3.61$
-      * $(-0.9)^2 = 0.81$
-      * $(-0.9)^2 = 0.81$
-      * $(-0.9)^2 = 0.81$
-      * $(0.1)^2 = 0.01$
-      * $(0.1)^2 = 0.01$
-      * $(0.1)^2 = 0.01$
-      * $(1.1)^2 = 1.21$
-      * $(1.1)^2 = 1.21$
-      * $(2.1)^2 = 4.41$
+$$
+\begin{aligned}
+(-1.9)^2 &= 3.61 \\
+(-0.9)^2 &= 0.81 \\
+(-0.9)^2 &= 0.81 \\
+(-0.9)^2 &= 0.81 \\
+(0.1)^2  &= 0.01 \\
+(0.1)^2  &= 0.01 \\
+(0.1)^2  &= 0.01 \\
+(1.1)^2  &= 1.21 \\
+(1.1)^2  &= 1.21 \\
+(2.1)^2  &= 4.41
+\end{aligned}
+$$
 
-3.  **Sum the squared differences:**
-    $3.61 + 0.81 + 0.81 + 0.81 + 0.01 + 0.01 + 0.01 + 1.21 + 1.21 + 4.41 = 12.9$
+**Step 3: Sum the squared differences:**
 
-4.  **Divide by (n-1) for sample standard deviation (where n is the number of data points). We use (n-1) to get an unbiased estimate of the population standard deviation, which is more common in practice.**
-    $\\text{Variance} = \\frac{12.9}{10-1} = \\frac{12.9}{9} \\approx 1.433$
+$$3.61 + 0.81 + 0.81 + 0.81 + 0.01 + 0.01 + 0.01 + 1.21 + 1.21 + 4.41 = 12.9$$
 
-5.  **Take the square root of the variance to get the standard deviation:**
-    $\\text{Standard Deviation} = \\sqrt{1.433} \\approx 1.197$
+**Step 4: Divide by (n-1) for sample standard deviation.**
+
+(We use n-1 to get an unbiased estimate of the population standard deviation, which is more common in practice.)
+
+$$\text{Variance} = \frac{12.9}{10-1} = \frac{12.9}{9} \approx 1.433$$
+
+**Step 5: Take the square root of the variance to get the standard deviation:**
+
+$$\text{Standard Deviation} = \sqrt{1.433} \approx 1.197$$
 
 So, on average, a student's quiz score deviates by about 1.2 points from the mean score of 7.9.
 
