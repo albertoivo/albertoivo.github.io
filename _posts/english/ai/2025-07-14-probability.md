@@ -110,7 +110,7 @@ Imagine we have two bags of marbles.
 
 Suppose we randomly choose a bag (with equal probability) and then randomly draw a marble from that bag. What is the probability that the marble we draw is red *given* that we chose Bag A?
 
-The notation for conditional probability is $P(A|B)$, which reads as "the probability of event A occurring given that event B has occurred."
+The notation for conditional probability is $P(A/B)$, which reads as "the probability of event A occurring given that event B has occurred."
 
 In our marble example, let:
 
