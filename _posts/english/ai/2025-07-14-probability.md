@@ -124,7 +124,9 @@ Since Bag A has 5 red marbles and a total of 10 marbles, the probability of draw
 
 $$P(R|A) = \frac{\text{Number of red marbles in Bag A}}{\text{Total number of marbles in Bag A}} = \frac{5}{10} = 0.5$$
 
-Similarly, $P(R|B) = \\frac{3}{10} = 0.3$.
+Similarly
+
+$P(R|B) = \\frac{3}{10} = 0.3$.
 
 The formula for conditional probability is:
 
@@ -139,7 +141,11 @@ Let:
   * H1 = First flip is heads
   * H2 = Second flip is heads
 
-We want to find $P(H2|H1)$. Since the coin flips are independent events, the outcome of the first flip does not affect the outcome of the second flip. Therefore:
+We want to find
+
+$P(H2|H1)$
+
+Since the coin flips are independent events, the outcome of the first flip does not affect the outcome of the second flip. Therefore:
 
 $$P(H2|H1) = P(H2) = 0.5$$
 
@@ -150,11 +156,14 @@ Let:
   * A1 = The first card drawn is an Ace
   * A2 = The second card drawn is an Ace
 
-We want to find $P(A2|A1)$.
+We want to find 
+
+$P(A2|A1)$
 
   * The probability of the first card being an Ace, $P(A1) = \\frac{4}{52}$.
   * If the first card drawn was an Ace, there are now only 3 Aces left in a deck of 51 cards.
-  * Therefore, the probability of the second card being an Ace given the first was an Ace is $P(A2|A1) = \\frac{3}{51}$.
+  * Therefore, the probability of the second card being an Ace given the first was an Ace is:
+    $P(A2|A1) = \\frac{3}{51}$
 
 -----
 
@@ -168,10 +177,25 @@ $$P(A|B) = \frac{P(B|A) P(A)}{P(B)}$$
 
 Where:
 
-  * $P(A|B)$ is the **posterior probability** of hypothesis A being true given evidence B. This is what we want to find.
-  * $P(B|A)$ is the **likelihood** of observing evidence B if hypothesis A is true.
-  * $P(A)$ is the **prior probability** of hypothesis A being true before observing any evidence. This is our initial belief.
-  * $P(B)$ is the **marginal likelihood** or the probability of observing evidence B across all possible hypotheses. It can be calculated as $P(B) = P(B|A)P(A) + P(B|\\neg A)P(\\neg A)$, where $\\neg A$ represents the hypothesis that A is not true.
+  $P(A|B)$
+  
+  is the **posterior probability** of hypothesis A being true given evidence B. This is what we want to find.
+  
+  $P(B|A)$
+  
+  is the **likelihood** of observing evidence B if hypothesis A is true.
+  
+  $P(A)$
+  
+  is the **prior probability** of hypothesis A being true before observing any evidence. This is our initial belief.
+  
+  $P(B)$
+  
+  is the **marginal likelihood** or the probability of observing evidence B across all possible hypotheses. It can be calculated as 
+  
+  $P(B) = P(B|A)P(A) + P(B|\\neg A)P(\\neg A)$
+  
+  where $\\neg A$ represents the hypothesis that A is not true.
 
 Let's revisit our two bags of marbles example. Suppose we draw a red marble. What is the probability that it came from Bag A?
 
@@ -183,10 +207,20 @@ Let:
 
 We know:
 
-  * $P(R|A) = 0.5$ (Likelihood of drawing red if we chose Bag A)
-  * $P(R|B) = 0.3$ (Likelihood of drawing red if we chose Bag B)
+  $P(R|A) = 0.5$
+  
+  (Likelihood of drawing red if we chose Bag A)
+  
+  
+  $P(R|B) = 0.3$
+  
+  (Likelihood of drawing red if we chose Bag B)
 
-We want to find $P(A|R)$, the probability that we chose Bag A given that we drew a red marble.
+We want to find
+
+$P(A|R)$
+
+the probability that we chose Bag A given that we drew a red marble.
 
 Using Bayes' Rule:
 
