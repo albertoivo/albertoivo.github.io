@@ -118,19 +118,19 @@ In our marble example, let:
   * Event A = Choosing Bag A
   * Event B = Choosing Bag B
 
-We want to find $P(R|A)$, the probability of drawing a red marble given that we chose Bag A.
+We want to find $P(R/A)$, the probability of drawing a red marble given that we chose Bag A.
 
 Since Bag A has 5 red marbles and a total of 10 marbles, the probability of drawing a red marble if we've already chosen Bag A is simply:
 
-$$P(R|A) = \frac{\text{Number of red marbles in Bag A}}{\text{Total number of marbles in Bag A}} = \frac{5}{10} = 0.5$$
+$$P(R/A) = \frac{\text{Number of red marbles in Bag A}}{\text{Total number of marbles in Bag A}} = \frac{5}{10} = 0.5$$
 
 Similarly
 
-$P(R|B) = \\frac{3}{10} = 0.3$.
+$P(R/B) = \\frac{3}{10} = 0.3$.
 
 The formula for conditional probability is:
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+$$P(A/B) = \frac{P(A \cap B)}{P(B)}$$
 
 Where $P(A \\cap B)$ is the probability of both A and B occurring, and $P(B)$ is the probability of B occurring.
 
@@ -143,11 +143,11 @@ Let:
 
 We want to find
 
-$P(H2|H1)$
+$P(H2/H1)$
 
 Since the coin flips are independent events, the outcome of the first flip does not affect the outcome of the second flip. Therefore:
 
-$$P(H2|H1) = P(H2) = 0.5$$
+$$P(H2/H1) = P(H2) = 0.5$$
 
 However, let's think about a dependent scenario. Suppose we have a deck of 52 cards. We draw one card and don't replace it. What is the probability that the second card we draw is an Ace, given that the first card we drew was also an Ace?
 
@@ -158,12 +158,11 @@ Let:
 
 We want to find 
 
-$P(A2|A1)$
+$P(A2/A1)$
 
   * The probability of the first card being an Ace, $P(A1) = \\frac{4}{52}$.
   * If the first card drawn was an Ace, there are now only 3 Aces left in a deck of 51 cards.
-  * Therefore, the probability of the second card being an Ace given the first was an Ace is:
-    $P(A2|A1) = \\frac{3}{51}$
+  * Therefore, the probability of the second card being an Ace given the first was an Ace is $P(A2/A1) = \\frac{3}{51}$
 
 -----
 
@@ -173,27 +172,14 @@ $P(A2|A1)$
 
 In its simplest form, Bayes' Rule is stated as:
 
-$$P(A|B) = \frac{P(B|A) P(A)}{P(B)}$$
+$$P(A/B) = \frac{P(B/A) P(A)}{P(B)}$$
 
 Where:
 
-  $P(A|B)$
-  
-  is the **posterior probability** of hypothesis A being true given evidence B. This is what we want to find.
-  
-  $P(B|A)$
-  
-  is the **likelihood** of observing evidence B if hypothesis A is true.
-  
-  $P(A)$
-  
-  is the **prior probability** of hypothesis A being true before observing any evidence. This is our initial belief.
-  
-  $P(B)$
-  
-  is the **marginal likelihood** or the probability of observing evidence B across all possible hypotheses. It can be calculated as 
-  
-  $P(B) = P(B|A)P(A) + P(B|\\neg A)P(\\neg A)$
+  * $P(A/B)$ is the **posterior probability** of hypothesis A being true given evidence B. This is what we want to find.
+  * $P(B/A)$ is the **likelihood** of observing evidence B if hypothesis A is true.
+  * $P(A)$ is the **prior probability** of hypothesis A being true before observing any evidence. This is our initial belief.
+  * $P(B)$ is the **marginal likelihood** or the probability of observing evidence B across all possible hypotheses. It can be calculated as $P(B) = P(B/A)P(A) + P(B/\\neg A)P(\\neg A)$
   
   where $\\neg A$ represents the hypothesis that A is not true.
 
@@ -207,32 +193,22 @@ Let:
 
 We know:
 
-  $P(R|A) = 0.5$
-  
-  (Likelihood of drawing red if we chose Bag A)
-  
-  
-  $P(R|B) = 0.3$
-  
-  (Likelihood of drawing red if we chose Bag B)
+  * $P(R/A) = 0.5$ (Likelihood of drawing red if we chose Bag A)
+  * $P(R/B) = 0.3$ (Likelihood of drawing red if we chose Bag B)
 
-We want to find
-
-$P(A|R)$
-
-the probability that we chose Bag A given that we drew a red marble.
+We want to find $P(A/R)$ the probability that we chose Bag A given that we drew a red marble.
 
 Using Bayes' Rule:
 
-$$P(A|R) = \frac{P(R|A) P(A)}{P(R)}$$
+$$P(A/R) = \frac{P(R/A) P(A)}{P(R)}$$
 
 First, we need to calculate $P(R)$, the overall probability of drawing a red marble:
 
-$$P(R) = P(R|A)P(A) + P(R|B)P(B) = (0.5)(0.5) + (0.3)(0.5) = 0.25 + 0.15 = 0.4$$
+$$P(R) = P(R/A)P(A) + P(R/B)P(B) = (0.5)(0.5) + (0.3)(0.5) = 0.25 + 0.15 = 0.4$$
 
 Now we can plug this into Bayes' Rule:
 
-$$P(A|R) = \frac{(0.5)(0.5)}{0.4} = \frac{0.25}{0.4} = 0.625$$
+$$P(A/R) = \frac{(0.5)(0.5)}{0.4} = \frac{0.25}{0.4} = 0.625$$
 
 So, after drawing a red marble, the probability that it came from Bag A has increased from our initial belief of 0.5 to 0.625. This makes intuitive sense because Bag A has a higher proportion of red marbles.
 
