@@ -2,9 +2,7 @@
 layout: post
 title: "TensorFlow vs. PyTorch: A Friendly Battle of Deep Learning Frameworks"
 category: Dev
-tags: [ai]
-keywords:
-  - ai, engineering
+tags: [ai, python, tensorflow, pytorch]
 ---
 
 In the rapidly evolving world of artificial intelligence, **deep learning** stands out as a transformative technology. At its core, deep learning relies on frameworks that allow developers and researchers to build, train, and deploy complex neural networks. Two of the most prominent players in this arena are **TensorFlow** and **PyTorch**.
@@ -49,7 +47,6 @@ model.compile(optimizer='adam', loss='mse')
 
 # 4. Train the model
 print("Starting training...")
-# Agora usando house_prices (os dados reais) em vez de house_prices_target
 model.fit(house_sizes, house_prices, epochs=500, verbose=0)
 print("Training finished.")
 
