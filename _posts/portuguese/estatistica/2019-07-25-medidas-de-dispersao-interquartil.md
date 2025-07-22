@@ -15,7 +15,7 @@ Uma das formas mais comuns de medir o _spread_ dos nossos dados é observar o re
 
 _Obs.: Antes de começarmos aqui, é importante entender bem o que é_ [MEDIANA](https://albertoivo.github.io/medidas-de-centro/).
 
-## Primeiro exemplo: conjunto de dados com número PAR
+## Primeiro exemplo: conjunto de dados com número ÍMPAR
 
 Considere o seguinte conjunto de dados:
 
@@ -51,7 +51,7 @@ Então:
 |:---:|:---:|:---:|:---:|:---:|
 |  1  |  2  |  3  |  8  | 10  |
 
-## Segundo exemplo: conjunto de dados com número ÍMPAR
+## Segundo exemplo: conjunto de dados com número PAR
 
 Agora vamos considerar o seguinte conjunto de dados:
 
