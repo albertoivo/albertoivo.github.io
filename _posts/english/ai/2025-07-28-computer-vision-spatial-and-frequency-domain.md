@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "visão computacional - operações no domínio do espaço e da frequência"
+title: "Computer Vision: Operations in Spatial and Frequency Domain"
 date: 2025-07-28 11:29:47 
 categories: [dev]
 ---
-
-## Exploring Computer Vision: Operations in Spatial and Frequency Domain 📸✨
 
 Welcome back to our blog, where we dive into the fascinating world of computer vision! Today, we are going to explore a fundamental concept in image processing: operations in spatial and frequency domains. 🖥️🔍
 
