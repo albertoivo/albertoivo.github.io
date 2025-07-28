@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Visão Computacional - 🔹 Operações no domínio do espaço e da frequência"
+title: "Visão Computacional - Operações no domínio do espaço e da frequência"
 date: 2025-07-28 10:59:21 
 categories: [dev]
 ---
-
-# Explorando a Visão Computacional: Operações Espaciais e de Frequência 🌟
 
 Bem-vindo de volta ao nosso cantinho de tecnologia, onde vamos mergulhar juntos no fascinante mundo da Visão Computacional! Hoje, vamos explorar as Operações no domínio do espaço e da frequência, duas áreas essenciais para processamento de imagens e reconhecimento visual.
 
