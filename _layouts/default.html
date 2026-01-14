@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -10,7 +11,8 @@
   <![endif]-->
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
 
   <!-- MathJax for LaTeX mathematical formulas -->
   <script>
@@ -22,60 +24,61 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  
+
   <!-- AdSense verification code -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7160769304431627"
-     crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 </head>
 
 <body>
 
-<div id="wrapper">
+  <div id="wrapper">
 
-  <div class="wrapper-masthead">
-    <div class="container">
-      <header class="masthead clearfix">
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}"/></a>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
 
-        <div class="site-info">
-          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          <p class="site-description">{{ site.description }}</p>
-        </div>
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
-        <nav>
-          <a href="{{ site.baseurl }}/">Home</a>
-          <a href="{{ site.baseurl }}/about">About</a>
-          <a href="{{ site.baseurl }}/udacity">Udacity</a>
-          <a href="{{ site.baseurl }}/small-projects">Small projects</a>
-        </nav>
-      </header>
+          <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <!-- <a href="{{ site.baseurl }}/udacity">Udacity</a> -->
+            <!-- <a href="{{ site.baseurl }}/small-projects">Small projects</a> -->
+          </nav>
+        </header>
+      </div>
     </div>
-  </div>
 
-  <div id="categories" style="display: flex; flex: 1; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
-    <a class="badge badge-photograph" href="{{ site.baseurl }}/fotografia">Fotografia</a>
-    <a class="badge badge-dev" href="{{ site.baseurl }}/dev">Dev</a>
-    <a class="badge badge-bolsa" href="{{ site.baseurl }}/bolsa-de-valores">Bolsa de Valores</a>
-    <a class="badge badge-estatistica" href="{{ site.baseurl }}/estatistica">Estatística</a>
-    <a class="badge badge-fitness" href="{{ site.baseurl }}/fitness">Fitness</a>
-  </div>
-
-  <div id="main" role="main" class="container">
-    {{ content }}
-  </div>
-
-  <div class="wrapper-footer">
-    <div class="container">
-      <footer class="footer">
-        {% include svg-icons.html %}
-      </footer>
+    <div id="categories" style="display: flex; flex: 1; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+      <a class="badge badge-photograph" href="{{ site.baseurl }}/fotografia">Fotografia</a>
+      <a class="badge badge-dev" href="{{ site.baseurl }}/dev">Dev</a>
+      <a class="badge badge-bolsa" href="{{ site.baseurl }}/bolsa-de-valores">Bolsa de Valores</a>
+      <a class="badge badge-estatistica" href="{{ site.baseurl }}/estatistica">Estatística</a>
+      <a class="badge badge-fitness" href="{{ site.baseurl }}/fitness">Fitness</a>
     </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
   </div>
 
-</div>
-
-{% include analytics.html %}
+  {% include analytics.html %}
 </body>
+
 </html>

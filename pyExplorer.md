@@ -1,15 +1,16 @@
 ---
-layout: post
-title: 🚀 PyExplorer: Ensinando Python para Crianças de Graça! 🐍
-category: Dev
-tags: [python, pandas]
+layout: page
+title: PyExplorer
+permalink: /pyExplorer/
 ---
+
+🚀 PyExplorer: Ensinando Python para Crianças de Graça! 🐍
+
+![PyExplorer](./images/pyExplorer.png)
 
 Você já imaginou dar "superpoderes" para as crianças? Aprender a programar é exatamente isso! É a capacidade de criar, resolver problemas e entender como o mundo digital funciona. Mas, vamos ser sinceros: começar pode parecer difícil e chato... até agora!
 
 Quero apresentar a vocês o **PyExplorer**! 🎉
-
-![PyExplorer](../../../images/pyExplorer.png)
 
 ## O que é o PyExplorer? 🤔
 
