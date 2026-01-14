@@ -4,7 +4,7 @@ title: PyExplorer
 permalink: /pyExplorer/
 ---
 
-🚀 PyExplorer: Ensinando Python para Crianças de Graça! 🐍
+# 🚀 Ensinando Python para Crianças de Graça! 🐍
 
 ![PyExplorer](./images/pyExplorer.png)
 
