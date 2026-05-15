@@ -5,12 +5,12 @@ category: Dev
 tags: [abnt, apa, micro-saas, react, nextjs]
 ---
 
+Se você já fez um TCC, dissertação ou tese, sabe que a reta final é muitas vezes ofuscada por um monstro burocrático: a formatação nas normas da ABNT. Ajustar margens, espaçamentos, citações e referências em um arquivo `.docx` caótico não é apenas entediante, é um verdadeiro ralo de produtividade e paz mental.
+
 <video width="100%" controls autoplay muted loop playsinline style="border-radius: 8px; margin-bottom: 20px;">
   <source src="../../../images/abntizador-compressed.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
-Se você já fez um TCC, dissertação ou tese, sabe que a reta final é muitas vezes ofuscada por um monstro burocrático: a formatação nas normas da ABNT. Ajustar margens, espaçamentos, citações e referências em um arquivo `.docx` caótico não é apenas entediante, é um verdadeiro ralo de produtividade e paz mental.
 
 Foi para resolver exatamente essa dor que decidi criar o **[ABNTizador](https://www.abntizador.com.br/)**, um micro-SaaS focado em transformar o pesadelo da formatação em um processo rápido, acessível e sem dor de cabeça para o estudante. O sistema pega um documento cru e devolve um `.docx` perfeitamente estruturado do zero.
 
