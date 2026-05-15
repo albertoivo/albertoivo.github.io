@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como Construí o ABNTizador: Automação de Formatação ABNT no Navegador"
+title: Como Construí o ABNTizador: Automação de Formatação ABNT no Navegador
 category: Dev
 tags: [abnt, apa, micro-saas, react, nextjs]
 ---
