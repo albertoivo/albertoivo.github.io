@@ -196,9 +196,17 @@ img {
   display: flex;
   align-items: center;
 
+  &::before, &::after {
+    display: none;
+  }
+
   @include mobile {
-    text-align: center;
     display: block;
+    text-align: center;
+
+    &::before, &::after {
+      display: table;
+    }
   }
 }
 
@@ -251,6 +259,7 @@ nav {
 
   @include mobile {
     margin-top: 9px;
+    margin-left: 0;
     display: block;
     font-size: 16px;
   }
