@@ -17,9 +17,9 @@ timezone: America/Sao_Paulo
 
 # Default social/SEO metadata
 twitter_username: albertoivo # sem @ — usado no twitter:site / twitter:creator
-default_image: /images/logomarca.jpg # imagem padrão de compartilhamento (Open Graph / Twitter). IDEAL: substituir por uma 1200x630px.
-default_image_width: 580   # largura da default_image (atualizar junto com a imagem)
-default_image_height: 386  # altura da default_image (atualizar junto com a imagem)
+default_image: /images/og-default.png # imagem padrão de compartilhamento (Open Graph / Twitter), 1200x630. Fonte editável: images/og-default.svg
+default_image_width: 1200  # largura da default_image (atualizar junto com a imagem)
+default_image_height: 630  # altura da default_image (atualizar junto com a imagem)
 logo: /images/logomarca.jpg # logo usado no publisher (JSON-LD)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
