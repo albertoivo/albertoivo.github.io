@@ -121,7 +121,13 @@
     showSearch();
     var matches = searchData.filter(function (item) {
       if (!langMatches(item)) { return false; }
-      var haystack = (item.title + ' ' + item.tags + ' ' + item.category + ' ' + item.excerpt).toLowerCase();
+      var haystack = (
+        item.title + ' ' +
+        item.tags + ' ' +
+        item.category + ' ' +
+        item.excerpt + ' ' +
+        (item.content || '')
+      ).toLowerCase();
       return haystack.indexOf(q) !== -1;
     });
 
