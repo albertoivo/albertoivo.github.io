@@ -70,9 +70,6 @@ baseurl: ""
 
 permalink: /:title/
 
-# Excerpt separator: tudo antes desta marca vira o resumo (usado em description e na home)
-excerpt_separator: <!--more-->
-
 # Defaults de front-matter: aplica autor e idioma sem precisar repetir em cada post
 defaults:
   # Todos os posts: autor e idioma padrão (pt-BR)
