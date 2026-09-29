@@ -6,7 +6,7 @@ permalink: /pyExplorer/
 
 # 🚀 Ensinando Python para Crianças de Graça! 🐍
 
-![PyExplorer](./images/pyExplorer.png)
+![PyExplorer](/images/pyExplorer.png)
 
 Você já imaginou dar "superpoderes" para as crianças? Aprender a programar é exatamente isso! É a capacidade de criar, resolver problemas e entender como o mundo digital funciona. Mas, vamos ser sinceros: começar pode parecer difícil e chato... até agora!
 
