@@ -5,10 +5,10 @@
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
-@import "highlights";
-@import "svg-icons";
+@use "variables" as *;
+@use "reset";
+@use "highlights";
+@use "svg-icons";
 
 /**************/
 /* BASE RULES */
@@ -157,13 +157,13 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: #004085;
+  background: #cce5ff;
 }
 
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: #004085;
+  background: #cce5ff;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -324,8 +324,8 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $lightGray;
+  border-bottom: 1px solid $lightGray;
   background-color: $lightGray;
   width: 100%;
   bottom: 0;
@@ -343,8 +343,8 @@ footer {
   align-items: center;
   padding: 3px 10px 2px 8px;
   margin: 10px;
-  color: #fff;
-  background-color: #333;
+  color: $white;
+  background-color: $darkGray;
   border-radius: 2px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
   text-decoration: none;
@@ -354,7 +354,7 @@ footer {
 }
 
 .share-button:hover {
-  color: #fff;
+  color: $white;
   background-color: #4f4f4f;
 }
 
@@ -363,20 +363,8 @@ footer {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: #004085;
-  background: #cce5ff;
-  border-color: #b8daff;
-}
-
-::selection {
-  color: #004085;
-  background: #cce5ff;
-  border-color: #b8daff;
-}
-
 .share-button svg {
-  fill: #ffffff;
+  fill: $white;
   width: 19px;
   height: 19px;
   margin-right: 5px;
@@ -407,7 +395,7 @@ table {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid $black;
 }
 
 td, th {
@@ -470,6 +458,14 @@ tr:hover {
   background-color: #000000;
 }
 
+#categories {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 #categories > a {
   font-size: 80%;
 }
@@ -489,9 +485,4 @@ p > code {
   border-style: solid;
   border-radius: .25rem;
   padding: 7px 3px 0 3px;
-}
-
-a {
-  target-name:new;
-  target-new:tab;
 }

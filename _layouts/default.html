@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
   {% include meta.html %}
-
-  <!--[if lt IE 9]>
-  <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
@@ -55,7 +51,7 @@
       </div>
     </div>
 
-    <div id="categories" style="display: flex; flex: 1; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <div id="categories">
       <a class="badge badge-photograph" href="{{ site.baseurl }}/fotografia">Fotografia</a>
       <a class="badge badge-dev" href="{{ site.baseurl }}/dev">Dev</a>
       <a class="badge badge-bolsa" href="{{ site.baseurl }}/bolsa-de-valores">Bolsa de Valores</a>
