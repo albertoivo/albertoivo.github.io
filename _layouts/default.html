@@ -22,7 +22,6 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://pagead2.googlesyndication.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://cached.imagescaler.hbpl.co.uk">
 
   {% include meta.html %}
   {% include structured-data.html %}
@@ -58,7 +57,7 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" width="70" height="70" decoding="async" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar | relative_url }}" alt="{{ site.name }}" width="70" height="70" decoding="async" /></a>
 
           <div class="site-info">
             {%- comment -%} Na home o nome do site é o H1; nas demais páginas o H1 é o título do conteúdo {%- endcomment -%}
@@ -74,6 +73,11 @@
             <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/pyExplorer">PyExplorer</a>
+            {%- comment -%} Atalhos de idioma: levam à home com o filtro pré-selecionado {%- endcomment -%}
+            <span class="nav-lang">
+              <a href="{{ site.baseurl }}/?lang=pt" hreflang="pt-BR" title="Posts em português">PT</a>
+              <a href="{{ site.baseurl }}/?lang=en" hreflang="en" title="Posts in English">EN</a>
+            </span>
           </nav>
         </header>
       </div>

@@ -1,18 +1,32 @@
 {% if site.disqus %}
 <div class="comments">
-  <div id="disqus_thread"></div>
+  {%- comment -%}
+    Disqus é carregado sob demanda (ao clicar) para não pesar no LCP.
+    Antes do clique, nenhum script de terceiros é baixado.
+  {%- endcomment -%}
+  <div id="disqus_thread">
+    <button type="button" id="load-comments" class="load-comments-btn">
+      Carregar comentários
+    </button>
+  </div>
   <script type="text/javascript">
-
-    var disqus_shortname = '{{ site.disqus }}';
-
     (function () {
-      var dsq = document.createElement('script')
-      dsq.type = 'text/javascript'
-      dsq.async = true
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq)
-    })()
+      var shortname = '{{ site.disqus }}';
+      var btn = document.getElementById('load-comments');
 
+      function loadDisqus() {
+        if (btn) { btn.remove(); }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      if (btn) {
+        btn.addEventListener('click', loadDisqus);
+      }
+    })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
     Disqus.</a></noscript>

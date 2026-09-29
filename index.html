@@ -2,9 +2,42 @@
 layout: default
 ---
 
-<div class="posts">
+{%- comment -%}
+  Home com:
+  - Campo de busca client-side (js/home.js consome /search.json)
+  - Filtro de idioma (Todos / pt / en)
+  - Paginação client-side sobre a lista completa de posts
+  Progressive enhancement: sem JS, todos os posts são renderizados normalmente.
+{%- endcomment -%}
+
+<div class="home-controls">
+  <input
+    type="search"
+    id="search-input"
+    class="search-input"
+    placeholder="Buscar posts…"
+    aria-label="Buscar posts"
+    autocomplete="off" />
+
+  <div class="lang-filter" role="group" aria-label="Filtrar por idioma">
+    <button type="button" class="lang-btn is-active" data-lang="all" aria-pressed="true">Todos</button>
+    <button type="button" class="lang-btn" data-lang="pt" aria-pressed="false">Português</button>
+    <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">English</button>
+  </div>
+</div>
+
+<!-- Resultados da busca (preenchidos via JS quando há termo) -->
+<div class="posts" id="search-results" hidden></div>
+
+<!-- Lista padrão de posts (com filtro de idioma + paginação client-side) -->
+<div class="posts" id="posts-list" data-search-url="{{ site.baseurl }}/search.json">
   {% for post in site.posts %}
-  <article class="post">
+  {%- if post.path contains '_posts/english' -%}
+    {%- assign post_lang = 'en' -%}
+  {%- else -%}
+    {%- assign post_lang = 'pt' -%}
+  {%- endif -%}
+  <article class="post" data-lang="{{ post_lang }}">
 
     <h2>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -21,6 +54,7 @@ layout: default
       {% else %}
         <span class="badge badge-all">{{ post.category }}</span>
       {% endif %}
+      <span class="lang-tag">{{ post_lang | upcase }}</span>
     </h2>
 
     <div class="entry">
@@ -29,3 +63,13 @@ layout: default
   </article>
   {% endfor %}
 </div>
+
+<div class="pagination" id="pagination" hidden>
+  <button type="button" id="prev-page" class="page-btn">&laquo; Anterior</button>
+  <span id="page-status" class="page-status"></span>
+  <button type="button" id="next-page" class="page-btn">Próxima &raquo;</button>
+</div>
+
+<p class="no-results" id="no-results" hidden>Nenhum post encontrado.</p>
+
+<script src="{{ site.baseurl }}/js/home.js" defer></script>

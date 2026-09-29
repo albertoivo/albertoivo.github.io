@@ -30,7 +30,7 @@
 {%- elsif site.default_image -%}
   {%- assign seo_image = site.default_image | absolute_url -%}
 {%- else -%}
-  {%- assign seo_image = site.avatar -%}
+  {%- assign seo_image = site.avatar | absolute_url -%}
 {%- endif -%}
 
 <meta name="description" content="{{ seo_description }}"/>
@@ -45,6 +45,26 @@
 
 <!-- URL canônica: evita conteúdo duplicado -->
 <link rel="canonical" href="{{ page.url | absolute_url }}"/>
+
+<!-- ===== hreflang: versões por idioma =====
+     Se o post define `translation_id` no front-matter, ligamos as versões
+     equivalentes (pt/en). Caso contrário, apenas auto-referência + x-default. -->
+{%- if page.translation_id -%}
+  {%- assign lang_hreflang = 'pt-BR' -%}
+  {%- if page_lang == 'en' -%}{%- assign lang_hreflang = 'en' -%}{%- endif -%}
+  <link rel="alternate" hreflang="{{ lang_hreflang }}" href="{{ page.url | absolute_url }}"/>
+  {%- for other in site.posts -%}
+    {%- if other.translation_id == page.translation_id and other.url != page.url -%}
+      {%- if other.path contains '_posts/english' -%}
+        {%- assign other_hreflang = 'en' -%}
+      {%- else -%}
+        {%- assign other_hreflang = 'pt-BR' -%}
+      {%- endif -%}
+  <link rel="alternate" hreflang="{{ other_hreflang }}" href="{{ other.url | absolute_url }}"/>
+    {%- endif -%}
+  {%- endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}"/>
+{%- endif -%}
 
 <!-- ===== Open Graph (Facebook, LinkedIn, WhatsApp) ===== -->
 <meta property="og:site_name" content="{{ site.name }}"/>

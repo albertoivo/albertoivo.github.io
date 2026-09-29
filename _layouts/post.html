@@ -12,6 +12,21 @@ layout: default
     {%- endif %}
   </div>
 
+  {%- comment -%}
+    Link para a versão traduzida deste post, quando existir (via translation_id).
+  {%- endcomment -%}
+  {%- if page.translation_id -%}
+    {%- for other in site.posts -%}
+      {%- if other.translation_id == page.translation_id and other.url != page.url -%}
+        {%- if other.path contains '_posts/english' -%}
+          <p class="translation-link"><a href="{{ site.baseurl }}{{ other.url }}" hreflang="en" rel="alternate">🌐 Read this post in English</a></p>
+        {%- else -%}
+          <p class="translation-link"><a href="{{ site.baseurl }}{{ other.url }}" hreflang="pt-BR" rel="alternate">🌐 Ler este post em português</a></p>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
   <div class="entry" itemprop="articleBody">
     {%- comment -%}
       Lazy-loading nas imagens do conteúdo: injeta loading/decoding
@@ -33,16 +48,56 @@ layout: default
     Share on LinkedIn
   </a>
 
-  {% if site.related_posts.size > 0 %}
-  <div>
-    <h3>Leia também</h3>
+  {%- comment -%}
+    Posts relacionados de verdade: pontua por tags em comum (peso 2) e
+    mesma categoria (peso 1), restrito ao mesmo idioma do post atual.
+    Sem depender de --lsi.
+  {%- endcomment -%}
+  {%- if page.path contains '_posts/english' -%}
+    {%- assign current_lang = 'en' -%}
+  {%- else -%}
+    {%- assign current_lang = 'pt' -%}
+  {%- endif -%}
+
+  {%- assign related_candidates = "" | split: "" -%}
+  {%- for candidate in site.posts -%}
+    {%- if candidate.url == page.url -%}{%- continue -%}{%- endif -%}
+    {%- if candidate.path contains '_posts/english' -%}
+      {%- assign candidate_lang = 'en' -%}
+    {%- else -%}
+      {%- assign candidate_lang = 'pt' -%}
+    {%- endif -%}
+    {%- if candidate_lang != current_lang -%}{%- continue -%}{%- endif -%}
+
+    {%- assign score = 0 -%}
+    {%- for tag in page.tags -%}
+      {%- if candidate.tags contains tag -%}
+        {%- assign score = score | plus: 2 -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if candidate.category and candidate.category == page.category -%}
+      {%- assign score = score | plus: 1 -%}
+    {%- endif -%}
+
+    {%- if score > 0 -%}
+      {%- assign entry = score | prepend: "0" | slice: -2, 2 | append: "|" | append: candidate.url | append: "|" | append: candidate.title -%}
+      {%- assign related_candidates = related_candidates | push: entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign related_sorted = related_candidates | sort | reverse -%}
+
+  {%- if related_sorted.size > 0 %}
+  <div class="related-posts">
+    <h3>{% if current_lang == 'en' %}You may also like{% else %}Leia também{% endif %}</h3>
     <ul>
-      {% for related_post in site.related_posts limit: 5 %}
-      <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
-      {% endfor %}
+      {%- for item in related_sorted limit: 5 -%}
+      {%- assign parts = item | split: "|" -%}
+      <li><a href="{{ site.baseurl }}{{ parts[1] }}">{{ parts[2] }}</a></li>
+      {%- endfor -%}
     </ul>
   </div>
-  {% endif %}
+  {%- endif %}
 
   {% include disqus.html %}
 </article>

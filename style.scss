@@ -5,6 +5,7 @@
 // IMPORTS
 //
 
+@use "sass:color";
 @use "variables" as *;
 @use "reset";
 @use "highlights";
@@ -493,4 +494,169 @@ p > code {
   border-style: solid;
   border-radius: .25rem;
   padding: 7px 3px 0 3px;
+}
+
+/*********************/
+/* HOME: BUSCA/FILTRO/PAGINAÇÃO */
+/*********************/
+
+.home-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  flex: 1 1 260px;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-family: $helvetica;
+  color: $darkGray;
+  border: 1px solid $lightGray;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+  &:focus {
+    border-color: $blue;
+    box-shadow: 0 0 0 3px rgba(65, 131, 196, 0.15);
+  }
+}
+
+.lang-filter {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.lang-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: $helveticaNeue;
+  color: $darkGray;
+  background: $white;
+  border: 1px solid $lightGray;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .15s ease-in-out;
+
+  &:hover {
+    border-color: $blue;
+    color: $blue;
+  }
+
+  &.is-active {
+    background: $blue;
+    border-color: $blue;
+    color: $white;
+  }
+}
+
+.lang-tag {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: middle;
+  color: $gray;
+  background: $lightGray;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 30px 0 10px;
+}
+
+.page-btn {
+  padding: 8px 16px;
+  font-size: 15px;
+  font-family: $helveticaNeue;
+  color: $white;
+  background: $blue;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+
+  &:hover:not(:disabled) {
+    background: color.adjust($blue, $lightness: -8%);
+  }
+
+  &:disabled {
+    background: $lightGray;
+    color: $gray;
+    cursor: not-allowed;
+  }
+}
+
+.page-status {
+  font-size: 14px;
+  color: $gray;
+}
+
+.no-results {
+  text-align: center;
+  color: $gray;
+  font-style: italic;
+  margin: 40px 0;
+}
+
+.load-comments-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: $helveticaNeue;
+  color: $white;
+  background: $blue;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+
+  &:hover {
+    background: color.adjust($blue, $lightness: -8%);
+  }
+}
+
+.nav-lang {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 20px;
+
+  @include mobile {
+    margin-left: 0;
+  }
+
+  a {
+    margin-left: 0;
+    padding: 2px 6px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid $lightGray;
+    border-radius: 4px;
+  }
+}
+
+.translation-link {
+  margin: 10px 0 0;
+  font-size: 15px;
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.related-posts {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid $lightGray;
 }
