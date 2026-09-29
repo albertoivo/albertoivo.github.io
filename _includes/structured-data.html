@@ -12,10 +12,18 @@
   {%- assign sd_description = site.description -%}
 {%- endif -%}
 
+{%- comment -%}
+  Define a imagem e, quando conhecida (default_image), suas dimensões,
+  para emitir um ImageObject completo (recomendado pelo Google).
+{%- endcomment -%}
 {%- if page.image -%}
   {%- assign sd_image = page.image | absolute_url -%}
+  {%- assign sd_image_width = page.image_width -%}
+  {%- assign sd_image_height = page.image_height -%}
 {%- elsif site.default_image -%}
   {%- assign sd_image = site.default_image | absolute_url -%}
+  {%- assign sd_image_width = site.default_image_width -%}
+  {%- assign sd_image_height = site.default_image_height -%}
 {%- else -%}
   {%- assign sd_image = site.avatar -%}
 {%- endif -%}
@@ -31,7 +39,12 @@
   },
   "headline": {{ page.title | jsonify }},
   "description": {{ sd_description | jsonify }},
-  "image": {{ sd_image | jsonify }},
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ sd_image | jsonify }}{% if sd_image_width and sd_image_height %},
+    "width": {{ sd_image_width | jsonify }},
+    "height": {{ sd_image_height | jsonify }}{% endif %}
+  },
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
   "author": {
@@ -44,12 +57,14 @@
     "name": {{ site.name | jsonify }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ site.avatar | jsonify }}
+      "url": {{ site.logo | default: site.default_image | absolute_url | jsonify }}{% if site.default_image_width and site.default_image_height %},
+      "width": {{ site.default_image_width | jsonify }},
+      "height": {{ site.default_image_height | jsonify }}{% endif %}
     }
   }{% if page.category %},
   "articleSection": {{ page.category | jsonify }}{% endif %}{% if page.tags.size > 0 %},
   "keywords": {{ page.tags | join: ", " | jsonify }}{% endif %},
-  "inLanguage": {{ page.lang | default: site.lang | default: 'pt-BR' | jsonify }}
+  "inLanguage": {{ page_lang | default: site.lang | default: 'pt-BR' | jsonify }}
 }
 </script>
 <script type="application/ld+json">

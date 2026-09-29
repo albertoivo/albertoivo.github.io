@@ -1,5 +1,19 @@
+{%- comment -%}
+  Detecta o idioma da página:
+  1. page.lang explícito no front-matter
+  2. caminho do arquivo (_posts/english -> en)
+  3. site.lang / fallback pt-BR
+  A variável page_lang fica disponível para os includes (meta / structured-data).
+{%- endcomment -%}
+{%- if page.lang -%}
+  {%- assign page_lang = page.lang -%}
+{%- elsif page.path contains '_posts/english' -%}
+  {%- assign page_lang = 'en' -%}
+{%- else -%}
+  {%- assign page_lang = site.lang | default: 'pt-BR' -%}
+{%- endif -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}">
+<html lang="{{ page_lang }}">
 
 <head>
   <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
@@ -44,7 +58,7 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" width="70" height="70" decoding="async" /></a>
 
           <div class="site-info">
             {%- comment -%} Na home o nome do site é o H1; nas demais páginas o H1 é o título do conteúdo {%- endcomment -%}
