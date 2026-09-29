@@ -1,11 +1,21 @@
 ---
 layout: post
-title: Entendendo a Complexidade de Algoritmos e Notações Assintóticas de Forma Fácil
+title: "Complexidade de Algoritmos e Notações Assintóticas: Big O, Ômega e Theta"
+description: "Entenda de forma simples o que é complexidade de algoritmos e as notações assintóticas Big O, Big Omega e Big Theta, com analogias do dia a dia e exemplos práticos."
 category: Dev
-tags: [algoritmos, estrutura de dados, teoria, computacao]
+tags: [algoritmos, estrutura de dados, big o, complexidade, computação]
+keywords:
+  - notação assintótica
+  - big o
+  - big omega
+  - big theta
+  - complexidade de algoritmos
+math: true
 ---
 
 Imagine que você está na maior biblioteca do mundo. Há milhões de livros ao seu redor. Agora, alguém te pede para encontrar um livro específico.
+
+<!--more-->
 
 Se os livros estiverem apenas jogados em uma montanha gigante no meio do salão, você teria que olhar um por um até encontrar. Pode ser o primeiro que você pegar? Pode. Mas, no pior dos casos, pode ser o mesmíssimo último livro da pilha de milhões. Frustrante, não é?
 

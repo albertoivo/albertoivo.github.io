@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}">
 
 <head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
+
+  <!-- Preconnect para acelerar recursos de terceiros -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://cached.imagescaler.hbpl.co.uk">
 
   {% include meta.html %}
+  {% include structured-data.html %}
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
     href="{{ site.baseurl }}/feed.xml" />
 
-  <!-- MathJax for LaTeX mathematical formulas -->
+  {% if page.math %}
+  <!-- MathJax for LaTeX mathematical formulas (carregado só quando o post usa math: true) -->
   <script>
     MathJax = {
       tex: {
@@ -20,6 +28,7 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  {% endif %}
 
   <!-- AdSense verification code -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7160769304431627"
@@ -38,7 +47,12 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
 
           <div class="site-info">
+            {%- comment -%} Na home o nome do site é o H1; nas demais páginas o H1 é o título do conteúdo {%- endcomment -%}
+            {% if page.url == '/' %}
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            {% else %}
+            <p class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></p>
+            {% endif %}
             <p class="site-description">{{ site.description }}</p>
           </div>
 

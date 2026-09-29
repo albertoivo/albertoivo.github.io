@@ -1,46 +1,113 @@
 <meta charset="utf-8"/>
-<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-<meta name="home-url" content="https://albertoivo.github.io/" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- ===== SEO: descrição canônica reutilizada ===== -->
+{%- comment -%}
+  Ordem de prioridade para a descrição:
+  1. page.description (definida no front-matter)
+  2. page.excerpt (resumo automático do post)
+  3. site.description (fallback global)
+{%- endcomment -%}
+{%- if page.description -%}
+  {%- assign seo_description = page.description -%}
+{%- elsif page.excerpt -%}
+  {%- assign seo_description = page.excerpt | strip_html | strip_newlines | truncate: 160 -%}
+{%- else -%}
+  {%- assign seo_description = site.description -%}
+{%- endif -%}
+
+{%- comment -%} Título usado em og/twitter {%- endcomment -%}
+{%- if page.title -%}
+  {%- assign seo_title = page.title -%}
+{%- else -%}
+  {%- assign seo_title = site.name -%}
+{%- endif -%}
+
+{%- comment -%} Imagem de compartilhamento {%- endcomment -%}
+{%- if page.image -%}
+  {%- assign seo_image = page.image | absolute_url -%}
+{%- elsif site.default_image -%}
+  {%- assign seo_image = site.default_image | absolute_url -%}
+{%- else -%}
+  {%- assign seo_image = site.avatar -%}
+{%- endif -%}
+
+<meta name="description" content="{{ seo_description }}"/>
+<meta name="author" content="{{ page.author | default: site.name }}"/>
+
+<!-- Controle de indexação: páginas com sitemap: false ou noindex: true não são indexadas -->
+{%- if page.noindex or page.sitemap == false %}
+<meta name="robots" content="noindex, follow"/>
+{%- else %}
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+{%- endif %}
+
+<!-- URL canônica: evita conteúdo duplicado -->
+<link rel="canonical" href="{{ page.url | absolute_url }}"/>
+
+<!-- ===== Open Graph (Facebook, LinkedIn, WhatsApp) ===== -->
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:title" content="{{ seo_title }}"/>
+<meta property="og:description" content="{{ seo_description }}"/>
+<meta property="og:url" content="{{ page.url | absolute_url }}"/>
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"/>
+<meta property="og:image" content="{{ seo_image }}"/>
+<meta property="og:image:alt" content="{{ seo_title | escape }}"/>
+{%- if page.lang == 'en' -%}
+  {%- assign og_locale = 'en_US' -%}
+{%- else -%}
+  {%- assign og_locale = site.locale | default: 'pt_BR' -%}
+{%- endif -%}
+<meta property="og:locale" content="{{ og_locale }}"/>
+
+{%- if page.layout == 'post' %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+{%- if page.last_modified_at %}
+<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}"/>
+{%- endif %}
+<meta property="article:author" content="{{ page.author | default: site.name }}"/>
+{%- if page.category %}
+<meta property="article:section" content="{{ page.category }}"/>
+{%- endif %}
+{%- for tag in page.tags %}
+<meta property="article:tag" content="{{ tag }}"/>
+{%- endfor %}
+{%- endif %}
+
+<!-- ===== Twitter Card ===== -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{{ seo_title }}"/>
+<meta name="twitter:description" content="{{ seo_description }}"/>
+<meta name="twitter:image" content="{{ seo_image }}"/>
+{%- if site.twitter_username %}
+<meta name="twitter:site" content="@{{ site.twitter_username }}"/>
+<meta name="twitter:creator" content="@{{ site.twitter_username }}"/>
+{%- endif %}
+
+<!-- ===== Keywords: combina keywords manuais + tags ===== -->
+{%- assign keyword_list = "" -%}
+{%- if page.keywords -%}
+  {%- assign keyword_list = page.keywords | join: ", " -%}
+{%- endif -%}
+{%- if page.tags -%}
+  {%- assign tags_joined = page.tags | join: ", " -%}
+  {%- if keyword_list != "" -%}
+    {%- assign keyword_list = keyword_list | append: ", " | append: tags_joined -%}
+  {%- else -%}
+    {%- assign keyword_list = tags_joined -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if keyword_list != "" %}
+<meta name="keywords" content="{{ keyword_list | escape }}">
+{%- endif %}
+
+<!-- ===== Ícones / PWA ===== -->
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-
-<!-- iOS -->
-<meta name="apple-mobile-web-app-title" content="Alberto Ivo" />
-<meta name="format-detection" content="telephone=no" />
-
-{% if page.excerpt %}
-<meta name="description" content="{{ page.excerpt| strip_html }}"/>
-<meta property="og:description" content="{{ page.excerpt| strip_html }}"/>
-{% else %}
-<meta name="description" content="{{ site.description }}">
-<meta property="og:description" content="{{ site.description }}"/>
-{% endif %}
-<meta name="author" content="{{ site.name }}"/>
-
-{% if page.title %}
-<meta property="og:title" content="{{ page.title }}"/>
-<meta property="twitter:title" content="{{ page.title }}"/>
-{% else %}
-<meta property="og:title" content="{{ site.name }}"/>
-{% endif %}
-
-<meta property="og:site_name" content="{{ site.name }}"/>
-<meta property="og:url" content="{{ page.url | absolute_url }}"/>
-<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"/>
-
-{% if page.image %}
-<meta property="og:image" content="{{ page.image | absolute_url }}"/>
-{% else %}
-<meta property="og:image" content="{{ site.avatar }}"/>
-{% endif %}
-<meta name="twitter:card" content="summary_large_image"/>
-
-{% if page.keywords %}
-<meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
-{% endif %}
+<meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
+<meta name="format-detection" content="telephone=no"/>
+<link rel="icon" href="/favicon.ico"/>
 
 <meta name="google-adsense-account" content="ca-pub-7160769304431627">

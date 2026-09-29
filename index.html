@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
   <article class="post">
 
-    <h1>
+    <h2>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% if post.category == "Dev" %}
         <span class="badge badge-dev">{{ post.category }}</span>
@@ -21,7 +21,7 @@ layout: default
       {% else %}
         <span class="badge badge-all">{{ post.category }}</span>
       {% endif %}
-    </h1>
+    </h2>
 
     <div class="entry">
       {{ post.excerpt }}

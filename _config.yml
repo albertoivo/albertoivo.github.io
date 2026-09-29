@@ -8,6 +8,17 @@ name: Alberto Ivo
 # Short bio or description (displayed in the header)
 description: Traveler, Full Stack Developer, Triathlete from Somewhere
 
+# Site language and locale (used for <html lang> and Open Graph locale)
+lang: pt-BR
+locale: pt_BR
+
+# Timezone (ensures consistent post dates in feeds and structured data)
+timezone: America/Sao_Paulo
+
+# Default social/SEO metadata
+twitter_username: albertoivo # sem @ — usado no twitter:site / twitter:creator
+default_image: /images/logomarca.jpg # imagem padrão para compartilhamento (Open Graph / Twitter)
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/580/cached.offlinehbpl.hbpl.co.uk/news/NST/AI-20171012113039221.jpg
 
@@ -56,6 +67,25 @@ baseurl: ""
 
 permalink: /:title/
 
+# Excerpt separator: tudo antes desta marca vira o resumo (usado em description e na home)
+excerpt_separator: <!--more-->
+
+# Defaults de front-matter: aplica autor e idioma sem precisar repetir em cada post
+defaults:
+  # Todos os posts: autor e idioma padrão (pt-BR)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: Alberto Ivo
+      lang: pt-BR
+  # Posts em inglês: sobrescreve o idioma para en
+  - scope:
+      path: "_posts/english"
+      type: posts
+    values:
+      lang: en
+
 # The release of Jekyll Now that you're using
 # version: v1.2.0
 version: v3.1.6
@@ -76,6 +106,11 @@ kramdown:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-last-modified-at # Data de última modificação via histórico do Git
+
+# Formato da data de última modificação (jekyll-last-modified-at)
+last-modified-at:
+  date-format: "%Y-%m-%dT%H:%M:%S%:z"
 
 # Tag settings
 tag_dir: tag
@@ -88,3 +123,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache

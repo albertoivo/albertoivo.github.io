@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: "Alberto Ivo — desenvolvedor full stack, viajante e triatleta. Sobre mim, este blog e como entrar em contato."
 keywords:
   - albertoivo
   - alberto ivo

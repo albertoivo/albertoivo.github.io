@@ -6,8 +6,6 @@ _site
 .sass-cache
 .vscode
 .idea
-Gemfile
-Gemfile.lock
 node_modules
 package.json
 .jekyll-cache
