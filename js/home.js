@@ -140,8 +140,8 @@
 
     searchResults.innerHTML = matches.map(function (item) {
       return '<article class="post">' +
-        '<h2><a href="' + item.url + '">' + escapeHtml(item.title) + '</a> ' +
-        '<span class="lang-tag">' + item.lang.toUpperCase() + '</span></h2>' +
+        '<h2><a href="' + escapeHtml(item.url) + '">' + escapeHtml(item.title) + '</a> ' +
+        '<span class="lang-tag">' + escapeHtml(item.lang).toUpperCase() + '</span></h2>' +
         '<div class="entry"><p>' + escapeHtml(item.excerpt) + '</p></div>' +
         '</article>';
     }).join('');
@@ -152,7 +152,8 @@
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   // Carrega o índice de busca sob demanda (no primeiro foco/typing)
