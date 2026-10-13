@@ -121,14 +121,7 @@
     showSearch();
     var matches = searchData.filter(function (item) {
       if (!langMatches(item)) { return false; }
-      var haystack = (
-        item.title + ' ' +
-        item.tags + ' ' +
-        item.category + ' ' +
-        item.excerpt + ' ' +
-        (item.content || '')
-      ).toLowerCase();
-      return haystack.indexOf(q) !== -1;
+      return item._haystack.indexOf(q) !== -1;
     });
 
     if (matches.length === 0) {
@@ -163,7 +156,19 @@
       (document.body.getAttribute('data-baseurl') || '') + '/search.json';
     return fetch(searchUrl)
       .then(function (r) { return r.json(); })
-      .then(function (data) { searchData = data; searchReady = true; });
+      .then(function (data) {
+        searchData = data;
+        searchData.forEach(function(item) {
+          item._haystack = (
+            item.title + ' ' +
+            item.tags + ' ' +
+            item.category + ' ' +
+            item.excerpt + ' ' +
+            (item.content || '')
+          ).toLowerCase();
+        });
+        searchReady = true;
+      });
   }
 
   searchInput.addEventListener('input', function () {
