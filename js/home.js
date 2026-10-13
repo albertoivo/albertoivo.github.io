@@ -17,7 +17,7 @@
 
   if (!postsList) { return; }
 
-  var allPosts = Array.prototype.slice.call(postsList.querySelectorAll('.post'));
+  var allPosts = Array.from(postsList.querySelectorAll('.post'));
   var currentLang = 'all';
   var currentPage = 1;
 
