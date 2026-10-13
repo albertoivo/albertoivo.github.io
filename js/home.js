@@ -3,27 +3,27 @@
 (function () {
   'use strict';
 
-  var PAGE_SIZE = 10;
+  const PAGE_SIZE = 10;
 
-  var searchInput = document.getElementById('search-input');
-  var searchResults = document.getElementById('search-results');
-  var postsList = document.getElementById('posts-list');
-  var pagination = document.getElementById('pagination');
-  var pageStatus = document.getElementById('page-status');
-  var prevBtn = document.getElementById('prev-page');
-  var nextBtn = document.getElementById('next-page');
-  var noResults = document.getElementById('no-results');
-  var langButtons = document.querySelectorAll('.lang-btn');
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  const postsList = document.getElementById('posts-list');
+  const pagination = document.getElementById('pagination');
+  const pageStatus = document.getElementById('page-status');
+  const prevBtn = document.getElementById('prev-page');
+  const nextBtn = document.getElementById('next-page');
+  const noResults = document.getElementById('no-results');
+  const langButtons = document.querySelectorAll('.lang-btn');
 
   if (!postsList) { return; }
 
-  var allPosts = Array.prototype.slice.call(postsList.querySelectorAll('.post'));
-  var currentLang = 'all';
-  var currentPage = 1;
+  const allPosts = Array.prototype.slice.call(postsList.querySelectorAll('.post'));
+  let currentLang = 'all';
+  let currentPage = 1;
 
   // Pré-seleciona o idioma via ?lang=pt|en (usado pelos atalhos do menu)
-  var params = new URLSearchParams(window.location.search);
-  var initialLang = params.get('lang');
+  const params = new URLSearchParams(window.location.search);
+  const initialLang = params.get('lang');
   if (initialLang === 'pt' || initialLang === 'en') {
     currentLang = initialLang;
   }
@@ -38,12 +38,12 @@
     // Esconde tudo primeiro
     allPosts.forEach(function (el) { el.style.display = 'none'; });
 
-    var posts = visiblePosts();
-    var totalPages = Math.max(1, Math.ceil(posts.length / PAGE_SIZE));
+    const posts = visiblePosts();
+    const totalPages = Math.max(1, Math.ceil(posts.length / PAGE_SIZE));
     if (currentPage > totalPages) { currentPage = totalPages; }
 
-    var start = (currentPage - 1) * PAGE_SIZE;
-    var end = start + PAGE_SIZE;
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const end = start + PAGE_SIZE;
     posts.slice(start, end).forEach(function (el) { el.style.display = ''; });
 
     if (posts.length === 0) {
@@ -79,7 +79,7 @@
   // ----- Filtro de idioma -----
   function setActiveButton(activeBtn) {
     langButtons.forEach(function (b) {
-      var isActive = b === activeBtn;
+      const isActive = b === activeBtn;
       b.classList.toggle('is-active', isActive);
       b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
     });
@@ -107,21 +107,21 @@
   });
 
   // ----- Busca -----
-  var searchData = [];
-  var searchReady = false;
+  let searchData = [];
+  let searchReady = false;
 
   function langMatches(item) {
     return currentLang === 'all' || item.lang === currentLang;
   }
 
   function runSearch(query) {
-    var q = query.trim().toLowerCase();
+    const q = query.trim().toLowerCase();
     if (q === '') { showList(); return; }
 
     showSearch();
-    var matches = searchData.filter(function (item) {
+    const matches = searchData.filter(function (item) {
       if (!langMatches(item)) { return false; }
-      var haystack = (
+      const haystack = (
         item.title + ' ' +
         item.tags + ' ' +
         item.category + ' ' +
@@ -159,7 +159,7 @@
   // Carrega o índice de busca sob demanda (no primeiro foco/typing)
   function loadSearchData() {
     if (searchReady) { return Promise.resolve(); }
-    var searchUrl = (postsList.getAttribute('data-search-url')) ||
+    const searchUrl = (postsList.getAttribute('data-search-url')) ||
       (document.body.getAttribute('data-baseurl') || '') + '/search.json';
     return fetch(searchUrl)
       .then(function (r) { return r.json(); })
@@ -167,7 +167,7 @@
   }
 
   searchInput.addEventListener('input', function () {
-    var value = searchInput.value;
+    const value = searchInput.value;
     // Se o índice falhar ao carregar, cai no filtro sobre a lista já renderizada.
     loadSearchData()
       .then(function () { runSearch(value); })
