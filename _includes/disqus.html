@@ -11,12 +11,12 @@
   </div>
   <script type="text/javascript">
     (function () {
-      var shortname = '{{ site.disqus }}';
-      var btn = document.getElementById('load-comments');
+      const shortname = '{{ site.disqus }}';
+      const btn = document.getElementById('load-comments');
 
       function loadDisqus() {
         if (btn) { btn.remove(); }
-        var dsq = document.createElement('script');
+        const dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
         dsq.src = '//' + shortname + '.disqus.com/embed.js';
