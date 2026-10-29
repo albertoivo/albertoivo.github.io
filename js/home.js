@@ -131,13 +131,37 @@
     }
     noResults.hidden = true;
 
-    searchResults.innerHTML = matches.map(function (item) {
-      return '<article class="post">' +
-        '<h2><a href="' + escapeHtml(item.url) + '">' + escapeHtml(item.title) + '</a> ' +
-        '<span class="lang-tag">' + escapeHtml(item.lang).toUpperCase() + '</span></h2>' +
-        '<div class="entry"><p>' + escapeHtml(item.excerpt) + '</p></div>' +
-        '</article>';
-    }).join('');
+    searchResults.textContent = '';
+    matches.forEach(function (item) {
+      const article = document.createElement('article');
+      article.className = 'post';
+
+      const h2 = document.createElement('h2');
+
+      const a = document.createElement('a');
+      a.href = item.url;
+      a.textContent = item.title;
+      h2.appendChild(a);
+
+      h2.appendChild(document.createTextNode(' '));
+
+      const span = document.createElement('span');
+      span.className = 'lang-tag';
+      span.textContent = String(item.lang || '').toUpperCase();
+      h2.appendChild(span);
+
+      article.appendChild(h2);
+
+      const div = document.createElement('div');
+      div.className = 'entry';
+
+      const p = document.createElement('p');
+      p.textContent = item.excerpt;
+      div.appendChild(p);
+
+      article.appendChild(div);
+      searchResults.appendChild(article);
+    });
   }
 
   function escapeHtml(str) {
